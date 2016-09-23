@@ -7,7 +7,7 @@
 #' @examples 
 #' DT <- getStat('gross domestic product')
 
-getStat <- function(statID = 'all', NUTS = '2', apiKey = NULL, meta = FALSE, freq = 'A') { 
+getStat <- function(statID = '', NUTS = '2', apiKey = NULL, meta = FALSE, freq = 'A') { 
 #Think we should set validate = TRUE for all requests
 	if(class(beaSpec) != 'character'){
 		warning('Please specify the ID or of the data you are looking for.')

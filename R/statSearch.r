@@ -17,17 +17,15 @@ statSearch <- function(searchTerm, apiKey = NULL){
 	localMeta <- paste0(.libPaths()[1], '/euroState/data')
 
 	tryCatch({
-		load(paste0(localMeta, '/euLocal.RData'))
+		load(paste0(localMeta, '/euMetadata.RData'))
 	}, error = function(e){
 		dir.create(localMeta, showWarnings = FALSE, recursive = TRUE)
 			esDataFlow <- rsdmx::readSDMX(
 				providerId = "ESTAT", 
 				agencyId="ESTAT", 
 				resource = "dataflow", 
-				resourceId = statID
+				resourceId = "all"
 			)		
-		save(esDataFlow, file = paste0(localMeta, '/euLocal.RData'))
-		}, finally = {
 			esData <- data.table::as.data.table(esDataFlow)[,.(
 				id, 
 				Ref = dsdRef,
@@ -35,7 +33,10 @@ statSearch <- function(searchTerm, apiKey = NULL){
 				Name.en,
 				Name.de
 			)]		
-		})
+
+		save(esDataFlow, file = paste0(localMeta, '/euFlow.RData'))
+		save(esData, file = paste0(localMeta, '/euMetadata.RData'))
+		}, finally = {''})
 		
 		nut2Dash <- esData[
 			grep('NUTS-2', 
@@ -65,7 +66,7 @@ statSearch <- function(searchTerm, apiKey = NULL){
 			)
 		]
 
-		euN2 <- unique(rbindlist(list(nut2Dash, nut2Spce, nut2Comp)))
+		euN2 <- unique(data.table::rbindlist(list(nut2Dash, nut2Spce, nut2Comp)))
 		euN2[, NUTS := '2']
 		
 
@@ -99,7 +100,7 @@ statSearch <- function(searchTerm, apiKey = NULL){
 			)
 		]
 
-		euN3 <- unique(rbindlist(list(nut3Dash, nut3Spce, nut3Comp)))
+		euN3 <- unique(data.table::rbindlist(list(nut3Dash, nut3Spce, nut3Comp)))
 		euN3[, NUTS := '3']
 		
 		euMSA <- esData[
@@ -117,9 +118,11 @@ statSearch <- function(searchTerm, apiKey = NULL){
 		euMSA[, NUTS := 'Metropolitan']
 		
 		
-		euData <- rbindlist(list(euN2, euN3, euMSA))
+		euData <- data.table::rbindlist(list(euN2, euN3, euMSA))
 		
-		beaData <- beaR::beaSearch('',apiKey)[
+		
+		beaSrch <- beaR::beaSearch('',apiKey)
+		beaData <- beaSrch[
 			Account == 'Regional' & tolower(Parameter) != 'geofips', 
 			.(
 				id = Key, 
@@ -129,38 +132,60 @@ statSearch <- function(searchTerm, apiKey = NULL){
 			)
 		]
 
-		beaN2p <- usData[grep('[state', tolower(Name.en), fixed = T)]
-		beaN2d <- usData[grep('(state', tolower(Name.en), fixed = T)]
-		beaN2i <- usData[grep('RegionalIncome', Ref)]
+		beaRegInc <- beaData[grep('RegionalIncome', Ref, fixed=T)]
 
-		beaN2 <- rbindlist(list(beaN2p, beaN2d, beaN2i))
+
+
+		beaN2p <- beaData[grep('[state', tolower(Name.en), fixed = T)]
+		beaN2d <- beaData[grep('(state', tolower(Name.en), fixed = T)]
+
+
+		beaN2 <- data.table::rbindlist(list(beaN2p, beaN2d, beaRegInc))
 		beaN2[, NUTS := 'State']
 		
 
-		beaN3p <- usData[grep('[county', tolower(Name.en), fixed = T)]
-		beaN3d <- usData[grep('(county', tolower(Name.en), fixed = T)]
+		beaN3p <- beaData[grep('[county', tolower(Name.en), fixed = T)]
+		beaN3d <- beaData[grep('(county', tolower(Name.en), fixed = T)]
+
 		
-		beaN3 <- rbindlist(list(beaN3p, beaN3d))
+		beaN3 <- data.table::rbindlist(list(beaN3p, beaN3d, beaRegInc))
 		beaN3[, NUTS := 'County']
 		
 
-		beaMSAp <- usData[grep('[msa', tolower(Name.en), fixed = T)]
-		beaMSAd <- usData[grep('(msa', tolower(Name.en), fixed = T)]
+		beaMSAp <- beaData[grep('[msa', tolower(Name.en), fixed = T)]
+		beaMSAd <- beaData[grep('(msa', tolower(Name.en), fixed = T)]
 		
-		beaMSA <- rbindlist(list(beaMSAp, beaMSAd))
+		beaMSA <- data.table::rbindlist(list(beaMSAp, beaMSAd, beaRegInc))
 		beaMSA[, NUTS := 'MSA']
 		
-		
-		usData <- rbindlist(list(beaN3, beaN2, beaMSA))
-		usData <- usData[!grep('(SIC)', beaData, fixed = TRUE)]
+		joinUSD <- data.table::rbindlist(list(beaN3, beaN2, beaMSA))
+		usData <- joinUSD[!grep('SIC', Name.en, fixed = TRUE)]
+		usData <- usData[!grep('(SIC)', Name.en, fixed = TRUE)]
 		
 		beaNA <- beaData[!(Ref %in% unique(usData[, Ref]))]
 
 		usData[, Source := 'US']
+		data.table::setkey(usData, key = Name.en)
+		
+		transKey <- data.table::fread(paste0(.libPaths()[1], '/euroState/rawdata/transKey.txt'))
+		data.table::setkey(transKey, key = Name.en)
+		
+		usTrans <- usData[transKey][!is.na(NUTS)]
+		data.table::setkey(usTrans, key = NULL)
+
+#Worth worrying about, just not right now
+		#indKey <- data.table::fread(paste0(.libPaths()[1], '/euroState/rawdata/IndustryID_conc.csv'))
+		#indKey[, NAICS := strsplit(NAICS_Codes, ',', fixed = T)]
+		
+
+		
 		euData[, Source := 'eurostat']
 		
-		worldData <- rbindlist(list(euData, usData), use.names = TRUE, fill = TRUE)
+		worldData <- data.table::rbindlist(list(euData, unique(usTrans)), use.names = TRUE, fill = TRUE)
 
 		searchOut <- worldData[grepl(tolower(searchTerm), tolower(paste(Ref, id, Name.en, Name.fr, Name.de)))]
 		
+		return(searchOut)
+		
 }
+
