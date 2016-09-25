@@ -152,7 +152,7 @@ statSearch <- function(searchTerm, apiKey = NULL){
 		beaN3[, NUTS := 'County']
 		
 
-		beaMSAp <- beaData[grep('[msa', tolower(Name.en), fixed = T)]
+		beaMSAp <- beaData[grep('[metro', tolower(Name.en), fixed = T)]
 		beaMSAd <- beaData[grep('(msa', tolower(Name.en), fixed = T)]
 		
 		beaMSA <- data.table::rbindlist(list(beaMSAp, beaMSAd, beaRegInc))
@@ -170,7 +170,7 @@ statSearch <- function(searchTerm, apiKey = NULL){
 		transKey <- data.table::fread(paste0(.libPaths()[1], '/euroState/rawdata/transKey.txt'))
 		data.table::setkey(transKey, key = Name.en)
 		
-		usTrans <- usData[transKey][!is.na(NUTS)]
+		usTrans <- transKey[usData][!is.na(NUTS)]
 		data.table::setkey(usTrans, key = NULL)
 
 #Worth worrying about, just not right now

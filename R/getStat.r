@@ -7,7 +7,7 @@
 #' @examples 
 #' DT <- getStat('gross domestic product')
 
-getStat <- function(statID = '', NUTS = '2', apiKey = NULL, meta = FALSE, freq = 'A') { 
+getStat <- function(statID = '', NUTS = '2', euParms = list(), usParms = list(), apiKey = NULL, meta = FALSE, freq = 'A') { 
 #Think we should set validate = TRUE for all requests
 	if(class(beaSpec) != 'character'){
 		warning('Please specify the ID or of the data you are looking for.')
@@ -28,8 +28,16 @@ getStat <- function(statID = '', NUTS = '2', apiKey = NULL, meta = FALSE, freq =
 #		'userID' = apiKey
 #	)
 	
-	esData <- readSDMX(providerId = "ESTAT", resource = "data", flowRef = statID)
+	if(!meta){
+		esData <- rsdmx::readSDMX(providerId = "ESTAT", resource = "data", flowRef = statID)
+	} else {
+		esData <- rsdmx::readSDMX(providerId = "ESTAT", resource = "datastructure", flowref = statID)
+	}
+	
 	
 
-
+		usData <- beaR::beaGet(list(
+			'userID' = apiKey,
+			'datasetname' = ifelse()
+		))
 }
