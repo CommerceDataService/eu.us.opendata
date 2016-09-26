@@ -1,0 +1,2615 @@
+Anpassung für den Aufenthalt (Grafschaft Jahreseinkommen)
+Beiträge für staatliche Sozialversicherung (Grafschaft Jahreseinkommen)
+Das Ergebnis nach Arbeitsort (Grafschaft Jahreseinkommen)
+Die Gesamtbeschäftigung (Voll- und Teilzeit) (Grafschaft Jahreseinkommen)
+Lohn- und Gehalts Beschäftigung (Grafschaft Jahreseinkommen)
+Proprietors Beschäftigung (Grafschaft Jahreseinkommen)
+Farm Einkommen (Grafschaft Jahreseinkommen)
+Der Nettogewinn nach Wohnort (Grafschaft Jahreseinkommen)
+Nichtfarmlohn- persönliche Einkommen (Grafschaft Jahreseinkommen)
+Pro-Kopf-Dividenden, Zinsen und Miete (Grafschaft Jahreseinkommen)
+Pro-Kopf-Einkommen Wartung (Grafschaft Jahreseinkommen)
+Pro-Kopf-Nettoeinkommen (Grafschaft Jahreseinkommen)
+Der Pro-Kopf persönliches Einkommen (Grafschaft Jahreseinkommen)
+Pro-Kopf-Ruhestand und andere (Grafschaft Jahreseinkommen)
+Der Pro-Kopf persönlichen aktuellen Transfereinnahmen (Grafschaft Jahreseinkommen)
+Persönliche aktuellen Transfereinnahmen (Grafschaft Jahreseinkommen)
+Der Pro-Kopf Arbeitslosenversicherung Entschädigung (Grafschaft Jahreseinkommen)
+Durchschnittliche Vergütung pro Auftrag (Grafschaft Jahreseinkommen)
+Das Durchschnittseinkommen pro Auftrag (Grafschaft Jahreseinkommen)
+Der Durchschnittslohn pro Job (Grafschaft Jahreseinkommen)
+Bevölkerung (Grafschaft Jahreseinkommen)
+Proprietors 'Einkommen (Grafschaft Jahreseinkommen)
+Zuschläge auf Löhne und Gehälter (Grafschaft Jahreseinkommen)
+Insgesamt persönliche Einkommen (Grafschaft Jahreseinkommen)
+Löhne und Gehälter (Grafschaft Jahreseinkommen)
+Das Arbeitnehmerentgelt [Staat Jahres NAICS]
+Das Arbeitnehmerentgelt [Staat Jahres SIC]
+Das Bruttoinlandsprodukt (BIP) von Staat [Staat Jahres NAICS]
+Das Bruttoinlandsprodukt (BIP) von Staat [Staat Jahres SIC]
+Das Bruttoinlandsprodukt (BIP) von Staat [Staat Vierteljährlich NAICS]
+Bruttobetriebsüberschuss [Staat Jahres NAICS]
+Bruttobetriebsüberschuss [Status Jahres SIC]
+Insgesamt persönlichen Konsumausgaben (PCE) von staatlichen [Zustand privaten Konsumausgaben]
+Der Pro-Kopf privaten Konsumausgaben (PCE) von staatlichen [Zustand privaten Konsumausgaben]
+Der Pro-Kopf des realen BIP von Staat [Staat Jahres NAICS]
+Der Pro-Kopf des realen BIP von staatlichen [Staat Jahres SIC]
+Anzahl Indizes für das reale BIP von Staat [Staat Jahres NAICS]
+Anzahl Indizes für das reale BIP von staatlichen [Staat Jahres SIC]
+Anzahl Indizes für das reale BIP von Staat [Staat Vierteljährlich NAICS]
+Das reale BIP von Staat [Staat Jahres NAICS]
+Das reale BIP von Staat [Staat Jahres SIC]
+Das reale BIP von Staat [Staat Vierteljährlich NAICS]
+Subventionen [Staat Jahres NAICS]
+Subventionen [Staat Jahres SIC]
+Steuern auf Produktion und Importe weniger Subventionen [Staat Jahres NAICS]
+Steuern auf Produktion und Importe weniger Subventionen [Staat Jahres SIC]
+Steuern auf Produktion und Importe [Staat Jahres NAICS]
+Steuern auf Produktion und Importe [Staat Jahres SIC]
+Alle Industrie insgesamt [Staat Jahres NAICS]
+Alle Industrie insgesamt [Staat Jahres SIC]
+Alle Industrie insgesamt [Staat Vierteljährlich NAICS]
+Dienstprogramme [Status Jahres NAICS]
+Nichtmetallische Mineralien, ausgenommen Brennstoffe [Staat Jahres SIC]
+Dienstprogramme [Staat Vierteljährlich NAICS]
+Bau [Staat Jahres NAICS]
+Bau [Staat Jahres SIC]
+Bau [Staat Vierteljährlich NAICS]
+Herstellung [Staat Jahres NAICS]
+Herstellung [Staat Jahres SIC]
+Herstellung [Staat Vierteljährlich NAICS]
+Gebrauchsgüter [Staat Jahres NAICS]
+Gebrauchsgüter [Staat Jahres SIC]
+Gebrauchsgüter [Staat Vierteljährlich NAICS]
+Holzprodukte verarbeitende Industrie [Staat Jahres NAICS]
+Bauholz und Holzprodukte [Staat Jahres SIC]
+Nichtmetallische Mineralprodukte verarbeitende Industrie [Staat Jahres NAICS]
+Möbel und Einrichtungsgegenstände [Staat Jahres SIC]
+Primäre Metallerzeugung [Zustand Jahres NAICS]
+Stein, Ton und Glasprodukte [Status Jahres SIC]
+Metallerzeugnisse [Staat Jahres NAICS]
+Primäre Metallindustrie [Staat Jahres SIC]
+Maschinenbau [Staat Jahres NAICS]
+Metallerzeugnisse [Status Jahres SIC]
+Computer und elektronische Produkte Fertigung [Staat Jahres NAICS]
+Industrielle Maschinen und Geräte [Zustand Jahres SIC]
+Private Industries [Staat Jahres NAICS]
+Private Industries [Staat Jahres SIC]
+Private Industries [Staat Vierteljährlich NAICS]
+Elektrische Ausrüstung, Gerät und Komponenten Fertigung [Zustand Jahres NAICS]
+Elektronische und andere elektrische Geräte [Zustand Jahres SIC]
+Kraftfahrzeuge, Aufbauten und Anhänger und Teilefertigung [Zustand Jahres NAICS]
+Kraftfahrzeuge und Geräte [Zustand Jahres SIC]
+Andere Transportausrüstungen Herstellung [Zustand Jahres NAICS]
+Andere Transportausrüstung [Staat Jahres SIC]
+Möbel und verwandten Produkten Herstellung [Staat Jahres NAICS]
+Instrumente und verwandten Produkten [Status Jahres SIC]
+Verschiedene Herstellungs [Staat Jahres NAICS]
+Verschiedene Herstellungs [Staat Jahres SIC]
+Verbrauchsgüter Herstellung [Staat Jahres NAICS]
+Verbrauchsgüter Fertigung [Staat Jahres SIC]
+Verbrauchsgüter Fertigung [Staat Vierteljährlich NAICS]
+Essen und Getränke und Tabakwaren Herstellung [Staat Jahres NAICS]
+Lebensmittel und verwandte Produkte [Staat Jahres SIC]
+Textilfabriken und Textilprodukt Mühlen [Staat Jahres NAICS]
+Tabakwaren [Staat Jahres SIC]
+Bekleidung und Leder und verwandte Produkte Herstellung [Staat Jahres NAICS]
+Textilmühlen [Staat Jahres SIC]
+Papierprodukte verarbeitende Industrie [Staat Jahres NAICS]
+Bekleidung und andere textile Produkte [Staat Jahres SIC]
+Landwirtschaft, Forstwirtschaft, Fischerei und Jagd [Staat Jahres NAICS]
+Landwirtschaft, Forstwirtschaft und Fischerei [Staat Jahres SIC]
+Landwirtschaft, Forstwirtschaft, Fischerei und Jagd [Staat Vierteljährlich NAICS]
+Druck und die damit verbundenen Support-Aktivitäten [Staat Jahres NAICS]
+Papier und verwandte Produkte [Staat Jahres SIC]
+Erdöl und Kohle-Produkte verarbeitende Industrie [Staat Jahres NAICS]
+Druck und Veröffentlichung [Status Jahres SIC]
+Chemische Erzeugnisse verarbeitende Industrie [Staat Jahres NAICS]
+Chemikalien und verwandte Produkte [Staat Jahres SIC]
+Kunststoffe und Gummiwaren Herstellung [Staat Jahres NAICS]
+Erdöl und Kohle-Produkte [Staat Jahres SIC]
+Großhandel [Staat Jahres NAICS]
+Gummi und verschiedene Kunststoffprodukte [Staat Jahres SIC]
+Großhandel [Staat Vierteljährlich NAICS]
+Einzelhandel [Staat Jahres NAICS]
+Leder und Lederwaren [Staat Jahres SIC]
+Einzelhandel [Staat Vierteljährlich NAICS]
+Transport und Lagerung [Zustand Jahres NAICS]
+Transport und öffentliche Versorgungs [Staat Jahres SIC]
+Transport und Lagerung [Zustand Vierteljährlich NAICS]
+Der Luftverkehr [Staat Jahres NAICS]
+Transport [Staat Jahres SIC]
+Der Schienenverkehr [Staat Jahres NAICS]
+Bahntransport [Staat Jahres SIC]
+Wassertransport [Staat Jahres NAICS]
+Lokale und Fernpersonenbeförderung [Staat Jahres SIC]
+Farms [Staat Jahres NAICS]
+Farms [Staat Jahres SIC]
+LKW-Transport [Staat Jahres NAICS]
+LKW-Transport und Lagerung [Staat Jahres SIC]
+Transit und Boden Personentransport [Staat Jahres NAICS]
+Wassertransport [Zustand Jahres SIC]
+Rohrleitungstransport [Zustand Jahres NAICS]
+Transport von Luft [Zustand Jahres SIC]
+Andere Transport und Support-Aktivitäten [Staat Jahres NAICS]
+Pipelines, mit Ausnahme von Erdgas [Staat Jahres SIC]
+Lagerei [Zustand Jahres NAICS]
+Verkehrsmittel bei der Unterkunft [Staat Jahres SIC]
+Information [Staat Jahres NAICS]
+Communications [Staat Jahres SIC]
+Information [Staat Vierteljährlich NAICS]
+Verlagsindustrie, mit Ausnahme des Internet (einschließlich Software) [Status Jahres NAICS]
+Elektro-, Gas- und Sanitärdienstleistungen [Staat Jahres SIC]
+Film- und Tonaufnahmen Industrie [Status Jahres NAICS]
+Großhandel [Staat Jahres SIC]
+Rundfunk und Telekommunikation [Staat Jahres NAICS]
+Einzelhandel [Staat Jahres SIC]
+Datenverarbeitung, Internet-Publishing und andere Informationsdienste [Staat Jahres NAICS]
+Finanzen, Versicherungen und Immobilien [Staat Jahres SIC]
+Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten [Staat Jahres NAICS]
+Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei [Staat Jahres SIC]
+Finanzen, Versicherungen, Immobilien, Vermietung und Leasing [Staat Jahres NAICS]
+Depository Institutionen [Staat Jahres SIC]
+Finanzen und Versicherungen [Staat Jahres NAICS]
+Nondepository Institutionen [Staat Jahres SIC]
+Finanzen und Versicherungen [Staat Vierteljährlich NAICS]
+Federal Reserve Banken, Kreditinstitute und damit verbundene Dienstleistungen [Staat Jahres NAICS]
+Sicherheit und Rohstoff-Brokern [Status Jahres SIC]
+Wertpapiere, Rohstoffkontrakte und Investitionen [Staat Jahres NAICS]
+Versicherungsträger [Staat Jahres SIC]
+Versicherungsträger und damit verbundene Tätigkeiten [Staat Jahres NAICS]
+Versicherungsvertreter, Versicherungsmakler und Dienstleistungen [Staat Jahres SIC]
+Fonds, Trusts und andere Finanzvehikel [Staat Jahres NAICS]
+Immobilien [Zustand Jahres SIC]
+Immobilien und Vermietung und Leasing [Staat Jahres NAICS]
+Holding und andere Anlage Büros [Staat Jahres SIC]
+Immobilien und Vermietung und Leasing [Staat Vierteljährlich NAICS]
+Immobilien [Staat Jahres NAICS]
+Dienstleistungen [Staat Jahres SIC]
+Vermietung und Leasing-Dienstleistungen und Vermietern von immateriellen Vermögenswerten [Staat Jahres NAICS]
+Hotels und andere Übernachtungsplätze [Staat Jahres SIC]
+Professional und Business-Services [Staat Jahres NAICS]
+Persönliche Dienste [Staat Jahres SIC]
+Mining [Status Jahres NAICS]
+Mining [Status Jahres SIC]
+Mining [Staat Vierteljährlich NAICS]
+Freiberufliche, wissenschaftliche und technische Dienstleistungen [Staat Jahres NAICS]
+Geschäftsdienstleistungen [Staat Jahres SIC]
+Freiberufliche, wissenschaftliche und technische Dienstleistungen [Staat Vierteljährlich NAICS]
+Juristische Dienstleistungen [Staat Jahres NAICS]
+Kfz-Reparatur, Dienstleistungen und Parkplatz [Zustand Jahres SIC]
+Computer-System-Design und damit verbundene Dienstleistungen [Staat Jahres NAICS]
+Verschiedene Reparaturdienste [Staat Jahres SIC]
+Sonstige freiberufliche, wissenschaftliche und technische Dienstleistungen [Staat Jahres NAICS]
+Bewegte Bilder [Status Jahres SIC]
+Management von Firmen und Unternehmen [Staat Jahres NAICS]
+Unterhaltungs- und Erholungsdienstleistungen [Staat Jahres SIC]
+Management von Firmen und Unternehmen [Staat Vierteljährlich NAICS]
+Verwaltungs- und Entsorgungsdienstleistungen [Staat Jahres NAICS]
+Die Gesundheitsdienste [Staat Jahres SIC]
+Verwaltungs- und Entsorgungsdienstleistungen [Staat Vierteljährlich NAICS]
+Verwaltungs- und Unterstützungsdienste [Staat Jahres NAICS]
+Juristische Dienstleistungen [Staat Jahres SIC]
+Abfallentsorgung und Beseitigung von Dienstleistungen [Staat Jahres NAICS]
+Bildungsleistungen [Staat Jahres SIC]
+Erziehung und Unterricht, Gesundheitswesen und Sozialhilfe [Staat Jahres NAICS]
+Soziale Dienste [Staat Jahres SIC]
+Bildungsleistungen [Staat Jahres NAICS]
+Die Mitgliedschaft Organisationen [Staat Jahres SIC]
+Bildungsleistungen [Staat Vierteljährlich NAICS]
+Öl- und Gasförderung [Zustand Jahres NAICS]
+Metallbergbau [Staat Jahres SIC]
+Gesundheitsversorgung und Sozialhilfe [Staat Jahres NAICS]
+Andere Dienste [Staat Jahres SIC]
+Gesundheitsversorgung und Sozialhilfe [Staat Vierteljährlich NAICS]
+Ambulante Gesundheitsdienste [Staat Jahres NAICS]
+Die privaten Haushalte [Staat Jahres SIC]
+Krankenhäuser und Pflege und Wohnpflegeeinrichtungen [Staat Jahres NAICS]
+Regierung [Staat Jahres SIC]
+Die Sozialhilfe [Staat Jahres NAICS]
+Bundes zivilen [Staat Jahres SIC]
+Kunst, Unterhaltung, Erholung, Unterkunft und Verpflegung [Staat Jahres NAICS]
+Bundes Militär [Staat Jahres SIC]
+Kunst, Unterhaltung und Erholung [Staat Jahres NAICS]
+Staatliche und lokale [Staat Jahres SIC]
+Kunst, Unterhaltung und Erholung [Staat Vierteljährlich NAICS]
+Darstellende Künste, Zuschauersport, Museen, und damit verbundene Tätigkeiten [Staat Jahres NAICS]
+Elektronische Geräte und Instrumente [Staat Jahres SIC]
+Amusements, Glücksspiel und Freizeitindustrie [Staat Jahres NAICS]
+Depository und nondepository Institutionen [Staat Jahres SIC]
+Unterkunft und Verpflegung [Staat Jahres NAICS]
+Dienstleistungen für Unternehmen und andere Dienstleistungen [Staat Jahres SIC]
+Unterkunft und Verpflegung [Staat Vierteljährlich NAICS]
+Unterkunft [Staat Jahres NAICS]
+Bergbau, mit Ausnahme von Öl und Gas [Zustand Jahres NAICS]
+Der Kohlenbergbau [Staat Jahres SIC]
+Gastronomie und tränkstellen [Staat Jahres NAICS]
+Andere Dienste, mit Ausnahme der Regierung [Staat Jahres NAICS]
+Andere Dienste, mit Ausnahme der Regierung [Staat Vierteljährlich NAICS]
+Regierung [Staat Jahres NAICS]
+Regierung [Staat Vierteljährlich NAICS]
+Bundes zivilen [Staat Jahres NAICS]
+Bundes Militär [Staat Jahres NAICS]
+Staatliche und lokale [Staat Jahres NAICS]
+Natürliche Ressourcen und Bergbau [Staat Jahres NAICS]
+Handel [Staat Jahres NAICS]
+Transport und Versorger [Staat Jahres NAICS]
+Privat Produzierenden Gewerbe [Staat Jahres NAICS]
+Erbringung von Dienstleistungen für den Bergbau [Staat Jahres NAICS]
+Öl- und Gasförderung [Zustand Jahres SIC]
+Private Dienstleistungen bereitstellenden Industrie [Staat Jahres NAICS]
+Anpassung für den Aufenthalt (Zustand Quartalsergebnis)
+Anpassung für den Aufenthalt (Stand Jahreseinkommen)
+Beiträge für staatliche Sozialversicherung (Stand Quartalsergebnis)
+Beiträge für staatliche Sozialversicherung (Stand Jahreseinkommen)
+Das Arbeitnehmerentgelt (Stand Jahresprodukt)
+Dividenden, Zinsen und Miete (Stand Quartalsergebnis)
+Dividenden, Zinsen und Miete (Stand Jahreseinkommen)
+Einweg persönlichen Einkommen (Stand Jahreseinkommen)
+Das Ergebnis nach Arbeitsort (Stand Quartalsergebnis)
+Das Ergebnis nach Arbeitsort (Stand Jahreseinkommen)
+Die Gesamtbeschäftigung (Voll- und Teilzeit) (Stand Jahreseinkommen)
+Lohn- und Gehalts Beschäftigung (Stand Jahreseinkommen)
+Proprietors Beschäftigung (Stand Jahreseinkommen)
+Farm Einkommen (Zustand Quartalsergebnis)
+Farm Einkommen (Stand Jahreseinkommen)
+BIP im aktuellen Dollar (Stand Jahresprodukt)
+Bruttobetriebsüberschuss (Stand Jahresprodukt)
+Der Nettogewinn nach Wohnort (Stand Quartalsergebnis)
+Der Nettogewinn nach Wohnort (Stand Jahreseinkommen)
+Nichtfarmlohn- persönliche Einkommen (Zustand Quartalsergebnis)
+Nichtfarmlohn- persönlichen Einkommen (Stand Jahreseinkommen)
+Pro-Kopf-Dividenden, Zinsen und Mieten (Stand Jahreseinkommen)
+Der Pro-Kopf verfügbaren persönlichen Einkommen (US-Dollar) (Stand Jahreseinkommen)
+Pro-Kopf-Einkommen Wartung (Stand Jahreseinkommen)
+Pro-Kopf-Nettoergebnis (Stand Jahreseinkommen)
+Der Pro-Kopf persönliches Einkommen (Stand Jahreseinkommen)
+Pro-Kopf-Ruhestand und andere (Stand Jahreseinkommen)
+Der Pro-Kopf des realen BIP (Stand Jahresprodukt)
+Der Pro-Kopf persönlichen aktuellen Transfereinnahmen (Stand Jahreseinkommen)
+Persönliche aktuellen Transfereinnahmen (Stand Quartalsergebnis)
+Persönliche aktuellen Transfereinnahmen (Stand Jahreseinkommen)
+Der Pro-Kopf Arbeitslosenversicherung Entschädigung (Stand Jahreseinkommen)
+Durchschnittliche Vergütung pro Job (Stand Jahreseinkommen)
+Das Durchschnittseinkommen pro Job (Stand Jahreseinkommen)
+Der Durchschnittslohn pro Job (Stand Jahreseinkommen)
+Bevölkerung (Stand Jahreseinkommen)
+Proprietors Einkommen (Stand Quartalsergebnis)
+Proprietors Einkommen (Stand Jahreseinkommen)
+Das reale BIP in verkettete Dollar (Stand Jahresprodukt)
+Pro-Kopf-Real persönlichen Einkommen (Staat regionale Preisparitäten)
+Echt persönliche Einkommen (Staat regionale Preisparitäten)
+RPPs: Alle Einzelteile (staatliche regionale Preisparitäten)
+RPPs: Waren (staatliche regionale Preisparitäten)
+Implizite regionalen Preisdeflator (staatliche regionale Preisparitäten)
+RPPs: Dienstleistungen: Andere (Staat regionale Preisparitäten)
+RPPs: Dienstleistungen: Die Mieten (Zustand regionale Preisparitäten)
+Subventionen (Stand Jahresprodukt)
+Zuschläge auf Löhne und Gehälter (Stand Quartalsergebnis)
+Zuschläge auf Löhne und Gehälter (Stand Jahreseinkommen)
+Steuern auf Produktion und Importe weniger Subventionen (Stand Jahresprodukt)
+Steuern auf die Produktion und die Einfuhren (Stand Jahresprodukt)
+Insgesamt persönliche Einkommen (Zustand Quartalsergebnis)
+Insgesamt persönliche Einkommen (Stand Jahreseinkommen)
+Löhne und Gehälter (Stand Quartalsergebnis)
+Löhne und Gehälter (Stand Jahreseinkommen)
+[CA1] Persönliche Einkommen
+[CA6] Arbeitnehmerentgelt
+[CA6N] Arbeitnehmerentgelt
+[IRPD1] Implizite regionalen Preisdeflator
+[RPI1] Immobilien persönlichen Einkommen
+[RPP1] RPPs: Alle Einzelteile
+[SA1] Persönliche Einkommen
+[SA6] Arbeitnehmerentgelt
+[SA6N] Arbeitnehmerentgelt
+[SQ1] Persönliche Einkommen
+[SQ6] Arbeitnehmerentgelt
+[SQ6N] Arbeitnehmerentgelt
+[CA25] Die Gesamtbeschäftigung
+[CA25N] Die Gesamtbeschäftigung
+[CA30] Persönliche Einkommen
+[CA4] Persönliche Einkommen
+[CA45] Einzahlungen aus marketings
+[CA5] Persönliche Einkommen
+[CA5N] Persönliche Einkommen
+[CA91] Die Zuflüsse des Ergebnisses
+[SA25] Die Gesamtbeschäftigung
+[SA25N] Die Gesamtbeschäftigung
+[SA30] Persönliche Einkommen
+[SA4] Persönliche Einkommen
+[SA45] Einzahlungen aus marketings
+[SA5] Persönliche Einkommen
+[SA50] Persönliche Einkommen
+[SA5H] Persönliche Einkommen
+[SA5N] Persönliche Einkommen
+[SQ35] Persönliche Einkommen (Tausende von Dollar, saisonbereinigt)
+[SQ4] Persönliche Einkommen
+[SQ5] Persönliche Einkommen
+[SQ5H] Persönliche Einkommen
+[SQ5N] Persönliche Einkommen
+[CA25] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[CA30] Bevölkerung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erbringung von landwirtschaftlichen Dienstleistungen, Forstwirtschaft und Fischerei
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SA30] Bevölkerung
+[SA45] Einzahlungen: Gemüse
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Landwirtschaftliche Dienstleistungen, Forstwirtschaft und Fischerei
+[SQ7N] Privat Löhne und Gehälter: Forstwirtschaft, Fischerei und damit verbundene Tätigkeiten
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Finanzen und Versicherungen
+[CA35] Persönliche Stromübertragung Quittungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen und Versicherungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen und Versicherungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Finanzen und Versicherungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Finanzen und Versicherungen
+[SA35] Persönliche Stromübertragung Quittungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen und Versicherungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen und Versicherungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen und Versicherungen
+[SQ35] Persönliche Stromübertragung Quittungen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen und Versicherungen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen und Versicherungen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen und Versicherungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Währungsbehörden-Zentralbank
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Die Währungsbehörden-Zentralbank
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Währungsbehörden-Zentralbank
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Währungsbehörden-Zentralbank
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Währungsbehörden-Zentralbank
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Die Währungsbehörden-Zentralbank
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Währungsbehörden-Zentralbank
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kreditinstitute und damit verbundene Tätigkeiten
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kreditinstitute und damit verbundene Tätigkeiten
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kreditinstitute und damit verbundene Tätigkeiten
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kreditinstitute und damit verbundene Tätigkeiten
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kreditinstitute und damit verbundene Tätigkeiten
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kreditinstitute und damit verbundene Tätigkeiten
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kreditinstitute und damit verbundene Tätigkeiten
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Wertpapiere, Rohstoffkontrakte und andere Finanzanlagen und damit verbundene Tätigkeiten
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsträger und damit verbundene Tätigkeiten
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsträger und damit verbundene Tätigkeiten
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Versicherungsträger und damit verbundene Tätigkeiten
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Versicherungsträger und damit verbundene Tätigkeiten
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsträger und damit verbundene Tätigkeiten
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsträger und damit verbundene Tätigkeiten
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Versicherungsträger und damit verbundene Tätigkeiten
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Fonds, Trusts und andere Finanzvehikel
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Fonds, Trusts und andere Finanzvehikel
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Fonds, Trusts und andere Finanzvehikel
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Fonds, Trusts und andere Finanzvehikel
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Fonds, Trusts und andere Finanzvehikel
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Fonds, Trusts und andere Finanzvehikel
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Fonds, Trusts und andere Finanzvehikel
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft und Holzeinschlag
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Forstwirtschaft und Holzeinschlag
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Forstwirtschaft und Holzeinschlag
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Forstwirtschaft und Holzeinschlag
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft und Holzeinschlag
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Forstwirtschaft und Holzeinschlag
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Forst- und Holz
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Angeln, Jagen und Fallen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Angeln, Jagen und Fallen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Angeln, Jagen und Fallen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Angeln, Jagen und Fallen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Angeln, Jagen und Fallen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Angeln, Jagen und Fallen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Angeln, Jagen und Fallen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Erbringung von Dienstleistungen für die Land- und Forstwirtschaft
+[CA4] Nichtfarmlohn- persönlichen Einkommen
+[SA4] Nichtfarmlohn- persönlichen Einkommen
+[SQ4] Nichtfarmlohn- persönlichen Einkommen
+[CA30] Der Pro-Kopf persönliches Einkommen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Landwirtschaftliche Dienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Landwirtschaftliche Dienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Landwirtschaftliche Dienstleistungen
+[SA30] Die Pro-Kopf persönliches Einkommen
+[SA45] Einzahlungen: Obst und Nüsse
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Landwirtschaftliche Dienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Landwirtschaftliche Dienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Landwirtschaftliche Dienstleistungen
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Immobilien und Vermietung und Leasing
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien und Vermietung und Leasing
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien und Vermietung und Leasing
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Immobilien und Vermietung und Leasing
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Immobilien und Vermietung und Leasing
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien und Vermietung und Leasing
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien und Vermietung und Leasing
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Immobilien und Vermietung und Leasing
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien und Vermietung und Leasing
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien und Vermietung und Leasing
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Immobilien und Vermietung und Leasing
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Immobilien
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Immobilien
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Immobilien
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Vermietung und Leasing
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Miet- und Leasing-Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Vermietung und Leasing
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Vermietung und Leasing
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Vermietung und Leasing
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Miet- und Leasing-Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Vermietung und Leasing
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lessors von nicht-finanziellen immaterielle Vermögenswerte (ohne urheberrechtlich geschützte Werke)
+[SA45] Einzahlungen: Gewächshaus, Kindergarten und Pilzprodukte
+[SA45] Einzahlungen: Wald und Ahorn Produkte
+[SA45] Einzahlungen: Tabak
+[SA45] Einzahlungen: Baumwolle
+[SA45] Einzahlungen: Andere Kulturen
+[CA4] Farm Einkommen
+[SA4] Farm Einkommen
+[SQ4] Farm Einkommen
+[CA30] Pro-Kopf-Nettoeinkommen
+[CA45] Sonstige Erträge
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft und Fischerei
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft und Fischerei
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Forstwirtschaft und Fischerei
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Forstwirtschaft und Fischerei
+[SA30] Pro-Kopf-Nettoeinkommen
+[SA45] Sonstige Erträge
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft und Fischerei
+[SA50] Persönliche laufenden Steuern Regierungen auf staatliche
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft und Fischerei
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Forstwirtschaft und Fischerei
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Freiberufliche, wissenschaftliche und technische Dienstleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Forstwirtschaft
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Forstwirtschaft
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Forstwirtschaft
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Forstwirtschaft
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Forstwirtschaft
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Angeln
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Angeln
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Angeln
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Angeln
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Angeln
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Angeln
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Angeln
+[CA30] Pro-Kopf-persönliche Stromübertragungseinnahmen
+[CA45] Die Zahlungen des Staates
+[SA30] Die Pro-Kopf persönliche Stromübertragungseinnahmen
+[SA45] Die Zahlungen des Staates
+[SA50] Die Landesregierungen Ertragsteuern
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Management von Firmen und Unternehmen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Management von Firmen und Unternehmen
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Management von Firmen und Unternehmen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Management von Firmen und Unternehmen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Management von Firmen und Unternehmen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Management von Firmen und Unternehmen
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Management von Firmen und Unternehmen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Management von Firmen und Unternehmen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Management von Firmen und Unternehmen
+[SQ6N] Privat außerhalb der Landwirtschaft Vergütung: Management von Firmen und Unternehmen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Management von Firmen und Unternehmen
+[CA30] Pro-Kopf-Einkommen Wartung Vorteile
+[CA45] Kalkulatorische und sonstige Einkünfte
+[SA30] Pro-Kopf-Einkommen Wartung Vorteile
+[SA45] Kalkulatorische und sonstige Einkünfte
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verwaltung und Unterstützung und Abfalldienstleistungsmanagement und Sanierung
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Verwaltung und Unterstützung und Abfallentsorgung und Beseitigung von Dienstleistungen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verwaltung und Unterstützung und Abfalldienstleistungsmanagement und Sanierung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verwaltungs- und Support-Services
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verwaltungs- und Support-Services
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verwaltungs- und Unterstützungsdienste
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verwaltungs- und Unterstützungsdienste
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verwaltungs- und Support-Services
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verwaltungs- und Support-Services
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verwaltungs- und Support-Services
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Abfallentsorgung und Beseitigung von Dienstleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Abfallentsorgung und Beseitigung von Dienstleistungen
+[SA50] Persönliche laufenden Steuern
+[CA30] Pro-Kopf-Arbeitslosenversicherung Entschädigung
+[CA45] Produktionskosten
+[SA30] Pro-Kopf-Arbeitslosenversicherung Entschädigung
+[SA45] Produktionskosten
+[SA50] Die Landesregierungen Kfz-Lizenzen
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bildungsleistungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bildungsleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bildungsleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bildungsleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bildungsleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bildungsleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bildungsleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bildungsleistungen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Bildungsleistungen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Bildungsleistungen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bildungsleistungen
+[SA50] verfügbaren persönlichen Einkommen
+[CA30] Pro-Kopf-Ruhestand und andere
+[CA45]-Feed gekauft
+[SA30] Pro-Kopf-Ruhestand und andere
+[SA45]-Feed gekauft
+[SA50] Die Landesregierungen Sonstige Steuern
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gesundheitsversorgung und Sozialhilfe
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheitsversorgung und Sozialhilfe
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheitsversorgung und Sozialhilfe
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gesundheitsversorgung und Sozialhilfe
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gesundheitsversorgung und Sozialhilfe
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheitsversorgung und Sozialhilfe
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheitsversorgung und Sozialhilfe
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gesundheitsversorgung und Sozialhilfe
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheitsversorgung und Sozialhilfe
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheitsversorgung und Sozialhilfe
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gesundheitsversorgung und Sozialhilfe
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Ambulante Gesundheitsleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Ambulante Gesundheitsleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Ambulante Gesundheitsleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Ambulante Gesundheitsversorgung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Ambulante Gesundheitsleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Ambulante Gesundheitsleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Ambulante Gesundheitsversorgung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Krankenhäuser
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Krankenhäuser
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Krankenhäuser
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Krankenhäuser
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Krankenhäuser
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Krankenhäuser
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Krankenhäuser
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Pflege- und Wohnpflegeeinrichtungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Pflege- und Wohnpflegeeinrichtungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Pflege- und Wohnpflegeeinrichtungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Pflege- und Wohnpflegeeinrichtungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Pflege- und Wohnpflegeeinrichtungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Pflege- und Wohnpflegeeinrichtungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Pflege- und Wohnpflegeeinrichtungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Die Sozialhilfe
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Die Sozialhilfe
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Die Sozialhilfe
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Die Sozialhilfe
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Die Sozialhilfe
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Die Sozialhilfe
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Die Sozialhilfe
+[CA30] Pro-Kopf-Dividenden, Zinsen, und vermieten
+[CA45] Vieh gekauft
+[SA30] Pro-Kopf-Dividenden, Zinsen, und vermieten
+[SA45] Vieh gekauft
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kunst, Unterhaltung und Erholung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kunst, Unterhaltung und Erholung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kunst, Unterhaltung und Erholung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kunst, Unterhaltung und Erholung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kunst, Unterhaltung und Erholung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kunst, Unterhaltung und Erholung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kunst, Unterhaltung und Erholung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kunst, Unterhaltung und Erholung
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Kunst, Unterhaltung und Erholung
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Kunst, Unterhaltung und Erholung
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kunst, Unterhaltung und Erholung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Darstellende Künste, Zuschauersportarten und verwandten Branchen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Darstellende Künste, Zuschauersport und verwandte Industrien
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Museen, historische Stätten, und ähnliche Einrichtungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Museen, historische Stätten, und ähnliche Einrichtungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Museen, historische Stätten, und ähnliche Einrichtungen
+Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung [SA27N]: Museen, historische Stätten, und ähnliche Einrichtungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Museen, historische Stätten, und ähnliche Einrichtungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Museen, historische Stätten, und ähnliche Einrichtungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Museen, historische Stätten, und ähnliche Einrichtungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Freizeitparks, Glücksspiel und Freizeitindustrie
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Freizeitparks, Glücksspiel und Freizeitindustrie
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Unterhaltung, Glücksspiel und Freizeitindustrie
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Unterhaltung, Glücksspiel und Freizeitindustrie
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Freizeitparks, Glücksspiel und Freizeitindustrie
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Freizeitparks, Glücksspiel und Freizeitindustrie
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Unterhaltung, Glücksspiel und Freizeitindustrie
+[SA30] Pro-Kopf-Dividenden
+[SA30] Pro-Kopf-Interesse
+[SA30] Pro-Kopf-Miete
+[CA30] Ergebnis nach Arbeitsort
+[CA45] Seed gekauft
+[SA30] Ergebnis nach Arbeitsort
+[SA45] Seed gekauft
+[SA50] Persönliche laufenden Steuern für die Kommunen
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Unterkunft und Verpflegung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Unterkunft und Verpflegung
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Unterkunft und Verpflegung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Unterkunft und Verpflegung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Unterkunft und Verpflegung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Unterkunft und Verpflegung
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Unterkunft und Verpflegung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Unterkunft und Verpflegung
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Unterkunft und Verpflegung
+[SQ6N] Privat außerhalb der Landwirtschaft Vergütung: Unterkunft und Verpflegung
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Unterkunft und Verpflegung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Unterkunft
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Unterkunft
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Unterkunft
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Unterkunft
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Unterkunft
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Unterkunft
+[SA7N] Privat Löhne und Gehälter: Unterkunft
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gastronomie und tränkstellen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gastronomie und tränkstellen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gastronomie und tränkstellen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gastronomie und tränkstellen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gastronomie und tränkstellen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gastronomie und tränkstellen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gastronomie und tränkstellen
+[CA30] Löhne und Gehälter
+[CA45] Dünger und Kalk (inkl. Ag. Chemikalien 1978-vw.)
+[SA30] Löhne und Gehälter
+[SA45] Dünger und Kalk (inkl. Ag. Chemikalien 1978-vw.)
+[SA50] Die lokalen Regierungen Ertragsteuern
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstige Dienstleistungen (ohne Öffentliche Verwaltung)
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Reparatur und Wartung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Reparatur und Wartung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Reparatur und Wartung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Reparatur und Wartung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Reparatur und Wartung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Reparatur und Wartung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Reparatur und Wartung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Personal und Wäscheservice
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Personal und Wäscheservice
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Personal und Wäscheservice
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Personal und Wäscheservice
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Personal und Wäscheservice
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Personal und Wäscheservice
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Personal und Wäscheservice
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Religiös, grantmaking, bürgerlich, professionell und ähnliche Organisationen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Private Haushalte
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Private Haushalte
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Private Haushalte
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Private Haushalte
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Private Haushalte
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Private Haushalte
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Private Haushalte
+[CA1] Bevölkerung
+[RPI1] Das reale Pro-Kopf-Einkommen persönlichen
+[RPP1] RPPs: Waren
+[SA1] Bevölkerung
+[SQ1] Bevölkerung
+[CA25] Lohn- und Gehalts Beschäftigung
+[CA25N] Lohn- und Gehalts Beschäftigung
+[CA4] Bevölkerung
+[CA45] Einzahlungen: Tiere und Produkte
+[CA5] Bevölkerung
+[CA5N] Bevölkerung
+[CA91] Abflüsse des Ergebnisses
+[SA25] Lohn- und Gehalts Beschäftigung
+[SA25N] Lohn- und Gehalts Beschäftigung
+[SA27] Lohn- und Gehalts Beschäftigung nach Arbeitsort
+[SA27N] Lohn- und Gehalts Beschäftigung nach Arbeitsort
+[SA4] Bevölkerung
+[SA45] Einzahlungen: Tiere und Produkte
+[SA5] Bevölkerung
+[SA50] Bevölkerung
+[SA5H] Bevölkerung
+[SA5N] Bevölkerung
+[SQ4] Bevölkerung
+[SQ5N] Bevölkerung
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bergbau
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bergbau, Öl- und Gasförderung
+[CA30] Ergänzungen auf Löhne und Gehälter
+[CA45] Erdölprodukte gekauft
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bergbau
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bergbau, Öl- und Gasförderung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bergbau
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bergbau, Öl- und Gasförderung
+[SA30] Ergänzungen auf Löhne und Gehälter
+[SA45] Erdölprodukte gekauft
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau
+[SA50] Lokale Regierungen Kfz-Lizenzen
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau, Gewinnung von Steinen und Öl- und Gasförderung
+[CA25N] Beschäftigung: Regierung und staatlichen Unternehmen
+[CA35] Aktuelle Transfereinnahmen von Personen aus Regierungen
+[CA5N] Ergebnis: Regierung und staatlichen Unternehmen
+[CA6N] Kompensation: Regierung und staatlichen Unternehmen
+[SA25N] Beschäftigung: Regierung und staatlichen Unternehmen
+[SA27N] Lohn- und Gehalts Beschäftigung: Regierung und staatlichen Unternehmen
+[SA35] Aktuelle Transfereinnahmen von Personen aus Regierungen
+[SA5N] Ergebnis: Regierung und staatlichen Unternehmen
+[SA6N] Kompensation: Regierung und staatlichen Unternehmen
+[SA7N] Löhne und Gehälter: Regierung und staatlichen Unternehmen
+[SQ5N] Ergebnis: Regierung und staatlichen Unternehmen
+[SQ6N] Kompensation: Regierung und staatlichen Unternehmen
+[SQ7N] Löhne und Gehälter: Regierung und staatlichen Unternehmen
+[CA25N] Govt. und Govt. Unternehmen Beschäftigung: Bundes, zivile
+[CA5N] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[CA6N] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SA25N] Govt. und Govt. Unternehmen Beschäftigung: Bundes, zivile
+[SA27N] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Bundes, zivile
+[SA5N] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SA6N] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SA7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[SQ5N] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SQ6N] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SQ7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[CA25N] Govt. und Govt. Unternehmen Beschäftigung: Militär
+[CA5N] Govt. und Govt. Unternehmen Ergebnis: Military
+[CA6N] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SA25N] Govt. und Govt. Unternehmen Beschäftigung: Militär
+[SA27N] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Military
+[SA5N] Govt. und Govt. Unternehmen Ergebnis: Military
+[SA6N] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SA7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[SQ5N] Govt. und Govt. Unternehmen Ergebnis: Military
+[SQ6N] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SQ7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[CA30] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Öl- und Gasförderung
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Öl- und Gasförderung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Öl- und Gasförderung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Öl- und Gasförderung
+[SA30] Die Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Öl- und Gasförderung
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Öl- und Gasförderung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Öl- und Gasförderung
+[CA25N] Govt. und Govt. Unternehmen Beschäftigung: Staatliche und lokale
+[CA5N] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[CA6N] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SA25N] Govt. und Govt. Unternehmen Beschäftigung: Staatliche und lokale
+[SA27N] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Staatliche und lokale
+[SA5N] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SA6N] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SA7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[SQ5N] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SQ6N] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SQ7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[CA25N] Govt. und Govt. Unternehmen Beschäftigung: Landesregierung
+[CA5N] Govt. und Govt. Unternehmen Ergebnis: Landesregierung
+[CA6N] Govt. und Govt. Unternehmen Entschädigung: Landesregierung
+[SA25N] Govt. und Govt. Unternehmen Beschäftigung: Landesregierung
+[SA27N] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Landesregierung
+[SA5N] Govt. und Govt. Unternehmen Ergebnis: Landesregierung
+[SA6N] Govt. und Govt. Unternehmen Entschädigung: Landesregierung
+[SA7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Landesregierung
+[CA25N] Govt. und Govt. Unternehmen Beschäftigung: Gemeindeverwaltung
+[CA5N] Govt. und Govt. Unternehmen Ergebnis: Gemeindeverwaltung
+[CA6N] Govt. und Govt. Unternehmen Entschädigung: Gemeindeverwaltung
+[SA25N] Govt. und Govt. Unternehmen Beschäftigung: Gemeindeverwaltung
+[SA27N] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Gemeindeverwaltung
+[SA5N] Govt. und Govt. Unternehmen Ergebnis: Gemeindeverwaltung
+[SA6N] Govt. und Govt. Unternehmen Entschädigung: Gemeindeverwaltung
+[SA7N] Govt. und Govt. Unternehmen Löhne und Gehälter: Gemeindeverwaltung
+[CA30] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau (außer Öl und Gas)
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau (außer Öl und Gas)
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bergbau (außer Öl und Gas)
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bergbau (außer Öl und Gas)
+[SA30] Die Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bergbau (außer Öl und Gas)
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bergbau (außer Öl und Gas)
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bergbau (außer Öl und Gas)
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für den Bergbau
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erbringung von Dienstleistungen für den Bergbau
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Erbringung von Dienstleistungen für den Bergbau
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erbringung von Dienstleistungen für den Bergbau
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für den Bergbau
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erbringung von Dienstleistungen für den Bergbau
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Erbringung von Dienstleistungen für den Bergbau
+[CA30] Proprietors 'Einkommen
+[CA45] Hired Farm Arbeitskosten
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Metallbergbau
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Metallbergbau
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Metallbergbau
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Metallbergbau
+[SA30] Proprietors 'Einkommen
+[SA45] Hired Farm Arbeitskosten
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Metallbergbau
+[SA50] Lokalregierungen Sonstige Steuern
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Metallbergbau
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Metallbergbau
+[CA35] Alters- und Invalidenversicherung Vorteile
+[SA35] Alters- und Invalidenversicherung Vorteile
+[CA35] Leistungen der sozialen Sicherheit
+[SA35] Leistungen der sozialen Sicherheit
+[SQ35] Leistungen der sozialen Sicherheit
+[CA35] ohne Leistungen der sozialen Sicherheit
+[SA35] ohne Leistungen der sozialen Sicherheit
+[SA35] Eisenbahn Alters- und Invalidenleistungen
+[SA35] Workers 'Compensation
+[SA35] Andere staatliche Alters- und Invalidenversicherung Vorteile
+[CA30] Einkommen 'Farm Eigentümer
+[CA45] Alle anderen Produktionskosten
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Der Kohlebergbau
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Der Kohlebergbau
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Kohlebergbau
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kohlebergbau
+[SA30] Einkommen 'Farm Eigentümer
+[SA45] Alle anderen Produktionskosten
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Der Kohlebergbau
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Der Kohlebergbau
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kohlebergbau
+[CA35] Medizinische Leistungen
+[SA35] Medizinische Leistungen
+[CA35] Medicare-Leistungen
+[SA35] Medicare-Leistungen
+[SQ35] Medicare-Leistungen
+[CA35] Öffentliche Hilfe medizinische Pflegeleistungen
+[SA35] Öffentliche Hilfe medizinische Pflegeleistungen
+[SA35] Medicaid
+[SQ35] Medicaid
+[SA35] Andere medizinische Pflegeleistungen
+[CA35] Military Krankenversicherung Vorteile
+[SA35] Military Krankenversicherung Vorteile
+[CA30] Nichtfarmlohn- Inhaberin Einkommen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Öl- und Gasförderung
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Öl- und Gasförderung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Öl- und Gasförderung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Öl- und Gasförderung
+[SA30] Nichtfarmlohn- Inhaberin Einkommen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Öl- und Gasförderung
+[SA50] Staatliche und lokale Vermögenssteuer
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Öl- und Gasförderung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Öl- und Gasförderung
+[CA35] Einkommenssicherung Vorteile
+[SA35] Einkommenssicherung Vorteile
+[CA35] zusätzliche Sicherheit Einkommen (SSI) Vorteile
+[SA35] zusätzliche Sicherheit Einkommen (SSI) Vorteile
+[CA35] Earned Income Tax Credit (EITC)
+[SA35] Earned Income Tax Credit (EITC)
+[CA35] Supplemental Nutrition Assistance Program (SNAP)
+[SA35] Supplemental Nutrition Assistance Program (SNAP)
+[CA35] Sonstige Erträge Wartungsleistungen
+[SA35] Sonstige Erträge Wartungsleistungen
+[SA35] Familienhilfe
+[SA35] ohne Familienhilfe
+[CA30] Die Gesamtbeschäftigung
+[CA45] Wert der Bestandsänderung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[SA30] Die Gesamtbeschäftigung
+[SA45] Wert der Bestandsänderung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Nichtmetallische Mineralien, ausgenommen Brennstoffe
+[CA35] Arbeitslosenversicherung Entschädigung
+[SA35] Die Arbeitslosenversicherung Entschädigung
+[CA35] Versicherung Entschädigung staatliche Arbeitslosen
+[SA35] Versicherung Entschädigung staatliche Arbeitslosen
+[SQ35] Versicherung Entschädigung staatliche Arbeitslosen
+[CA35] Zustand Arbeitslosenversicherung Leistung unter Ausschluss
+[SA35] mit Ausnahme der staatlichen Arbeitslosenversicherung Entschädigung
+[SA35] Arbeitslosengeld für Bundeszivilangestellte (UCFE)
+[SA35] Arbeitslosengeld für Eisenbahner
+[SA35] Arbeitslosengeld für Veteranen (UCX)
+[SA35] Andere Entschädigung Arbeitslosigkeit
+[CA30] Lohn- und Gehalts Beschäftigung
+[CA45] Wert der Bestandsänderung: Vieh
+[SA30] Lohn- und Gehalts Beschäftigung
+[SA45] Wert der Bestandsänderung: Vieh
+[CA35] Veterans 'Vorteile
+[SA35] Veterans 'Vorteile
+[SA35] Veterans 'Renten- und Invaliditätsleistungen
+[SA35] Veterans 'Nachstellung Vorteile
+[SA35] Veterans 'Lebensversicherungsleistungen
+[SA35] Weitere Hilfe für Veteranen
+[CA30] Proprietors Beschäftigung
+[CA45] Wert der Bestandsänderung: Getreide
+[SA30] Proprietors Beschäftigung
+[SA45] Wert der Bestandsänderung: Getreide
+[CA35] Aus- und Weiterbildung Hilfe
+[SA35] Aus- und Weiterbildung Hilfe
+[CA45] Wert der Bestandsänderung: Materialien und Zubehör
+[SA45] Wert der Bestandsänderung: Materialien und Zubehör
+[CA30] Landbesitzer Beschäftigung
+[CA45] Summe Zahlungseingänge und sonstige Erträge
+[SA30] Landbesitzer Beschäftigung
+[SA45] Summe Zahlungseingänge und sonstige Erträge
+[CA35] Andere Transfereinnahmen von Personen aus Regierungen
+[SA35] Andere Transfereinnahmen von Personen aus Regierungen
+[CA30] Nichtfarmlohn- Eigentümer Beschäftigung
+[CA45] Produktionskosten
+[SA30] Nichtfarmlohn- Eigentümer Beschäftigung
+[SA45] Produktionskosten
+[CA30] Durchschnittliche Gewinn pro Job
+[CA45] Realisierte Nettoeinkommen
+[SA30] Durchschnittliche Gewinn pro Job
+[SA45] Realisierte Nettoeinkommen
+[CA1] Der Pro-Kopf persönliches Einkommen
+[RPP1] RPPs: Dienstleistungen: Die Mieten
+[SA1] Der Pro-Kopf persönliches Einkommen
+[SQ1] Der Pro-Kopf persönliches Einkommen
+[CA4] Der Pro-Kopf persönliches Einkommen
+[CA5] Der Pro-Kopf persönliches Einkommen
+[CA5N] Der Pro-Kopf persönliches Einkommen
+[CA91] Einstellung für den Aufenthalt
+[SA4] Der Pro-Kopf persönliches Einkommen
+[SA45] Einzahlungen: Fleischtiere und andere Tiere
+[SA5] Der Pro-Kopf persönliches Einkommen
+[SA50] Die Pro-Kopf persönliches Einkommen
+[SA5H] Der Pro-Kopf persönliches Einkommen
+[SA5N] Der Pro-Kopf persönliches Einkommen
+[SQ4] Der Pro-Kopf persönliches Einkommen
+[SQ5N] Der Pro-Kopf persönliches Einkommen
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bau
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Utilities
+[CA30] Die durchschnittlichen Löhne und Gehälter
+[CA45] Wert der Bestandsänderung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Utilities
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Utilities
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bau
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Utilities
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bau
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Utilities
+[SA30] Die durchschnittlichen Löhne und Gehälter
+[SA45] Wert der Bestandsänderung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Utilities
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Utilities
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Utilities
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Utilities
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Utilities
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Utilities
+[CA35] Aktuelle Transfereinnahmen von Non-Profit-Institutionen
+[SA35] Aktuelle Transfereinnahmen von Non-Profit-Institutionen
+[SA45] Einzahlungen: Rinder und Kälber
+[CA30] Durchschnittliche außerhalb der Landwirtschaft Inhaberin Einkommen
+[CA45] Gesamtnettoeinkommen einschließlich Corporate Farmen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Bauunternehmen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Bauunternehmen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Allgemeine Bauunternehmen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Allgemeine Bauunternehmer
+[SA30] Durchschnittliche außerhalb der Landwirtschaft Inhaberin Einkommen
+[SA45] Gesamtnettoeinkommen einschließlich Corporate Farmen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Bauunternehmen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Bauunternehmen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Allgemeine Bauunternehmer
+[SA35] Die Einnahmen aus der Bundesregierung
+[SA45] Einzahlungen: Hogs und Schweine
+[CA45] Das Nettoergebnis der Unternehmensfarmen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Schwere Bauunternehmer
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Schwere Bauunternehmer
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Schwere Bauunternehmer
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Schwere Bauunternehmer
+[SA45] Das Nettoergebnis der Unternehmensfarmen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Schwere Bauunternehmer
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Schwere Bauunternehmer
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Schwere Bauunternehmer
+[SA35] Die Einnahmen aus staatlichen und lokalen Regierungen
+[SA45] Einzahlungen: Schafe und andere Tiere
+[CA45] Statistische Anpassung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Spezialhandel Bauunternehmer
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Spezialhandel Bauunternehmer
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Fachhandelsunternehmen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Fachhandelsunternehmen
+[SA45] Statistische Anpassung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Spezialhandel Bauunternehmer
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Spezialhandel Bauunternehmer
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Spezialhandel Bauunternehmer
+[SA35] Die Einnahmen aus dem Unternehmen
+[CA45] Die gesamten Nettoeinkommen der Landbesitzer
+[SA45] Die gesamten Nettoeinkommen der Landbesitzer
+[CA4] Ergebnis nach Arbeitsort
+[CA5] Ergebnis nach Arbeitsort
+[CA5N] Ergebnis nach Arbeitsort
+[SA4] Ergebnis nach Arbeitsort
+[SA5] Ergebnis nach Arbeitsort
+[SA5H] Gesamtergebnis
+[SA5N] Ergebnis nach Arbeitsort
+[SQ4] Ergebnis nach Arbeitsort
+[SQ5] Ergebnis nach Arbeitsort
+[SQ5H] Ergebnis nach Arbeitsort
+[SQ5N] Ergebnis nach Arbeitsort
+[CA45] Farm Löhne und Gehälter
+[SA45] Farm Löhne und Gehälter
+[CA4] Beiträge für staatliche Sozialversicherung
+[CA5] Beiträge für staatliche Sozialversicherung
+[CA5N] Beiträge für staatliche Sozialversicherung
+[SA4] Beiträge für staatliche Sozialversicherung
+[SA5] Beiträge für staatliche Sozialversicherung
+[SA5H] Beiträge für staatliche Sozialversicherung
+[SA5N] Beiträge für staatliche Sozialversicherung
+[SQ4] Beiträge für staatliche Sozialversicherung
+[SQ5] Beiträge für staatliche Sozialversicherung
+[SQ5H] Beiträge für staatliche Sozialversicherung
+[SQ5N] Beiträge für staatliche Sozialversicherung
+[CA45] Farm Ergänzungen auf Löhne und Gehälter
+[SA45] Plus: Farm Ergänzungen auf Löhne und Gehälter
+[CA4] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[CA5] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[CA5N] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SA4] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SA5] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SA5H] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SA5N] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SQ4] Mitarbeiter und Selbständige Beiträge für staatliche Sozialversicherung
+[SQ5] Mitarbeiter und Selbständige Beiträge für staatliche Sozialversicherung
+[SQ5H] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[SQ5N] Mitarbeiter- und Selbstständige Beiträge für die Sozialversicherung Regierung
+[CA45] Farm Ergebnis
+[SA45] Farm Ergebnis
+[CA4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5H] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5H] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[RPP1] RPPs: Dienstleistungen: sonstige
+[CA25] Proprietors Beschäftigung
+[CA25N] Proprietors Beschäftigung
+[SA25] Proprietors Beschäftigung
+[SA25N] Proprietors Beschäftigung
+[SA45] Einzahlungen: Milchprodukte
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Verarbeitende Industrie
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bau
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Verarbeitende Industrie
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bau
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verarbeitende Industrie
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bau
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Bau
+[SQ6] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Bau
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau
+[CA35] Aktuelle Transfereinnahmen von Personen aus Unternehmen
+[SA35] Aktuelle Transfereinnahmen von Personen aus Unternehmen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bau von Gebäuden
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Bau von Gebäuden
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bau von Gebäuden
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bau von Gebäuden
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bau von Gebäuden
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Bau von Gebäuden
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bau von Gebäuden
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Schwere und Tiefbau Ingenieur
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Schwere und Tiefbau
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Schwere und Tiefbau
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Schwere und Tiefbau Ingenieur
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Schwere und Tiefbau Ingenieur
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Schwere und Tiefbau
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Schwere und Tiefbau
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Fachhandelsunternehmen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Fachhandelsunternehmen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Fachhandelsunternehmen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Fachhandelsunternehmen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Fachhandelsunternehmen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Fachhandelsunternehmen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Fachhandelsunternehmen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Gebrauchsgüter
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gebrauchsgüter
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gebrauchsgüter
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gebrauchsgüter
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Holz und Holzprodukte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bauholz und Holzprodukte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bauholz und Holzprodukte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bauholz und Holzprodukte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Holz und Holzprodukte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bauholz und Holzprodukte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bauholz und Holzprodukte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und Einrichtungsgegenstände
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und Einrichtungsgegenstände
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Möbel und Einrichtungsgegenstände
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Möbel und Einrichtungsgegenstände
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und Einrichtungsgegenstände
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und Einrichtungsgegenstände
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Möbel und Einrichtungsgegenstände
+[CA4] Einstellung für den Aufenthalt
+[CA5] Einstellung für den Aufenthalt
+[CA5N] Einstellung für den Aufenthalt
+[SA4] Einstellung für den Aufenthalt
+[SA5] Einstellung für den Aufenthalt
+[SA5H] Einstellung für den Aufenthalt
+[SA5N] Einstellung für den Aufenthalt
+[SQ4] Einstellung für den Aufenthalt
+[SQ5] Einstellung für den Aufenthalt
+[SQ5H] Einstellung für den Aufenthalt
+[SQ5N] Einstellung für den Aufenthalt
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Stein, Ton und Glasprodukte
+[CA6] Privat außerhalb der Landwirtschaft Ausgleich: Stein, Ton und Glasprodukte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Stein, Ton und Glasprodukte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Stein, Ton und Glasprodukte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Stein, Ton und Glasprodukte
+[SA6] Privat außerhalb der Landwirtschaft Ausgleich: Stein, Ton und Glasprodukte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Stein, Ton und Glasprodukte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Primärmetallindustrie
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Primärmetallindustrie
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Primärmetallindustrie
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Primärmetallindustrie
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Primärmetallindustrie
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Primärmetallindustrie
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Primärmetallindustrie
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Herstellung von Metallerzeugnissen
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Metallerzeugnisse
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Herstellung von Metallerzeugnissen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Metallerzeugnisse
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Herstellung von Metallerzeugnissen
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Metallerzeugnisse
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Metallerzeugnisse
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Industriemaschinen und -anlagen
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Industriemaschinen und -anlagen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Industriemaschinen und -anlagen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Industriemaschinen und -anlagen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Industriemaschinen und -anlagen
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Industriemaschinen und -anlagen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Industriemaschinen und -anlagen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Elektronische und andere elektrische Geräte
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Elektronische und andere elektrische Geräte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Elektronische und andere elektrische Geräte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Elektronische und andere elektrische Geräte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Elektronische und andere elektrische Geräte
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Elektronische und andere elektrische Geräte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Elektronische und andere elektrische Geräte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge und Geräte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Kraftfahrzeuge und Geräte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Kraftfahrzeuge und Geräte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kraftfahrzeuge und Geräte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge und Geräte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Kraftfahrzeuge und Geräte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kraftfahrzeuge und Geräte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transportausrüstung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transportausrüstung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Andere Transportausrüstung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstige Transportausrüstung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transportausrüstung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transportausrüstung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstige Transportausrüstung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Instrumente und verwandten Produkten
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Instrumente und zugehörige Produkte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Instrumente und verwandten Produkten
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Instrumente und verwandten Produkten
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Instrumente und verwandten Produkten
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Instrumente und zugehörige Produkte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Instrumente und zugehörige Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Fertigungsindustrie
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Sonstiges Fertigungsindustrie
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstiges Fertigungsindustrie
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstiges Fertigungsindustrie
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Fertigungsindustrie
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Sonstiges Fertigungsindustrie
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstiges Fertigungsindustrie
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Ordnance
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Ordnance
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Ordnance
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Ordnance
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Ordnance
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Ordnance
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Ordnance
+[CA30] Das Nettoergebnis nach Wohnort
+[CA4] Das Nettoergebnis nach Wohnort
+[CA5] Das Nettoergebnis nach Wohnort
+[CA5N] Das Nettoergebnis nach Wohnort
+[SA30] Das Nettoergebnis nach Wohnort
+[SA4] Das Nettoergebnis nach Wohnort
+[SA5] Das Nettoergebnis nach Wohnort
+[SA5H] Das Nettoergebnis nach Wohnort
+[SA5N] Das Nettoergebnis nach Wohnort
+[SQ4] Das Nettoergebnis nach Wohnort
+[SQ5] Das Nettoergebnis nach Wohnort
+[SQ5H] Das Nettoergebnis nach Wohnort
+[SQ5N] Das Nettoergebnis nach Wohnort
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Verbrauchsgüter Fertigung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verbrauchsgüter Fertigung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verbrauchsgüter Fertigung
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verbrauchsgüter Fertigung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittel und verwandte Produkte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittel & Getränke
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Lebensmittel und verwandte Produkte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lebensmittel und verwandte Produkte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittel und verwandte Produkte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittel & Getränke
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lebensmittel und verwandte Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Tabakwaren
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Tabakwaren
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Tabakwaren
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Tabakwaren
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Tabakwaren
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Tabakwaren
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Tabakwaren
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Textilmühlen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Textilmühlen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Textilmühlen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Textilmühlen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Textilmühlen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Textilmühlen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Textilmühlen
+[CA4] Dividenden, Zinsen und Miete
+[CA5] Dividenden, Zinsen und Miete
+[CA5N] Dividenden, Zinsen und Miete
+[SA4] Dividenden, Zinsen und Miete
+[SA5] Dividenden, Zinsen und Miete
+[SA5H] Dividenden, Zinsen und Miete
+[SA5N] Dividenden, Zinsen und Miete
+[SQ4] Dividenden, Zinsen und Miete
+[SQ5] Dividenden, Zinsen und Miete
+[SQ5H] Dividenden, Zinsen und Miete
+[SQ5N] Dividenden, Zinsen und Miete
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und andere textile Produkte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und andere textile Produkte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bekleidung und andere textile Produkte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bekleidung und andere textile Produkte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und andere textile Produkte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und andere textile Produkte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bekleidung und andere textile Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Papier und verwandte Produkte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Papier und verwandte Produkte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Papier und verwandte Produkte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Papier und verwandte Produkte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Papier und verwandte Produkte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Papier und verwandte Produkte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Papier und verwandte Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Druck und Verlag
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Druck und Verlag
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Druck und Verlag
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Druck und Verlag
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Druck und Verlag
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Druck und Verlag
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Druck und Verlag
+[CA4] Persönliche Stromübertragung Quittungen
+[CA5] Persönliche Stromübertragung Quittungen
+[CA5N] Persönliche Stromübertragung Quittungen
+[SA4] Persönliche Stromübertragung Quittungen
+[SA5] Persönliche Stromübertragung Quittungen
+[SA5H] Persönliche Stromübertragung Quittungen
+[SA5N] Persönliche Stromübertragung Quittungen
+[SQ4] Persönliche Stromübertragung Quittungen
+[SQ5] Persönliche Stromübertragung Quittungen
+[SQ5H] Persönliche Stromübertragung Quittungen
+[SQ5N] Persönliche Stromübertragung Quittungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Chemikalien und verwandte Produkte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Chemikalien und verwandte Produkte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Chemikalien und verwandte Produkte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Chemikalien und verwandte Produkte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Chemikalien und verwandte Produkte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Chemikalien und verwandte Produkte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Chemikalien und verwandte Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Erdöl und Kohle-Produkte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Erdöl und Kohle-Produkte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Erdöl und Kohle-Produkte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erdöl und Kohle-Produkte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Erdöl und Kohle-Produkte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Erdöl und Kohle-Produkte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Erdöl und Kohle-Produkte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Gummi und verschiedene Kunststoffprodukte
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Gummi und verschiedene Kunststoffprodukte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Gummi und verschiedene Kunststoffprodukte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gummi und verschiedene Kunststoffprodukte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Gummi und verschiedene Kunststoffprodukte
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Gummi und verschiedene Kunststoffprodukte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gummi und verschiedene Kunststoffprodukte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Leder und Lederwaren
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Leder und Lederwaren
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Leder und Lederwaren
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Leder und Lederwaren
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Leder und Lederwaren
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Leder und Lederwaren
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Leder und Lederwaren
+[CA6] Löhne und Gehälter
+[CA6N] Löhne und Gehälter
+[SA6] Löhne und Gehälter
+[SA6N] Löhne und Gehälter
+[SQ6] Löhne und Gehälter
+[SQ6N] Löhne und Gehälter
+[CA25] Landbesitzer Beschäftigung
+[CA25N] Landbesitzer Beschäftigung
+[CA30] Persönliche Stromübertragung Quittungen
+[CA4] Löhne und Gehälter
+[CA5] Löhne und Gehälter
+[CA5N] Löhne und Gehälter
+[SA25] Landbesitzer Beschäftigung
+[SA25N] Landbesitzer Beschäftigung
+[SA30] Persönliche Stromübertragung Quittungen
+[SA4] Löhne und Gehälter
+[SA45] Einzahlungen: Geflügel und Geflügelprodukte
+[SA5] Löhne und Gehälter
+[SA50] verfügbare Pro-Kopf persönliches Einkommen
+[SA5H] Löhne und Gehälter
+[SA5N] Löhne und Gehälter
+Löhne und Gehälter [SA7] nach Arbeitsort
+[SA7H] Löhne und Gehälter
+[SA7N] Löhne und Gehälter nach Arbeitsort (in Tausend US-Dollar)
+[SQ4] Löhne und Gehälter
+[SQ5] Löhne und Gehälter
+[SQ5H] Löhne und Gehälter
+[SQ5N] Löhne und Gehälter
+[SQ7] Löhne und Gehälter nach Arbeitsort
+Löhne und Gehälter [SQ7H] nach Arbeitsort
+[SQ7N] Löhne und Gehälter nach Arbeitsort
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Transport und öffentliche Versorgungs
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verarbeitende Industrie
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Transport und öffentliche Versorgungs
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Transport und öffentliche Versorgungs
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Transport und öffentliche Versorgungs
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verarbeitende Industrie
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Transport und öffentliche Versorgungs
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verarbeitende Industrie
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Transport und öffentliche Versorgungs
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Transport und öffentliche Versorgungs
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Transport und öffentliche Versorgungs
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und öffentliche Versorgungs
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und öffentliche Versorgungs
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Transport und öffentliche Versorgungs
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Transport und öffentliche Versorgungs
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Verarbeitende Industrie
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Transport und öffentliche Versorgungs
+[SQ6N] Privat außerhalb der Landwirtschaft Vergütung: Manufacturing
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und öffentliche Versorgungs
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und öffentliche Versorgungs
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verarbeitende Industrie
+[SQ35] Alle anderen persönlichen aktuellen Transfereinnahmen
+[SA51] verfügbaren persönlichen Einkommen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Eisenbahn-Transport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Eisenbahn Transport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Eisenbahn-Transport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gebrauchsgüter
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Eisenbahn-Transport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gebrauchsgüter
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Eisenbahn-Transport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Eisenbahn Transport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Eisenbahn-Transport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gebrauchsgüter
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Gebrauchsgüter
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Gebrauchsgüter
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gebrauchsgüter
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Holzproduktefertigung
+[CA6N] Privat Kompensation außerhalb der Landwirtschaft: Holzproduktefertigung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Holzproduktefertigung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Holzproduktefertigung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Holzproduktefertigung
+[SA6N] Privat Kompensation außerhalb der Landwirtschaft: Holzproduktefertigung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Holzproduktefertigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Nichtmetallische Mineralproduktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Nichtmetallische Mineralproduktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Nichtmetallische Mineralproduktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Nichtmetallische Mineralproduktherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Nichtmetallische Mineralproduktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Nichtmetallische Mineralproduktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Nichtmetallische Mineralproduktherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Primärmetallherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Primärmetallherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Primärmetallherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Primärmetallherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Primärmetallherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Primärmetallherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Primärmetallherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Metallproduktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Metallproduktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Metallproduktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Metall Produktherstellung Vorgefertigte
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Metallproduktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Metallproduktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Vorgefertigte Produktherstellung Metall
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Maschinen Herstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Maschinen Herstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Maschinen Herstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Maschinen Herstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Maschinen Herstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Maschinen Herstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Maschinen Herstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Computer und elektronische Produktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Computer und elektronische Produktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Computer und elektronische Produktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Computer und elektronische Produktherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Computer und elektronische Produktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Computer und elektronische Produktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Computer und elektronische Produktherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Elektrische Ausrüstung, Gerät und Komponentenfertigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kraftfahrzeuge, Aufbauten und Anhänger und Teile Herstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transport Anlagenbau
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transportausrüstungen Herstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Andere Transport Anlagenbau
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstige Transportausrüstung Fertigung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transport Anlagenbau
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transportausrüstungen Herstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstige Transportausrüstung Fertigung
+[SA51] Bevölkerung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: LKW-Transport und Lagerhaltung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: LKW-Transport und Lagerhaltung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: LKW-Transport und Lagerhaltung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: LKW-Transport und Lagerhaltung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: LKW-Transport und Lagerhaltung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: LKW-Transport und Lagerhaltung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: LKW-Transport und Lagerhaltung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und zugehörige Produktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und zugehörige Produktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Möbel und zugehörige Produktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Die Möbel und die damit verbundenen Fertigungs Produkt
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und zugehörige Produktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und zugehörige Produktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Möbel und zugehörige Produktherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Fertigung
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Sonstiges Fertigung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstiges Herstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstiges Herstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Fertigung
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Sonstiges Fertigung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstiges Fertigung
+[SA51] verfügbare Pro-Kopf persönliches Einkommen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Wassertransport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Wassertransport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Wassertransport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verbrauchsgüter Fertigung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Wassertransport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verbrauchsgüter Fertigung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Wassertransport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Wassertransport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Wassertransport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verbrauchsgüter Fertigung
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Verbrauchsgüter Fertigung
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Verbrauchsgüter Fertigung
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verbrauchsgüter Fertigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittelherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittelherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Lebensmittelherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lebensmittelherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittelherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittelherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lebensmittelherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Getränke- und Tabakproduktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Getränke- und Tabakproduktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Getränke- und Tabakproduktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Getränke- und Tabakproduktherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Getränke- und Tabakproduktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Getränke- und Tabakproduktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Getränke und Herstellung von Tabakerzeugnissen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Textilfabriken
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Textilfabriken
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Textilfabriken
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Textilfabriken
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Textilfabriken
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Textilfabriken
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Textilfabriken
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Textile Produktmühlen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Textilproduktmühlen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Textilproduktmühlen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Textilproduktmühlen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Textile Produktmühlen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Textilproduktmühlen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Textilproduktmühlen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung Herstellung
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Bekleidung Herstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bekleidung Herstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bekleidung Herstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung Herstellung
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Bekleidung Herstellung
+[SA7N] Privat nonfarmwages und Gehälter: Bekleidung Herstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Leder und verwandte Produktherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Leder und verwandte Produktherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Leder und verwandte Produktherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Leder und verwandte Produktherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Leder und verwandte Produktherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Leder und verwandte Produktherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Leder und verwandte Produktherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Papierherstellung
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Papierherstellung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Papierherstellung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Papierherstellung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Papierherstellung
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Papierherstellung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Papierherstellung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Druck und die damit verbundenen Support-Aktivitäten
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Druck und zugehörige Support-Aktivitäten
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Der Druck und die damit verbundenen Support-Aktivitäten
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Aktivitäten Druck und damit verbundene Unterstützung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Druck und die damit verbundenen Support-Aktivitäten
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Druck und zugehörige Support-Aktivitäten
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Der Druck und die damit verbundenen Support-Aktivitäten
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erdöl und Herstellung Kohleprodukte
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erdöl und Kohle-Produkte Fertigung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Erdöl und Kohle-Produkte Fertigung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erdöl und Herstellung Kohleprodukte
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erdöl und Herstellung Kohleprodukte
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Erdöl und Kohle-Produkte Fertigung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Erdöl und Herstellung Kohleprodukte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transport
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transport
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Andere Transport
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Andere Transport
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Transport
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Transport
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Andere Transport
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Lokale und Fernpersonenbeförderung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Chemische Herstellungs
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Lokale und Fernpersonenbeförderung
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Chemische Herstellungs
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Lokale und Fernpersonenbeförderung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Chemische Herstellungs
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lokale und Fernpersonenbeförderung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Chemische Herstellungs
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Lokale und Fernpersonenbeförderung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Chemische Herstellungs
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Lokale und Fernpersonenbeförderung
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Chemische Herstellungs
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lokale und Fernpersonenbeförderung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Chemische Herstellungs
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Transport von Luft
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Herstellung Kunststoffe und Gummiwaren
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Transport von Luft
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kunststoff- und Gummiprodukte Fertigung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Transport auf dem Luftweg
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kunststoffe und Gummiwaren Herstellung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Transport auf dem Luftweg
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Herstellung Kunststoffe und Gummiwaren
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Transport von Luft
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Herstellung Kunststoffe und Gummiwaren
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Transport von Luft
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kunststoff- und Gummiprodukte Fertigung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport auf dem Luftweg
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kunststoffe und Gummiwaren Herstellung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Pipelines, außer Erdgas
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Pipelines, außer Erdgas
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Pipelines, außer Erdgas
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Pipelines, mit Ausnahme von Erdgas
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Pipelines, außer Erdgas
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Pipelines, außer Erdgas
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Pipelines, außer Erdgas
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Beförderungsleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Beförderungsleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Beförderungsleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Beförderungsleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Beförderungsleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Beförderungsleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Beförderungsleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Kommunikation
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Kommunikation
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Kommunikation
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kommunikation
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Kommunikation
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Kommunikation
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kommunikation
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Elektro, Gas und Sanitärdienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Elektro-, Gas- und Sanitärdienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Elektro-, Gas- und Sanitärdienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Elektro-, Gas- und Sanitärdienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Elektro, Gas und Sanitärdienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Elektro-, Gas- und Sanitärdienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Elektro-, Gas- und Sanitärdienstleistungen
+[CA6] Ergänzungen auf Löhne und Gehälter
+[CA6N] Ergänzungen auf Löhne und Gehälter
+[SA6] Ergänzungen auf Löhne und Gehälter
+[SA6N] Ergänzungen auf Löhne und Gehälter
+[SQ6] Ergänzungen auf Löhne und Gehälter
+[SQ6N] Ergänzungen auf Löhne und Gehälter
+[CA25] Nichtfarmlohn- Eigentümer Beschäftigung
+[CA25N] Nichtfarmlohn- Eigentümer Beschäftigung
+[CA30] Einkommenssicherung Vorteile
+[CA4] Ergänzungen auf Löhne und Gehälter
+[CA45] Einzahlungen: Getreide
+[CA5] Ergänzungen auf Löhne und Gehälter
+[CA5N] Ergänzungen auf Löhne und Gehälter
+[SA25] Nichtfarmlohn- Eigentümer Beschäftigung
+[SA25N] Nichtfarmlohn- Eigentümer Beschäftigung
+[SA30] Einkommenssicherung Vorteile
+[SA4] Ergänzungen auf Löhne und Gehälter
+[SA45] Einzahlungen: Getreide
+[SA5] Ergänzungen auf Löhne und Gehälter
+[SA50] Persönliche laufenden Steuern
+[SA5H] Ergänzungen auf Löhne und Gehälter
+[SA5N] Ergänzungen auf Löhne und Gehälter
+[SQ4] Ergänzungen auf Löhne und Gehälter
+[SQ5] Ergänzungen auf Löhne und Gehälter
+[SQ5H] Ergänzungen auf Löhne und Gehälter
+[SQ5N] Ergänzungen auf Löhne und Gehälter
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Großhandel
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Großhandel
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Großhandel
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Groß- und Einzelhandel
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Groß- und Einzelhandel
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Großhandel
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Groß- und Einzelhandel
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Groß- und Einzelhandel
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Großhandel
+[CA4] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA5] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA5N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA4] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA5] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA5H] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA5N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ4] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ5] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ5H] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ5N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Großhandel
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Großhandel
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Großhandel
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Großhandel
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Großhandel
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Großhandel
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Großhandel
+[CA4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5H] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ4] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5H] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ5N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Einzelhandel
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Einzelhandel
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Einzelhandel
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Einzelhandel
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Einzelhandel
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Baustoffe und Gartengeräte
+[CA6] Privat außerhalb der Landwirtschaft Ausgleich: Baustoffe und Gartengeräte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Baustoffe und Gartengeräte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Baustoffe und Gartengeräte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Baustoffe und Gartengeräte
+[SA6] Privat außerhalb der Landwirtschaft Ausgleich: Baustoffe und Gartengeräte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Baustoffe und Gartengeräte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Warengeschäfte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Warengeschäfte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Allgemeine Warengeschäfte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Allgemeine Warengeschäfte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Warengeschäfte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Warengeschäfte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Allgemeine Warengeschäfte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittelgeschäfte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittelgeschäfte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Lebensmittelgeschäfte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lebensmittelgeschäfte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Lebensmittelgeschäfte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Lebensmittelgeschäfte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lebensmittelgeschäfte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Autohändler und Tankstellen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Autohändler und Tankstellen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Autohändler und Tankstellen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Autohändler und Tankstellen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Autohändler und Tankstellen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Autohändler und Tankstellen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Autohändler und Tankstellen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und Accessoires
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und Accessoires
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bekleidung und Accessoires
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bekleidung und Accessoires
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und Accessoires
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und Accessoires
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bekleidung und Accessoires
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Home Möbel und Einrichtungsgegenstände speichert
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Home Möbel- und Einrichtungsgeschäften
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Home Möbel und Einrichtungsgegenstände speichert
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Home Möbel und Einrichtungsgegenstände speichert
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Home Möbel und Einrichtungsgegenstände speichert
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Home Möbel- und Einrichtungsgeschäften
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Home Möbel und Einrichtungsgegenstände speichert
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Essen und Trinken Orte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Essen und Trinken Orte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Essen und Trinken Orte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Essen und Trinken Orte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Essen und Trinken Orte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Essen und Trinken Orte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Essen und Trinken Orte
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Einzelhandel
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Einzelhandel
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstiges Einzelhandel
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstige Einzelhandel
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Einzelhandel
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Einzelhandel
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstiges Einzelhandel
+[CA6] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA6N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA6] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SA6N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ6] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[SQ6N] Arbeitgeberbeiträge für Arbeitnehmer Renten- und Versicherungsfonds
+[CA25] Bauernhof Beschäftigung
+[CA25N] Bauernhof Beschäftigung
+[CA30] Arbeitslosenversicherung Entschädigung
+[CA4] Proprietors 'Einkommen
+[CA5] Proprietors 'Einkommen
+[CA5N] Proprietors 'Einkommen
+[SA25] Bauernhof Beschäftigung
+[SA25N] Bauernhof Beschäftigung
+[SA27] Bauernhof Lohn- und Gehalts Beschäftigung
+[SA27N] Bauernhof Lohn- und Gehalts Beschäftigung
+[SA30] Die Arbeitslosenversicherung Entschädigung
+[SA4] Proprietors 'Einkommen
+[SA45] Einzahlungen: Gesamt Körner
+[SA5] Proprietors 'Einkommen
+[SA50] Persönliche laufenden Steuern an Bund
+[SA5H] Proprietors 'Einkommen
+[SA5N] Proprietors 'Einkommen
+[SQ4] Proprietors 'Einkommen
+[SQ5] Proprietors 'Einkommen
+[SQ5H] Proprietors 'Einkommen
+[SQ5N] Proprietors 'Einkommen
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Finanzen, Versicherungen und Immobilien
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Einzelhandel
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen, Versicherungen und Immobilien
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen, Versicherungen und Immobilien
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Finanzen, Versicherungen und Immobilien
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Einzelhandel
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Finanzen, Versicherungen und Immobilien
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Einzelhandel
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen, Versicherungen und Immobilien
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen, Versicherungen und Immobilien
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen, Versicherungen und Immobilien
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen, Versicherungen und Immobilien
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen, Versicherungen und Immobilien
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Einzelhandel
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen, Versicherungen und Immobilien
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Finanzen, Versicherungen und Immobilien
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Einzelhandel
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung: Finanzen, Versicherungen und Immobilien
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Einzelhandel
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen, Versicherungen und Immobilien
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Finanzen, Versicherungen und Immobilien
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Einzelhandel
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge und Teilehändler
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Kraftfahrzeuge und Teilehändler
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kraftfahrzeuge und Teilehändler
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Händler Kraftfahrzeug und Teile
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kraftfahrzeuge und Teilehändler
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Kraftfahrzeuge und Teilehändler
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kraftfahrzeuge und Teilehändler
+[CA4] Die Gesamtbeschäftigung
+[SA4] Die Gesamtbeschäftigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und Einrichtungsgegenstände speichert
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und Einrichtungsgegenstände speichert
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Möbel und Einrichtungsgegenstände speichert
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Möbel und Einrichtungsgegenstände speichert
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Möbel und Einrichtungsgegenstände speichert
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Möbel und Einrichtungsgegenstände speichert
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Möbel und Einrichtungsgegenstände speichert
+[CA4] Lohn- und Gehalts Beschäftigung
+[SA4] Lohn- und Gehalts Beschäftigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Elektronik und Appliance speichert
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Elektronik und Appliance speichert
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Elektronik und Appliance speichert
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Elektronik und Appliance speichert
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Elektronik und Appliance speichert
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Elektronik und Appliance speichert
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Elektronik und Appliance speichert
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Baumaterial und Gartengeräte und beliefert Händler
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Baumaterial und Gartengeräte und beliefert Händler
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Baumaterial und Gartengeräte und beliefert Händler
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Baumaterial und Gartengeräte und beliefert Händler
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Baumaterial und Gartengeräte und beliefert Händler
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Baumaterial und Gartengeräte und beliefert Händler
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Baumaterial und Gartengeräte und beliefert Händler
+[CA4] Proprietors Beschäftigung
+[SA4] Proprietors Beschäftigung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Essen und Getränkemärkte
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Essen und Getränkemärkte
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Essen und Getränkemärkte
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Nahrungs- und Getränkemärkte
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Essen und Getränkemärkte
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Essen und Getränkemärkte
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Essen und Getränkemärkte
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheit und Körperpflege speichert
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheit und Körperpflege speichert
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gesundheit und Körperpflege speichert
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gesundheit und Körperpflege speichert
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheit und Körperpflege speichert
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheit und Körperpflege speichert
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gesundheit und Körperpflege speichert
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gasoline stations
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gasoline stations
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Gasoline stations
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gasoline stations
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Gasoline stations
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Gasoline stations
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gasoline stations
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und Bekleidungszubehör-Shops
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und Bekleidungszubehör-Shops
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Bekleidung und Bekleidungszubehör-Shops
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bekleidung und Bekleidungszubehör-Shops
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Bekleidung und Bekleidungszubehör-Shops
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Bekleidung und Bekleidungszubehör-Shops
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bekleidung und Bekleidungszubehör-Shops
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sportartikel, Hobby, Musikinstrument, und Buchhandlungen
+[CA4] Landbesitzer die Einkommen
+[CA5] Landbesitzer die Einkommen
+[CA5N] Landbesitzer die Einkommen
+[SA4] Landbesitzer die Einkommen
+[SA45] Einzahlungen: Mais
+[SA5] Landbesitzer die Einkommen
+[SA5H] Landbesitzer die Einkommen
+[SA5N] Landbesitzer die Einkommen
+[SQ4] Einkommen 'Farm Eigentümer
+[SQ5] Einkommen 'Farm Eigentümer
+[SQ5H] Landbesitzer die Einkommen
+[SQ5N] Landbesitzer die Einkommen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Depository und nondepository Institutionen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Depository und nondepository Institutionen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Depository und nondepository Institutionen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Depository und nondepository Institutionen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Depository und nondepository Institutionen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Depository und nondepository Institutionen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Depository und nondepository Institutionen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Warengeschäfte
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Warengeschäfte
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Allgemeine Warengeschäfte
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Allgemeine Warengeschäfte
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Allgemeine Warengeschäfte
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Allgemeine Warengeschäfte
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Allgemeine Warengeschäfte
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Shop Einzelhändler
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Shop Einzelhändler
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstiges Shop Einzelhändler
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstiges Shop Einzelhändler
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Sonstiges Shop Einzelhändler
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Shop Einzelhändler
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sonstiges Shop Einzelhändler
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Nonstore Einzelhändler
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Nonstore Einzelhändler
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Nonstore Einzelhändler
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Nonstore Einzelhändler
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Nonstore Einzelhändler
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Nonstore Einzelhändler
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Nonstore Einzelhändler
+[CA4] Nichtfarmlohn- Inhaberin Einkommen
+[CA5] Nichtfarmlohn- Inhaberin Einkommen
+[CA5N] Nichtfarmlohn- Inhaberin Einkommen
+[SA4] Nichtfarmlohn- Inhaberin Einkommen
+[SA45] Einzahlungen: Hafer
+[SA5] Nichtfarmlohn- Inhaberin Einkommen
+[SA5H] Nichtfarmlohn- Inhaberin Einkommen
+[SA5N] Nichtfarmlohn- Inhaberin Einkommen
+[SQ4] Nichtfarmlohn- Inhaberin Einkommen
+[SQ5] Nichtfarmlohn- Inhaberin Einkommen
+[SQ5H] Nichtfarmlohn- Inhaberin Einkommen
+[SQ5N] Nichtfarmlohn- Inhaberin Einkommen
+[SA45] Einzahlungen: Sorghum
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Finanzen, Versicherungen und Immobilien
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Finanzen, Versicherungen und Immobilien
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Andere Finanzen, Versicherungen und Immobilien
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Andere Finanzen, Versicherungen und Immobilien
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Andere Finanzen, Versicherungen und Immobilien
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Andere Finanzen, Versicherungen und Immobilien
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Andere Finanzen, Versicherungen und Immobilien
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Sicherheit und Rohstoff-Brokern
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Sicherheit und Rohstoff-Brokern
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Sicherheit und Rohstoff-Brokern
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sicherheit und Rohstoff-Brokern
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Sicherheit und Rohstoff-Brokern
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Sicherheit und Rohstoff-Brokern
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sicherheit und Rohstoff-Brokern
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsträger
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsträger
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Versicherungsträger
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Versicherungsträger
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsträger
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsträger
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Versicherungsträger
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsagenten, Makler und Dienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsagenten, Makler und Dienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Versicherungsagenten, Makler und Dienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Versicherungsagenten, Makler und Dienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Versicherungsagenten, Makler und Dienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Versicherungsagenten, Makler und Dienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Versicherungsagenten, Makler und Dienstleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Immobilien
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Immobilien
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Immobilien
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Immobilien
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Immobilien
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Kombinierte Immobilien, Versicherungen usw.
+[CA6] Privat außerhalb der Landwirtschaft Ausgleich: Kombinierte Immobilien, Versicherungen usw.
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Kombinierte Immobilien, Versicherungen usw.
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kombinierte Immobilien, Versicherungen usw.
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Kombinierte Immobilien, Versicherungen usw.
+[SA6] Privat außerhalb der Landwirtschaft Ausgleich: Kombinierte Immobilien, Versicherungen usw.
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kombi-Immobilien, Versicherungen usw.
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Holding und andere Anlage Büros
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Holding und andere Anlage Büros
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Holding und andere Anlage Büros
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Holding und andere Anlage Büros
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Holding und andere Anlage Büros
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Holding und andere Anlage Büros
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Holding und andere Anlage Büros
+[SA45] Einzahlungen: Weizen
+[SA45] Einzahlungen: Soybeans
+[SA45] Einzahlungen: Andere Körner
+[CA6] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA6N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA6] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SA6N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ6] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[SQ6N] Arbeitgeberbeiträge für staatliche Sozialversicherung
+[CA25] Nichtfarmlohn- Beschäftigung
+[CA25N] Nichtfarmlohn- Beschäftigung
+[CA30] Ruhestand und andere
+[SA25] Nichtfarmlohn- Beschäftigung
+[SA25N] Nichtfarmlohn- Beschäftigung
+[SA27] Nichtfarmlohn- Lohn- und Gehalts Beschäftigung
+[SA27N] Nichtfarmlohn- Lohn- und Gehalts Beschäftigung
+[SA30] Ruhestand und andere
+[SA45] Einzahlungen: Heu, Silage, usw.
+[SA50] Bundesregierung Ertragsteuern (nach Abzug der Erstattungen)
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung: Dienstleistungen
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Transport und Lagerung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Dienstleistungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Transport und Lagerung
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Dienstleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Transport und Lagerung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Transport und Lagerung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Dienstleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Transport und Lagerung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Dienstleistungen
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis: Dienstleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Transport und Lagerung
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Dienstleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Transport und Lagerung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Dienstleistungen
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und Lagerung
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis: Dienstleistungen
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis: Dienstleistungen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Transport und Lagerung
+[SQ6] Privat außerhalb der Landwirtschaft Vergütung: Dienstleistungen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Transport und Lagerung
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Dienstleistungen
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Dienstleistungen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transport und Lagerung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lufttransport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lufttransport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Lufttransport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lufttransport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lufttransport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Lufttransport
+[SA7N] Privat nonfarmwages und Gehälter: Lufttransport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Schienenverkehr
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Schienentransport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Schienenverkehr
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Schienentransport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Der Schienenverkehr
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Schienentransport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Schienenverkehr
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Wassertransport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Wassertransport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Wassertransport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Wassertransport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Wassertransport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Wassertransport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Wassertransport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: LKW-Transport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: LKW-Transport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: LKW-Transport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: LKW-Transport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: LKW-Transport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: LKW-Transport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: LKW-Transport
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Hotels und andere Übernachtungsplätze
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Transit und Boden Personenbeförderung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Hotels und andere Übernachtungsplätze
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Transit und Boden Personenbeförderung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Hotels und andere Übernachtungsplätze
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Transit und Boden Personenbeförderung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Hotels und andere Übernachtungsplätze
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Transit und Boden Personenbeförderung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Hotels und andere Übernachtungsplätze
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Transit und Boden Personenbeförderung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Hotels und andere Übernachtungsplätze
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Transit und Boden Personenbeförderung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Hotels und andere Übernachtungsplätze
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Transit und Boden Personenbeförderung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Rohrleitungstransport
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Rohrleitungstransport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Rohrleitungstransport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Rohrleitungstransport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Rohrleitungstransport
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Rohrleitungstransport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Rohrleitungstransport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Ausflugs- und Besichtigungsbeförderung
+[CA6N] Privat außerhalb der Landwirtschaft Ausgleich: Ausflugs- und Besichtigungsbeförderung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Ausflugs- und Besichtigungsbeförderung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Ausflugs- und Besichtigungsbeförderung
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Ausflugs- und Besichtigungsbeförderung
+[SA6N] Privat außerhalb der Landwirtschaft Ausgleich: Ausflugs- und Besichtigungsbeförderung
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Ausflugs- und Besichtigungsbeförderung
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für den Transport
+[CA6N] Privat außerhalb der Landwirtschaft Vergütung: Erbringung von Dienstleistungen für den Transport
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Erbringung von Dienstleistungen für den Transport
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Erbringung von Dienstleistungen für den Transport
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Erbringung von Dienstleistungen für den Transport
+[SA6N] Privat außerhalb der Landwirtschaft Vergütung: Erbringung von Dienstleistungen für den Transport
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Erbringung von Dienstleistungen für den Transport
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kuriere und Boten
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kuriere und Boten
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Kuriere und Boten
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kuriere und Boten
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Kuriere und Boten
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Kuriere und Boten
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kuriere und Boten
+[CA5] Farm Ergebnis
+[CA5N] Farm Ergebnis
+[CA6] Farm Entschädigung
+[CA6N] Farm Entschädigung
+[SA5] Farm Ergebnis
+[SA50] Bundesregierung Ertragsteuern (brutto)
+[SA5H] Farm Ergebnis
+[SA5N] Farm Ergebnis
+[SA6] Farm Entschädigung
+[SA6N] Farm Entschädigung
+[SA7] Farm Löhne und Gehälter
+[SA7H] Farm Löhne und Gehälter
+[SA7N] Farm Löhne und Gehälter
+[SQ5] Farm Ergebnis
+[SQ5H] Farm Ergebnis
+[SQ5N] Farm Ergebnis
+[SQ6] Farm Entschädigung
+[SQ6N] Farm Entschädigung
+[SQ7] Farm Löhne und Gehälter
+[SQ7H] Farm Löhne und Gehälter
+[SQ7N] Farm Löhne und Gehälter
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Persönliche Dienste
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Persönliche Dienste
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Persönliche Dienste
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Persönliche Dienste
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Persönliche Dienste
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Persönliche Dienste
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Persönliche Dienste
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lagerei
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Lagerei
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Lagerei
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Lagerei
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Lagerei
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Lagerei
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Lagerei
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Private Haushalte
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Private Haushalte
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Private Haushalte
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Private Haushalte
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Private Haushalte
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Private Haushalte
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Private Haushalte
+[CA5] Nichtfarmlohn- Ergebnis
+[CA5N] Nichtfarmlohn- Ergebnis
+[CA6] Nichtfarmlohn- Entschädigung
+[CA6N] Nichtfarmlohn- Entschädigung
+[SA5] Nichtfarmlohn- Ergebnis
+[SA50] Die Erstattung
+[SA5H] Nichtfarmlohn- Ergebnis
+[SA5N] Nichtfarmlohn- Ergebnis
+[SA6] Nichtfarmlohn- Entschädigung
+[SA6N] Nichtfarmlohn- Entschädigung
+[SA7] Nichtfarmlohn- Löhne und Gehälter
+[SA7H] Nichtfarmlohn- Löhne und Gehälter
+[SA7N] Nichtfarmlohn- Löhne und Gehälter
+[SQ5] Nichtfarmlohn- Ergebnis
+[SQ5H] Nichtfarmlohn- Ergebnis
+[SQ5N] Nichtfarmlohn- Ergebnis
+[SQ6] Nichtfarmlohn- Entschädigung
+[SQ6N] Nichtfarmlohn- Entschädigung
+[SQ7] Nichtfarmlohn- Löhne und Gehälter
+[SQ7H] Nichtfarmlohn- Löhne und Gehälter
+[SQ7N] Nichtfarmlohn- Löhne und Gehälter
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Geschäftsdienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Geschäftsdienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Geschäftsdienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Geschäftsdienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Geschäftsdienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Geschäftsdienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Dienstleistungen für Unternehmen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Kfz-Reparatur, Dienstleistungen und Parkplatz
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Verschiedene Reparaturdienste
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Reparaturdienste
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Sonstiges Reparaturdienste
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sonstiges Reparaturdienste
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Verschiedene Reparaturdienste
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Sonstiges Reparaturdienste
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verschiedene Reparaturdienste
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Freizeitparks und Freizeitgestaltung
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Freizeitparks und Freizeitgestaltung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Freizeitparks und Freizeitgestaltung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Freizeitparks und Freizeitgestaltung
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Freizeitparks und Freizeitgestaltung
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Freizeitparks und Freizeitgestaltung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Freizeitparks und Freizeitgestaltung
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Bewegte Bilder
+[CA6] Privat außerhalb der Landwirtschaft Kompensation: Bewegte Bilder
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bewegte Bilder
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bewegte Bilder
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Bewegte Bilder
+[SA6] Privat außerhalb der Landwirtschaft Kompensation: Bewegte Bilder
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bewegte Bilder
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheitsdienste
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheitsdienste
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Gesundheitswesen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Gesundheitswesen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Gesundheitsdienste
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Gesundheitsdienste
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Gesundheitsdienste
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Juristische Dienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Juristische Dienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Juristische Dienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Juristische Dienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Juristische Dienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Juristische Dienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Juristische Dienstleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Bildungsleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Bildungsleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Bildungsleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Bildungsleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Bildungsleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Bildungsleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Bildungsleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Sozialdienste
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Sozialdienste
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Sozialdienste
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Sozialdienste
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Sozialdienste
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Sozialdienste
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Sozialdienste
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Museen, botanische, zoologische Gärten
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Museen, botanische, zoologische Gärten
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Museen, botanische, zoologische Gärten
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Museen, botanische, zoologische Gärten
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Museen, botanische, zoologische Gärten
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Museen, botanische, zoologische Gärten
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Museen, botanische, zoologische Gärten
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Die Mitgliedschaft Organisationen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Die Mitgliedschaft Organisationen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Die Mitgliedschaft Organisationen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Die Mitgliedschaft Organisationen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Die Mitgliedschaft Organisationen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Die Mitgliedschaft Organisationen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Die Mitgliedschaft Organisationen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Engineering und Management-Dienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Vergütung: Engineering und Management-Dienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Engineering und Management-Dienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Engineering und Management-Dienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Engineering und Management-Dienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Vergütung: Engineering und Management-Dienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Engineering und Management-Dienstleistungen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Verschiedene Dienstleistungen
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung: Verschiedene Dienstleistungen
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung: Verschiedene Dienstleistungen
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verschiedene Dienstleistungen
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis: Verschiedene Dienstleistungen
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung: Verschiedene Dienstleistungen
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verschiedene Dienstleistungen
+[CA6] Durchschnittliche Vergütung pro Job
+[CA6N] Durchschnittliche Vergütung pro Job
+[SA6] Durchschnittliche Vergütung pro Job
+[SA6N] Durchschnittliche Vergütung pro Job
+[CA25] Privat außerhalb der Landwirtschaft Beschäftigung
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung
+[CA30] Dividenden, Zinsen und Miete
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis
+[CA6] Privat außerhalb der Landwirtschaft Entschädigung
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung
+[SA25] Privat außerhalb der Landwirtschaft Beschäftigung
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung
+[SA27] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung
+[SA30] Dividenden, Zinsen und Miete
+[SA40] Dividenden, Zinsen und Miete
+[SA5] Privat außerhalb der Landwirtschaft Ergebnis
+[SA5H] Privat außerhalb der Landwirtschaft Ergebnis
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis
+[SA6] Privat außerhalb der Landwirtschaft Entschädigung
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung
+[SA7] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[SA7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[SQ5] Privat außerhalb der Landwirtschaft Ergebnis
+[SQ5H] Privat außerhalb der Landwirtschaft Ergebnis
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis
+[SQ6] Privat außerhalb der Landwirtschaft Entschädigung
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung
+[SQ7] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[SQ7H] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter
+[CA25] Beschäftigung: Regierung und staatlichen Unternehmen
+[CA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Informationen
+[CA5] Privat außerhalb der Landwirtschaft Ergebnis: Regierung und staatlichen Unternehmen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Informationen
+[CA6] Kompensation: Regierung und staatlichen Unternehmen
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Informationen
+[SA25] Beschäftigung: Regierung und staatlichen Unternehmen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Informationen
+[SA27] Lohn- und Gehalts Beschäftigung: Regierung und staatlichen Unternehmen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Informationen
+[SA5] Regierung und staatlichen Unternehmen Gewinn
+[SA5H] Ergebnis: Regierung und staatlichen Unternehmen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Informationen
+[SA6] Kompensation: Regierung und staatlichen Unternehmen
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Informationen
+[SA7] Regierung und staatlichen Unternehmen Löhne und Gehälter
+[SA7H] Löhne und Gehälter: Regierung und staatlichen Unternehmen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Informationen
+[SQ5] Ergebnis: Regierung und staatlichen Unternehmen
+[SQ5H] Ergebnis: Regierung und staatlichen Unternehmen
+[SQ5N] Privat außerhalb der Landwirtschaft Ergebnis: Informationen
+[SQ6] Kompensation: Regierung und staatlichen Unternehmen
+[SQ6N] Privat außerhalb der Landwirtschaft Entschädigung: Informationen
+[SQ7] Löhne und Gehälter: Regierung und staatlichen Unternehmen
+[SQ7H] Löhne und Gehälter: Regierung und staatlichen Unternehmen
+[SQ7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Informationen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verlagsindustrie (außer Internet)
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verlagsindustrie (außer Internet)
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Verlagsindustrie (außer Internet)
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Verlagsindustrie (außer Internet)
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Verlagsindustrie (außer Internet)
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Verlagsindustrie (außer Internet)
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Verlagsindustrie (außer Internet)
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Film- und Tonaufnahmen Industrie
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Film- und Tonaufnahmen Industrie
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Film- und Tonaufnahmen Industrie
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Film- und Tonaufnahmen Industrie
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Film- und Tonaufnahmen Industrie
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Film- und Tonaufnahmen Industrie
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Film- und Tonaufnahmen Industrie
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Rundfunk (außer Internet)
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Rundfunk (außer Internet)
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Rundfunk (außer Internet)
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Rundfunk (außer Internet)
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Rundfunk (außer Internet)
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Rundfunk (außer Internet)
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Rundfunk (außer Internet)
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Internet-Publishing und Rundfunk
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Internet-Publishing und Rundfunk
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Internet-Publishing und Rundfunk
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Internet-Publishing und Rundfunk
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Internet-Publishing und Rundfunk
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Internet-Publishing und Rundfunk
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Internet-Publishing und Rundfunk
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Telekommunikation
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Telekommunikation
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Telekommunikation
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Telekommunikation
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Telekommunikation
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Telekommunikation
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Telekommunikation
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[CA6N] Privat außerhalb der Landwirtschaft Kompensation: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[SA6N] Privat außerhalb der Landwirtschaft Kompensation: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Datenverarbeitung, Hosting und damit verbundene Dienstleistungen
+[CA5N] Privat außerhalb der Landwirtschaft Ergebnis: Weitere Informationsdienste
+[CA6N] Privat außerhalb der Landwirtschaft Entschädigung: Andere Informationsdienste
+[SA25N] Privat außerhalb der Landwirtschaft Beschäftigung: Andere Informationsdienste
+[SA27N] Privat außerhalb der Landwirtschaft Lohn- und Gehalts Beschäftigung: Andere Informationsdienste
+[SA5N] Privat außerhalb der Landwirtschaft Ergebnis: Weitere Informationsdienste
+[SA6N] Privat außerhalb der Landwirtschaft Entschädigung: Andere Informationsdienste
+[SA7N] Privat außerhalb der Landwirtschaft Löhne und Gehälter: Weitere Informationsdienste
+[SA30] Persönliche Dividendenerträge
+[SA40] Persönliche Dividendenerträge
+[CA25] Govt. und Govt. Unternehmen Beschäftigung: Bundes, zivile
+[CA5] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[CA6] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SA25] Govt. und Govt. Unternehmen Beschäftigung: Bundes, zivile
+[SA27] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Bundes, zivile
+[SA5] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SA5H] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SA6] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SA7] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[SA7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[SQ5] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SQ5H] Govt. und Govt. Unternehmen Ergebnis: Federal, zivile
+[SQ6] Govt. und Govt. Unternehmen Entschädigung: Federal, zivile
+[SQ7] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[SQ7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Bundes, zivile
+[SA30] Persönliche Zinserträge
+[SA40] Persönliche Zinserträge
+[CA25] Govt. und Govt. Unternehmen Beschäftigung: Militär
+[CA5] Govt. und Govt. Unternehmen Ergebnis: Military
+[CA6] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SA25] Govt. und Govt. Unternehmen Beschäftigung: Militär
+[SA27] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Military
+[SA5] Govt. und Govt. Unternehmen Ergebnis: Military
+[SA5H] Govt. und Govt. Unternehmen Ergebnis: Military
+[SA6] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SA7] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[SA7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[SQ5] Govt. und Govt. Unternehmen Ergebnis: Military
+[SQ5H] Govt. und Govt. Unternehmen Ergebnis: Military
+[SQ6] Govt. und Govt. Unternehmen Entschädigung: Militär
+[SQ7] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[SQ7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Militär
+[SA30] kalkulatorische Zinseinnahmen
+[SA40] kalkulatorische Zinseinnahmen
+[CA25] Govt. und Govt. Unternehmen Beschäftigung: Staatliche und lokale
+[CA5] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[CA6] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SA25] Govt. und Govt. Unternehmen Beschäftigung: Staatliche und lokale
+[SA27] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Staatliche und lokale
+[SA5] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SA5H] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SA6] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SA7] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[SA7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[SQ5] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SQ5H] Govt. und Govt. Unternehmen Ergebnis: Staatliche und lokale
+[SQ6] Govt. und Govt. Unternehmen Entschädigung: Staatliche und lokale
+[SQ7] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[SQ7H] Govt. und Govt. Unternehmen Löhne und Gehälter: Staatliche und lokale
+[CA25] Govt. und Govt. Unternehmen Beschäftigung: Landesregierung
+[CA5] Govt. und Govt. Unternehmen Ergebnis: Landesregierung
+[CA6] Govt. und Govt. Unternehmen Entschädigung: Landesregierung
+[SA25] Govt. und Govt. Unternehmen Beschäftigung: Landesregierung
+[SA27] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Landesregierung
+[SA5] Govt. und Govt. Unternehmen Ergebnis: Landesregierung
+[SA6] Govt. und Govt. Unternehmen Entschädigung: Landesregierung
+[SA7] Govt. und Govt. Unternehmen Löhne und Gehälter: Landesregierung
+[CA25] Govt. und Govt. Unternehmen Beschäftigung: Gemeindeverwaltung
+[CA5] Govt. und Govt. Unternehmen Ergebnis: Gemeindeverwaltung
+[CA6] Govt. und Govt. Unternehmen Entschädigung: Gemeindeverwaltung
+[SA25] Govt. und Govt. Unternehmen Beschäftigung: Gemeindeverwaltung
+[SA27] Govt. und Govt. Unternehmen Lohn- und Gehalts Beschäftigung: Gemeindeverwaltung
+[SA5] Govt. und Govt. Unternehmen Ergebnis: Gemeindeverwaltung
+[SA6] Govt. und Govt. Unternehmen Entschädigung: Gemeindeverwaltung
+[SA7] Govt. und Govt. Unternehmen Löhne und Gehälter: Gemeindeverwaltung
+[SA30] Währungszinseinnahmen
+[SA40] Währungszinseinnahmen
+[SA30] Die Mieteinnahmen von Personen
+[SA40] Die Mieteinnahmen von Personen
+[SA30] kalkulatorische Miete
+[SA40] kalkulatorische Miete
+[SA30] Währungs mieten
+[SA40] Währungs mieten
+Persönliches Einkommen Zusammenfassung: Persönliches Einkommen, Bevölkerung, Pro-Kopf-Einkommens (Non-Industrie) [A]
+Total Vollzeit und Teilzeit-Beschäftigung nach SIC-Industrie (SIC) [A]
+Total Vollzeit und Teilzeit-Beschäftigung nach NAICS Industrie (NAICS) [A]
+Wirtschaftsprofil (Non-Industrie) [A]
+Persönliche Stromtransfer Receipts (Non-Industrie) [A]
+Persönliches Einkommen und Beschäftigung von Major Component (Non-Industrie) [A]
+Farm Erträge und Aufwendungen (Non-Industrie) [A]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von SIC Industry (SIC) [A]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von NAICS Industrie (NAICS) [A]
+Vergütung der Mitarbeiter nach SIC-Industrie (SIC) [A]
+Vergütung der Mitarbeiter nach NAICS Industrie (NAICS) [A]
+Gross Fluss Das Ergebnis (Non-Industrie) [A]
+Implizite Regional Preisdeflator (Non-Industrie) [A]
+Echt Personal Income (Non-Industrie) [A]
+Regionale Preisparitäten (Non-Industrie) [A]
+Persönliches Einkommen Zusammenfassung: Persönliches Einkommen, Bevölkerung, Pro-Kopf-Einkommens (Non-Industrie) [A]
+Total Vollzeit und Teilzeit-Beschäftigung nach SIC-Industrie (SIC) [A]
+Total Vollzeit und Teilzeit-Beschäftigung nach NAICS Industrie (NAICS) [A]
+Vollzeit und Teilzeit-Lohn- und Gehalts Beschäftigung von SIC-Industrie (SIC) [A]
+Vollzeit und Teilzeit-Lohn- und Gehalts Beschäftigung von NAICS Industrie (NAICS) [A]
+Wirtschaftsprofil (Non-Industrie) [A]
+Persönliche Stromtransfer Receipts (Non-Industrie) [A]
+Persönliches Einkommen und Beschäftigung von Major Component (Non-Industrie) [A]
+Vermögenseinkommen (Non-Industrie) [A]
+Farm Erträge und Aufwendungen (Non-Industrie) [A]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von SIC Industry (SIC) [A]
+Persönliche Aktuelle Steuern (Non-Industrie) [A]
+Einweg Einkommens Zusammenfassung: Einweg Persönliche Einkommen, Bevölkerung und verfügbare Pro-Kopf Einkommens (Non-Industrie) [A]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis nach Industriezweigen (Historische) (SIC) [A]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von NAICS Industrie (NAICS) [A]
+Vergütung der Mitarbeiter nach SIC-Industrie (SIC) [A]
+Vergütung der Mitarbeiter nach NAICS Industrie (NAICS) [A]
+Die Löhne und Gehälter von SIC-Industrie (SIC) [A]
+Die Löhne und Gehälter nach Branchen (Historische) (SIC) [A]
+Die Löhne und Gehälter von NAICS Industrie (NAICS) [A]
+Persönliches Einkommen Zusammenfassung: Persönliches Einkommen, Bevölkerung, Pro-Kopf-Einkommens (Non-Industrie) [Q]
+Persönliche Stromtransfer Receipts (Non-Industrie) [Q]
+Persönliches Einkommen von Hauptkomponente (Non-Industrie) [Q]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von SIC Industry (SIC) [Q]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis nach Industriezweigen (Historische) (SIC) [Q]
+Persönliches Einkommen von Hauptkomponente und das Ergebnis von NAICS Industrie (NAICS) [Q]
+Vergütung der Mitarbeiter nach SIC-Industrie (SIC) [Q]
+Vergütung der Mitarbeiter nach NAICS Industrie (NAICS) [Q]
+Die Löhne und Gehälter von SIC-Industrie (SIC) [Q]
+Die Löhne und Gehälter nach Branchen (Historische) (SIC) [Q]
+Die Löhne und Gehälter von NAICS Industrie (NAICS) [Q]
+Anpassung für den Aufenthalt (MSA Jahreseinkommen)
+Beiträge für staatliche Sozialversicherung (MSA Jahreseinkommen)
+Dividenden, Zinsen und Miete (MSA Jahreseinkommen)
+Das Ergebnis nach Arbeitsort (MSA Jahreseinkommen)
+Die Gesamtbeschäftigung (Voll- und Teilzeit) (MSA Jahreseinkommen)
+Lohn- und Gehalts Beschäftigung (MSA Jahreseinkommen)
+Proprietors Beschäftigung (MSA Jahreseinkommen)
+Farm Einkommen (MSA Jahreseinkommen)
+BIP in der aktuellen Dollar (MSA Jahresprodukt)
+Das Nettoergebnis nach Wohnort (MSA Jahreseinkommen)
+Nichtfarmlohn- persönliche Einkommen (MSA Jahreseinkommen)
+Pro-Kopf-Dividenden, Zinsen und Mieten (MSA Jahreseinkommen)
+Pro-Kopf-Einkommen Wartung (MSA Jahreseinkommen)
+Pro-Kopf-Nettoergebnis (MSA Jahreseinkommen)
+Der Pro-Kopf persönliches Einkommen (MSA Jahreseinkommen)
+Pro-Kopf-Ruhestand und andere (MSA Jahreseinkommen)
+Der Pro-Kopf des realen BIP (MSA Jahresprodukt)
+Der Pro-Kopf persönlichen aktuellen Transfereinnahmen (MSA Jahreseinkommen)
+Persönliche aktuellen Transfereinnahmen (MSA Jahreseinkommen)
+Der Pro-Kopf Arbeitslosenversicherung Entschädigung (MSA Jahreseinkommen)
+Durchschnittliche Vergütung pro Auftrag (MSA Jahreseinkommen)
+Das Durchschnittseinkommen pro Job (MSA Jahreseinkommen)
+Der Durchschnittslohn pro Job (MSA Jahreseinkommen)
+Bevölkerung (MSA Jahreseinkommen)
+Proprietors Einkommen (MSA Jahreseinkommen)
+Das reale BIP in verkettete Dollar (MSA Jahresprodukt)
+Pro-Kopf-Real persönlichen Einkommen (MSA regionale Preisparitäten)
+Echt persönliche Einkommen (MSA regionale Preisparitäten)
+RPPs: Alle Einzelteile (MSA regionale Preisparitäten)
+RPPs: Waren (MSA regionale Preisparitäten)
+Implizite regionalen Preisdeflator (MSA regionale Preisparitäten)
+RPPs: Dienstleistungen: Andere (MSA regionale Preisparitäten)
+RPPs: Dienstleistungen: Die Mieten (MSA regionale Preisparitäten)
+Zuschläge auf Löhne und Gehälter (MSA Jahreseinkommen)
+Insgesamt persönliche Einkommen (MSA Jahreseinkommen)
+Löhne und Gehälter (MSA Jahreseinkommen)

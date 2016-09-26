@@ -1,0 +1,36 @@
+Package: euroStates
+Title: A library for bringing together EU and US statistical data
+Version: 0.0.1
+Authors@R: c(person("Luca", "Gramaglia", role = "aut", "cre"),
+		person("Denis", "Grofils", role = "aut", "cre"),
+		person("Laurent", "Mathurin", role = "aut", "cre"),
+		person("Loredana", "Di Consiglio", role = "aut", "cre"),
+		person("Jeff", "Chen", role = "aut", "cre"),
+		person("Andrea", "Julca", role = c("aut", "cre"),
+		     email = c("Andrea.Julca@gmail.com", "Andrea.Julca@bea.gov")),
+		person("Ledia", "Guci", role = "ctb"))
+Author: Luca Gramaglia [aut, cre],
+		Denis Grofils [aut, cre],
+		Laurent Mathurin [aut, cre],
+		Loredana Di Consiglio [aut, cre],
+		Jeff Chen [aut, cre], 
+		Andrea Julca [aut, cre],
+		Ledia Guci [ctb]
+Maintainer: Luca Gramaglia, 
+		Denis Grofils, 
+		Laurent Mathurin, 
+		Loredana Di Consiglio , 
+		Andrea Julca <Developers@bea.gov>
+Depends:
+    R (>= 3.2.1), 
+    data.table
+Imports: rsdmx,
+				beaR,
+				SPARQL	
+Description: 
+		Important Note - You must have a BEA API Key to use this library.  
+		Register for a key at http://www.bea.gov/API/signup/index.cfm .
+URL: http://www.bea.gov/API/bea_web_service_api_user_guide.htm
+License: file LICENSE
+LazyData: no
+RoxygenNote: 5.0.1
