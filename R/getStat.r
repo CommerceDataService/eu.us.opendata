@@ -31,10 +31,11 @@ getStat <- function(statID = '', NUTS = '2', euParms = list(), usParms = list(),
 	if(!meta){
 		esData <- rsdmx::readSDMX(providerId = "ESTAT", resource = "data", flowRef = statID)
 	} else {
-		esData <- rsdmx::readSDMX(providerId = "ESTAT", resource = "datastructure", flowref = statID)
+		esPreData <- rsdmx::readSDMX(providerId = "ESTAT", resource = "datastructure", resourceId = paste0('DSD_',statID))
+		esData <- data.table::as.data.table(esPreData@datastructures@datastructures[[1]]@Components)
 	}
-	
-	
+#e.g.,
+#nama_10r_2gdp	
 
 		usData <- beaR::beaGet(list(
 			'userID' = apiKey,
