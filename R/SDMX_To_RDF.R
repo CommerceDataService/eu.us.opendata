@@ -1,6 +1,10 @@
 library(SPARQL)
 library(rsdmx)
 
+# query.builder: creates a well-formed INSERT SPARQL query by adding the INSERT clause and the required namespace prefixes
+# returns: a well-formed SPARQL INSERT query
+# @query: the desired content of the INSERT clause
+
 query.builder<-function(query){
   
   namespace.qb<-"PREFIX qb: <http://purl.org/linked-data/cube#>"
@@ -13,6 +17,16 @@ query.builder<-function(query){
   return(query)  
   
 }
+
+# large.query.handler: this function takes a list of RDF statements (triples) and:
+# - divides them into chunks
+# - turns them into a full-fledged SPARQL INSERT query using the query.builder function
+# - inserts them into the target triple store by executing the SPARQL INSERT query
+# returns: NA
+# @endpoint: the SPARQL endpoint URL of the target triple store
+# @query.list: a list of RDF statements
+# @query.builder: the function to be used to build the query
+# @limit: maximum number of characters in each chunk
 
 large.query.handler<-function(endpoint, query.list, query.builder, limit=5000){
   
@@ -37,11 +51,21 @@ large.query.handler<-function(endpoint, query.list, query.builder, limit=5000){
   return(results)
 }
 
+# Blank_ID: utility function to create a blank node ID
+# returns: a blank node ID
+# @blank.counter: counter distinguishing the blank nodes
+
 Blank_ID<-function(blank.counter){
   
   return(paste("_:b", blank.counter, sep=""))
   
 }
+
+# Dataflow_To_RDF: inserts an SDMX dataflow into a triple store as an RDF Data Cube Vocabulary dataset. The dataset is complemented with metadata 
+# which follows the DCAT ontology.  
+# returns: NA
+# @SPARQL.endpoint: the SPARQL endpoint URL of the target triple store
+# @dataflow: SDMX dataflow object
 
 Dataflow_To_RDF<-function(SPARQL.endpoint, dataflow){
   
@@ -66,6 +90,11 @@ Dataflow_To_RDF<-function(SPARQL.endpoint, dataflow){
   
 }
 
+# DSD_To_RDF: inserts an SDMX DSD into a triple store as an RDF Data Cube Vocabulary DataStructureDefinition.   
+# returns: NA
+# @SPARQL.endpoint: the SPARQL endpoint URL of the target triple store
+# @data.structure: SDMX DSD object
+
 DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   
   
@@ -78,13 +107,15 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   query.component<-NULL
   blank.counter<-0
   
+  #Set RDF statements for DataStructureDefinition
+  
   dsd.id<-paste("<", data.structure@id, ">", sep="")
   query.dsd<-c(query.dsd, paste(dsd.id, "rdf:type qb:DataStructureDefinition ."))
   
   dsd.label<-paste("\"", data.structure@id, "\"", sep="")
   query.dsd<-c(query.dsd, paste(dsd.id, "rdfs:label", dsd.label, "."))
   
-  #Declare dimensions
+  #Set RDF statements for dimension components
   
   for (i in 1:length(dimension.list)){
     
@@ -111,7 +142,7 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
     }
   }
 
-  #Declare attributes
+  #Set RDF statements for attribute components
   
   for (i in 1:length(attribute.list)){
     
@@ -138,7 +169,7 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
     }
   }
 
-  #Declare time dimension
+  #Set RDF statements for time dimension component
   
   id<-paste("<", time.dimension@conceptRef, ">", sep="")
   query.component<-c(query.component, paste(id, "rdf:type qb:DimensionProperty ."))
@@ -162,7 +193,7 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
     query.component<-c(query.component, paste(id, "qb:codeList", code.list, "."))
   }
 
-  #Declare primary measure
+  #Set RDF statements for primary measure components
   
   id<-paste("<", primary.measure@conceptRef, ">", sep="")
   query.component<-c(query.component, paste(id, "rdf:type qb:MeasureProperty ."))
@@ -191,12 +222,19 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   
 }
 
+# CodeList_To_RDF: inserts an SDMX codelist into a triple store as an RDF SKOS ConceptScheme.   
+# returns: NA
+# @SPARQL.endpoint: the SPARQL endpoint URL of the target triple store
+# @code.lists: a list of SDMX codelist objects
+
 CodeList_To_RDF<-function(SPARQL.endpoint, code.lists){
   
   for (i in 1:length(code.lists)){
     
     query.scheme<-NULL
     query.concept<-NULL
+    
+    #Set concept scheme RDF statements
     
     scheme.name<-code.lists[[i]]@id
     print(paste("\t Codelist", scheme.name))
@@ -208,6 +246,8 @@ CodeList_To_RDF<-function(SPARQL.endpoint, code.lists){
     query.scheme<-c(query.scheme, paste(scheme.id, "skos:prefLabel", scheme.label, "."))
     
     codes<-code.lists[[i]]@Code
+    
+    #Set RDF statements for each individual code
     
     for(j in 1:length(codes)){
       
@@ -223,6 +263,8 @@ CodeList_To_RDF<-function(SPARQL.endpoint, code.lists){
       query.concept<-c(query.concept, paste(code.id, "skos:prefLabel", code.label, "."))
       
     }
+    
+    #Insert RDF statements about the codes and about the concept scheme
     
     insert.output<-large.query.handler(SPARQL.endpoint, query.scheme, query.builder)
     insert.output<-large.query.handler(SPARQL.endpoint, query.concept, query.builder)
