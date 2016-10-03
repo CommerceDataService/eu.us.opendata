@@ -68,6 +68,7 @@ Dataflow_To_RDF<-function(SPARQL.endpoint, dataflow){
 
 DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   
+  
   dimension.list<-data.structure@Components@Dimensions
   attribute.list<-data.structure@Components@Attributes
   primary.measure<-data.structure@Components@PrimaryMeasure
@@ -125,14 +126,14 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
     
     blank.counter<-blank.counter+1
     
-    label<-paste("\"", dimension.list[[i]]@conceptRef, "\"", sep="")
+    label<-paste("\"", attribute.list[[i]]@conceptRef, "\"", sep="")
     query.component<-c(query.component, paste(id, "rdfs:label", label, "."))
     
-    if(!is.na(dimension.list[[i]]@codelist)){
+    if(!is.na(attribute.list[[i]]@codelist)){
       
       query.component<-c(query.component, paste(id, "rdf:type qb:CodedProperty ."))
       
-      code.list<-paste("<", dimension.list[[i]]@codelist, ">", sep="")
+      code.list<-paste("<", attribute.list[[i]]@codelist, ">", sep="")
       query.component<-c(query.component, paste(id, "qb:codeList", code.list, "."))
     }
   }
@@ -150,14 +151,14 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   
   blank.counter<-blank.counter+1
   
-  label<-paste("\"", dimension.list[[i]]@conceptRef, "\"", sep="")
+  label<-paste("\"", time.dimension@conceptRef, "\"", sep="")
   query.component<-c(query.component, paste(id, "rdfs:label", label, "."))
   
-  if(!is.na(dimension.list[[i]]@codelist)){
+  if(!is.na(time.dimension@codelist)){
     
     query.component<-c(query.component, paste(id, "rdf:type qb:CodedProperty ."))
     
-    code.list<-paste("<", dimension.list[[i]]@codelist, ">", sep="")
+    code.list<-paste("<", time.dimension@codelist, ">", sep="")
     query.component<-c(query.component, paste(id, "qb:codeList", code.list, "."))
   }
 
@@ -174,14 +175,14 @@ DSD_To_RDF<-function(SPARQL.endpoint, data.structure) {
   
   blank.counter<-blank.counter+1
   
-  label<-paste("\"", dimension.list[[i]]@conceptRef, "\"", sep="")
+  label<-paste("\"", primary.measure@conceptRef, "\"", sep="")
   query.component<-c(query.component, paste(id, "rdfs:label", label, "."))
   
-  if(!is.na(dimension.list[[i]]@codelist)){
+  if(!is.na(primary.measure@codelist)){
     
     query.component<-c(query.component, paste(id, "rdf:type qb:CodedProperty ."))
     
-    code.list<-paste("<", dimension.list[[i]]@codelist, ">", sep="")
+    code.list<-paste("<", primary.measure@codelist, ">", sep="")
     query.component<-c(query.component, paste(id, "qb:codeList", code.list, "."))
   }
     
