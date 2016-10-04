@@ -1,9 +1,7 @@
-library(SPARQL)
-library(rsdmx)
-
-# query.builder: creates a well-formed INSERT SPARQL query by adding the INSERT clause and the required namespace prefixes
-# returns: a well-formed SPARQL INSERT query
-# @query: the desired content of the INSERT clause
+#' query.builder creates a well-formed INSERT SPARQL query by adding the INSERT clause and the required namespace prefixes
+#' @import 	SPARQL rsdmx
+#' @return 	A well-formed SPARQL INSERT query
+#' @param query		the desired content of the INSERT clause
 
 query.builder<-function(query){
   
