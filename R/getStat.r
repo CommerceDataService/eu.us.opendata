@@ -4,8 +4,6 @@
 #' @return By default, an object of class 'data.table'
 #' @import beaR rsdmx data.table
 #' @export 
-#' @examples 
-#' DT <- getStat('gross domestic product')
 
 getStat <- function(statID = '', NUTS = '2', euParms = list(), usParms = list(), apiKey = NULL, meta = FALSE, freq = 'A') { 
 #Think we should set validate = TRUE for all requests

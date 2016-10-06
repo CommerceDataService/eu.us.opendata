@@ -2,7 +2,7 @@
 #' 
 #' @param SPARQL.endpoint		the SPARQL endpoint URL of the target triple store
 #' @param dataflow		SDMX dataflow object
-#' @returns NULL
+#' @return NULL
 #' @import 	SPARQL rsdmx
 
 Dataflow_To_RDF <- function(SPARQL.endpoint, dataflow){

@@ -4,8 +4,6 @@
 #' @return By default, an object of class 'data.table'
 #' @import beaR rsdmx data.table
 #' @export 
-#' @examples 
-#' statSearch('gross domestic product')
 
 statSearch <- function(searchTerm, apiKey = NULL){
 #Think we should set validate = TRUE for all requests
