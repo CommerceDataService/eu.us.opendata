@@ -1,8 +1,8 @@
-#' Search metadata from the eurostat and bea APIs
+#' Create RDF dataset
 #' 
 #' @param dataset.specs			A list of specifications
 #' @return A list to be passed to the query 
-#' @import beaR rsdmx data.table
+#' @import SPARQL data.tree
 #' @export 
 
 Create_RDF_Dataset <- function(dataset.specs){

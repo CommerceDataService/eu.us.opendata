@@ -1,3 +1,10 @@
+#' Create RDF component map
+#'
+#' @param dataset.specs			A list of specifications
+#' @return A list to be passed to the query 
+#' @import SPARQL data.tree
+
+
 Create_RDF_Component_Map <- function(component.map.specs){
   
   query.list <- NULL

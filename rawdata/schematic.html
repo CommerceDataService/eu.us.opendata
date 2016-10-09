@@ -1,79 +1,242 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
+<html>
+  <meta charset="utf-8">
+	<head>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+		<style>
+		.node text {
+			pointer-events: none;
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		}
+		</style>
+	</head>
+  <body>
+    <script>
+//stupid approach for now		
+graph = {
+  "nodes":[
+    {"id":0, "name":"Maintainer","group":0, "catg":"human"},
+    {"id":1, "name":"User","group":100, "catg":"human"},
+    {"id":2, "name":"Linked_Open_Metadata_Store","group":1},
+    {"id":3, "name":"Local_Metadata_Cache","group":1},
+    {"id":4, "name":"CodeList_To_RDF","group":2},
+    {"id":5, "name":"Dataflow_To_RDF","group":2},
+    {"id":6, "name":"DSD_to_RDF","group":2},
+    {"id":7, "name":"Harmonised_Dataset_To_RDF","group":3},
+    {"id":8, "name":"Geo_GeoCode","group":3},
+    {"id":9, "name":"Mappings_To_RDF","group":3, "catg":"beProc"},
+    {"id":10,"name":"Create_RDF_Component_Map","group":4, "catg":"interfx"},
+    {"id":11,"name":"Create_RDF_Structure_Map","group":4, "catg":"interfx"},
+    {"id":12,"name":"Create_RDF_Value_Map","group":4, "catg":"interfx"},
+    {"id":13,"name":"Create_RDF_Dataset","group":5, "catg":"interfx"},
+    {"id":14,"name":"Create_RDF_DSD","group":5, "catg":"interfx"},
+    {"id":15,"name":"large.query.handler","group":6, "catg":"interfx"},
+    {"id":16,"name":"query.builder","group":6, "catg":"interfx"},
+    {"id":17,"name":"Blank_ID","group":6, "catg":"interfx"},
+    {"id":18,"name":"SDMX_To_RDF","group":7, "catg":"beProc"},
+    {"id":19,"name":"BEA_To_RDF","group":7},
+    {"id":20,"name":"Get_Dataset","group":8, "catg":"feProc"},
+    {"id":21,"name":"List_Available_Datsets","group":8, "catg":"feProc"},
+    {"id":22,"name":"Search_Dataset","group":8, "catg":"feProc"},
+    {"id":23,"name":"Describe_Dataset","group":8, "catg":"feProc"},
+    {"id":24,"name":"Dataset_Template","group":9, "catg":"csv"},
+    {"id":25,"name":"DSD_Template","group":9, "catg":"csv"},
+    {"id":26,"name":"Structure_Map_Template","group":10, "catg":"csv"},
+    {"id":27,"name":"Component_Map_Template","group":10, "catg":"csv"},
+    {"id":28,"name":"Value_Map_Template","group":10, "catg":"csv"},
+    {"id":29,"name":"BEA_API","group":11, "catg":"http"},
+    {"id":30,"name":"eurostat_API","group":11, "catg":"http"},
+    {"id":31,"name":"beaSearch","group":12, "catg":"beaR"},
+    {"id":32,"name":"beaGet","group":12, "catg":"beaR"},
+    {"id":33,"name":"readSDMX","group":12, "catg":"rsdmx"},
+    {"id":34,"name":"SPARQL","group":12, "catg":"SPARQL"}
+  ],
+ "links":[
+    {"source":0,"target":19,"value":2},
+    {"source":0,"target":7,"value":2},
+    {"source":0,"target":8,"value":2},
+    {"source":0,"target":9,"value":2},
+    {"source":1,"target":20,"value":2},
+    {"source":1,"target":21,"value":2},
+    {"source":1,"target":22,"value":2},
+    {"source":1,"target":23,"value":2},
+	  {"source":2,"target":3,"value":2},
+    {"source":3,"target":20,"value":2},
+    {"source":3,"target":21,"value":2},
+    {"source":3,"target":22,"value":2},
+    {"source":3,"target":23,"value":2},
+    {"source":29,"target":32,"value":2},
+    {"source":30,"target":33,"value":2},
+    {"source":29,"target":31,"value":2},
+    {"source":20,"target":3,"value":1},
+    {"source":21,"target":3,"value":1},
+    {"source":22,"target":3,"value":1},
+    {"source":23,"target":3,"value":1},
+    {"source":18,"target":17,"value":1},
+    {"source":18,"target":16,"value":1},
+    {"source":18,"target":15,"value":1},
+    {"source":18,"target":4,"value":1},
+    {"source":18,"target":5,"value":1},
+    {"source":18,"target":6,"value":1},
+    {"source":18,"target":34,"value":1},
+    {"source":18,"target":33,"value":1},
+    {"source":7,"target":17,"value":1},
+    {"source":7,"target":16,"value":1},
+    {"source":7,"target":15,"value":1},
+    {"source":7,"target":14,"value":1},
+    {"source":7,"target":13,"value":1},
+    {"source":25,"target":7,"value":1},
+    {"source":24,"target":7,"value":1},
+    {"source":9,"target":17,"value":1},
+    {"source":9,"target":16,"value":1},
+    {"source":9,"target":15,"value":1},
+    {"source":9,"target":34,"value":1},
+    {"source":9,"target":11,"value":1},
+    {"source":9,"target":12,"value":1},
+    {"source":9,"target":10,"value":1},
+	  {"source":16,"target":16,"value":1},
+    {"source":20,"target":32,"value":1},
+    {"source":20,"target":33,"value":1},
+    {"source":32,"target":29,"value":1},
+    {"source":33,"target":30,"value":1},
+    {"source":19,"target":31,"value":1},
+    {"source":31,"target":29,"value":1},
+    {"source":31,"target":3,"value":1},
+    {"source":3,"target":31,"value":2},
+    {"source":10,"target":3,"value":1},
+    {"source":11,"target":3,"value":1},
+    {"source":12,"target":3,"value":1},
+    {"source":13,"target":3,"value":1},
+    {"source":14,"target":3,"value":1},
+    {"source":26,"target":9,"value":1},
+    {"source":27,"target":9,"value":1},
+    {"source":28,"target":9,"value":1},
+    {"source":34,"target":2,"value":1}
+  ]
 }
 
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-</style>
-<svg width="960" height="600"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="schematic.js"></script>
-<script>
-//TYPE determines shape; GROUP determines color; VALUE determines link stroke; 
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+var width = 900, height = 500;
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
+//var color = d3.scale.category20();
 
-var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+// Step 1: Append the SVG element to the body
+
+var svg = d3.select('body')
+	.append('svg')
+	.attr("width", width)
+	.attr("height", height)
+	.style("border", "1px solid")
+	
+
+	
+// Step 2: Create a force-directed layout (charge -120, linkdist 30)
+var layout = d3.forceSimulation()
+    .force("link", d3.forceLink().distance(30).strength(0.5))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
+		
+//We also have to start it...  but not yet i guess?
+//var layout = d3.layout.force()
+//	.charge(100)
+//	.linkDistance(50)
+//	.size([width, height])
+	
+	
+	layout
+		.nodes(graph.nodes);
 
+  layout.force("link")
+      .links(graph.links);
+		
+//	layout 
+//		.links(graph.links)
+		//.start();
+	
+// Set the node and link arrays into the layout and start the layout
+//	console.log(graph)
+	var link = svg.selectAll("line")
+		.data(graph.links)
+		.enter().append("line")
+			.attr("stroke", "grey")
 
-  var link = svg.append("g")
-      .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
-
-  var node = svg.append("g")
-      .attr("class", "nodes")
-    .selectAll("circle")
-    .data(graph.nodes)
-    .enter().append("circle")
-      .attr("r", 5)
+			
+	console.log(link)
+		
+	var node = svg.selectAll("circle")
+		.data(graph.nodes)
+		.enter().append("circle")
+			.attr("r", 5)
+//	    .attr("fill", function(d) { return color(d.id); })
+// would rather use group for proximity and polygon? maybe not...
       .attr("fill", function(d) { return color(d.group); })
-      .call(d3.drag()
+     .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
 
-  node.append("title")
-      .text(function(d) { return d.id; });
+ 	
+	node.append("title")
+		.text(function(d){return d.name});
+		
+//var label = svg.selectAll("circle")
+//			.data(graph.nodes)
+//			.enter()
+//			.append("text")
+//			.text(function (d) { return d.name; })
+//			.style("text-anchor", "middle")
+//			.style("fill", "#555")
+//			.style("font-family", "Arial")
+//			.style("font-size", 10);
 
-  simulation
-      .nodes(graph.nodes)
-      .on("tick", ticked);
 
-  simulation.force("link")
-      .links(graph.links);
+  node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.name });
+			
+	console.log(node)
 
-  function ticked() {
-    link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+//force.links(link)
+//force.nodes(node)
+	
 
-    node
-        .attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-  }
+// Details: data from links array, fill strokes according to source
+
+	link
+		.attr("stroke", function(d) { console.log(d); return color(d.source.group)
+		//return color(node[d.source].group) 
+		})
+		
+		
+
+	link
+		.attr("stroke-width", function(d){return d.value})
+		
+// Details: data from nodes array, draw circles
+
+// TODO (3) - change to squares instead of circles
+// TODO (4) - change node size based on degree
+
+
+layout.on("tick", function() {
+  link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+ node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+
+//	label.attr("cx", function(d) { return d.x; })
+//      .attr("cy", function(d) { return d.y; });
+
+
+});
 
 
 function dragstarted(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+  if (!d3.event.active) layout.alphaTarget(0.3).restart();
   d.fx = d.x;
   d.fy = d.y;
 }
@@ -84,11 +247,12 @@ function dragged(d) {
 }
 
 function dragended(d) {
-  if (!d3.event.active) simulation.alphaTarget(0);
+  if (!d3.event.active) layout.alphaTarget(0);
   d.fx = null;
   d.fy = null;
 }
 
-</script>
 
-<footnote>Based on <a href="http://bl.ocks.org/mbostock/4062045">Mike Bostock's force-directed graph</a></footnote>
+    </script>
+  </body>
+</html>
