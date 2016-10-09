@@ -52,19 +52,19 @@ graph = {
     {"id":34,"name":"SPARQL","group":12, "catg":"SPARQL"}
   ],
  "links":[
-    {"source":0,"target":19,"value":2},
-    {"source":0,"target":7,"value":2},
-    {"source":0,"target":8,"value":2},
-    {"source":0,"target":9,"value":2},
-    {"source":1,"target":20,"value":2},
-    {"source":1,"target":21,"value":2},
-    {"source":1,"target":22,"value":2},
-    {"source":1,"target":23,"value":2},
-	  {"source":2,"target":3,"value":2},
-    {"source":3,"target":20,"value":2},
-    {"source":3,"target":21,"value":2},
-    {"source":3,"target":22,"value":2},
-    {"source":3,"target":23,"value":2},
+    {"source":0,"target":19,"value":6},
+    {"source":0,"target":7,"value":6},
+    {"source":0,"target":8,"value":6},
+    {"source":0,"target":9,"value":6},
+    {"source":1,"target":20,"value":6},
+    {"source":1,"target":21,"value":6},
+    {"source":1,"target":22,"value":6},
+    {"source":1,"target":23,"value":6},
+	  {"source":2,"target":3,"value":3},
+    {"source":3,"target":20,"value":3},
+    {"source":3,"target":21,"value":3},
+    {"source":3,"target":22,"value":3},
+    {"source":3,"target":23,"value":3},
     {"source":29,"target":32,"value":2},
     {"source":30,"target":33,"value":2},
     {"source":29,"target":31,"value":2},
@@ -115,12 +115,15 @@ graph = {
   ]
 }
 
-var width = 900, height = 500;
+
+// TODO - change node size and shape based on category
+
+var width = 1000, height = 1300;
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 //var color = d3.scale.category20();
 
-// Step 1: Append the SVG element to the body
+// Append the SVG element to the body
 
 var svg = d3.select('body')
 	.append('svg')
@@ -130,29 +133,18 @@ var svg = d3.select('body')
 	
 
 	
-// Step 2: Create a force-directed layout (charge -120, linkdist 30)
+// Create a force-directed layout
 var layout = d3.forceSimulation()
-    .force("link", d3.forceLink().distance(30).strength(0.5))
+    .force("link", d3.forceLink().distance(200).strength(2))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
-		
-//We also have to start it...  but not yet i guess?
-//var layout = d3.layout.force()
-//	.charge(100)
-//	.linkDistance(50)
-//	.size([width, height])
-	
-	
+			
 	layout
 		.nodes(graph.nodes);
 
   layout.force("link")
       .links(graph.links);
 		
-//	layout 
-//		.links(graph.links)
-		//.start();
-	
 // Set the node and link arrays into the layout and start the layout
 //	console.log(graph)
 	var link = svg.selectAll("line")
@@ -178,34 +170,29 @@ var layout = d3.forceSimulation()
  	
 	node.append("title")
 		.text(function(d){return d.name});
-		
-//var label = svg.selectAll("circle")
-//			.data(graph.nodes)
-//			.enter()
-//			.append("text")
-//			.text(function (d) { return d.name; })
-//			.style("text-anchor", "middle")
-//			.style("fill", "#555")
-//			.style("font-family", "Arial")
-//			.style("font-size", 10);
+	
 
+var text = svg.append("g").attr("class", "labels").selectAll("g")
+    .data(graph.nodes)
+  .enter().append("g");
 
-  node.append("text")
-      .attr("dx", 12)
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name });
-			
+text.append("text")
+    .attr("x", 14)
+    .attr("y", ".31em")
+    .style("font-family", "sans-serif")
+    .style("font-size", "0.7em")
+    .text(function(d) { return d.name; });
+
+				
 	console.log(node)
-
-//force.links(link)
-//force.nodes(node)
 	
 
 // Details: data from links array, fill strokes according to source
 
 	link
-		.attr("stroke", function(d) { console.log(d); return color(d.source.group)
-		//return color(node[d.source].group) 
+		.attr("stroke", function(d) { 
+//			console.log(d); 
+			return color(d.source.group)
 		})
 		
 		
@@ -213,10 +200,6 @@ var layout = d3.forceSimulation()
 	link
 		.attr("stroke-width", function(d){return d.value})
 		
-// Details: data from nodes array, draw circles
-
-// TODO (3) - change to squares instead of circles
-// TODO (4) - change node size based on degree
 
 
 layout.on("tick", function() {
@@ -228,9 +211,8 @@ layout.on("tick", function() {
  node.attr("cx", function(d) { return d.x; })
       .attr("cy", function(d) { return d.y; });
 
-//	label.attr("cx", function(d) { return d.x; })
-//      .attr("cy", function(d) { return d.y; });
-
+    text
+        .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
 
 });
 
