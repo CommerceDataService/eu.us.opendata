@@ -1,3 +1,9 @@
+#' Create RDF structure map
+#'
+#' @param dataset.specs			A list of specifications
+#' @return A list to be passed to the query 
+#' @import SPARQL 
+
 Create_RDF_Structure_Map <- function(structure.map.specs){
   
 	requireNamespace('SPARQL', quietly = TRUE)

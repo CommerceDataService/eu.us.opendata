@@ -2,7 +2,7 @@
 #' 
 #' @param DSD.tree 	 Hierarchical DSD 
 #' @return A vector containing 
-#' @import beaR rsdmx data.table
+#' @import SPARQL data.tree
 #' @export 
 
 

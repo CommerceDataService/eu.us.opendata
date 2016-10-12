@@ -1,3 +1,10 @@
+#' Create RDF value map
+#'
+#' @param dataset.specs			A list of specifications
+#' @return A list to be passed to the query 
+#' @import SPARQL data.tree
+
+
 Create_RDF_Value_Map <- function(value.map.specs){
   
 	requireNamespace('SPARQL', quietly = TRUE)
