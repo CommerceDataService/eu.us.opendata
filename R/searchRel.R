@@ -1,11 +1,11 @@
 #' Search Metadata Store Relationship Table using text search
 #' 
-#' @return 
+#' @param html  option to render results in an interactive DT
+#' @param term  term
 #' @import DT
 #' @export 
 
-searchRel <- function(term){
-    
+searchRel <- function(term, html = FALSE){
     flag <- c()
     
     #Check if there is any term that is passed into the function
@@ -26,26 +26,18 @@ searchRel <- function(term){
     }
       
     #Check if there are any results
-    if(length(flag)>0){
+    if(length(flag) == 0){
+        print("No matches")
+      } else {
+      
       #recommended relative rankings
         results <- data.frame((table(flag)))
         results$series <- (as.character(results$flag))
         results <- results[order(-results$Freq),]
-          results$Rel_score <- 100*results$Freq/max(results$Freq)
+        results$Rel_score <- 100*results$Freq/max(results$Freq)
+        results <- merge(data,results,by.x="Rel_name",by.y="series")
+        results <- results[,c("Rel_score","Rel_ID","Rel_name")]
         
-      #Print results to console
-        
-          results <- merge(data,results,by.x="Rel_name",by.y="series")
-          results <- results[,c("Rel_score","Rel_ID","Rel_name")]
-          print(paste("RESULTS FOR TERM = '", term,"'",sep=""))
-          print(results)
-          
-          #payload results <-- need to add Rel_ID
-          return(results)
-      } else{
-        print("No matches")
+      return(results)
       }
-  
 }
-
-#res <- searchRel("county")

@@ -1,6 +1,6 @@
 ##TODO: 
-# • Use "data.table::setnames(eu/usData,...)" with usMerge + euMerge data.tables to rename columns
-# • Use data.table::rbindlist(list(euData, usData))
+# ? Use "data.table::setnames(eu/usData,...)" with usMerge + euMerge data.tables to rename columns
+# ? Use data.table::rbindlist(list(euData, usData))
 
 
 #' Return data from the eurostat and bea APIs
@@ -24,6 +24,7 @@ getRel <- function(term = '', lucky = FALSE) {
 	localRel <- loadLocalRel()
 	localMrg <- loadLocalMerge()
 	localStr <- loadLocalStruc()
+	
 	if(!lucky){
 	
 		thisRel <- localRel[Rel_ID == term][1]
@@ -40,7 +41,17 @@ getRel <- function(term = '', lucky = FALSE) {
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID]]
 	 	mrgUS <- localMrg[Merge_ID == thisRel[,BEA_Merge_ID]]
 	 	
+	 	#Rename fields
+	 	temp <- usData[,c(mrgUS$Source_Component),with=FALSE]
+	 	colnames(temp)<-c(mrgUS$Target_Component)
 	 	
+	 	temp2 <- euData[,c(mrgEU$Source_Component),with=FALSE]
+	 	colnames(temp2) <- c(mrgEU$Target_Component)
+	 	
+	 	#merge
+	 	mrg <- rbind(temp,temp2)
+	 	
+	 	return(mrg)
 	 	
 	 	
 	 	
