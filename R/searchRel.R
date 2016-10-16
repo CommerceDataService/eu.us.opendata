@@ -27,16 +27,18 @@ searchRel <- function(term, html = FALSE){
       
     #Check if there are any results
     if(length(flag) == 0){
-        print("No matches")
+        print("Search: No matches")
+        return(data.frame())
       } else {
       
       #recommended relative rankings
         results <- data.frame((table(flag)))
         results$series <- (as.character(results$flag))
-        results <- results[order(-results$Freq),]
         results$Rel_score <- 100*results$Freq/max(results$Freq)
+        
         results <- merge(data,results,by.x="Rel_name",by.y="series")
         results <- results[,c("Rel_score","Rel_ID","Rel_name")]
+        results <- results[order(-results$Rel_score),]
         
       return(results)
       }

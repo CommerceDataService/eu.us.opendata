@@ -1,8 +1,3 @@
-##TODO: 
-# ? Use "data.table::setnames(eu/usData,...)" with usMerge + euMerge data.tables to rename columns
-# ? Use data.table::rbindlist(list(euData, usData))
-
-
 #' Return data from the eurostat and bea APIs
 #' 
 #' @param term 	 ID of the statistic requested or, if lucky = TRUE, string to search for and return
@@ -13,10 +8,10 @@
 
 getRel <- function(term = '', lucky = FALSE) { 
 #Think we should set validate = TRUE for all requests
-	if(class(beaSpec) != 'character'){
-		warning('Please specify the ID or of the data you are looking for.')
-		return(paste0('Invalid object class passed to beaGet([list of API parameters]): ', class(beaSpec), '. Should be of class "list"'))
-	}
+# 	if(class(beaSpec) != 'character'){
+# 		warning('Please specify the ID or of the data you are looking for.')
+# 		return(paste0('Invalid object class passed to beaGet([list of API parameters]): ', class(beaSpec), '. Should be of class "list"'))
+# 	}
 	requireNamespace('beaR', quietly = TRUE)
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
@@ -25,9 +20,34 @@ getRel <- function(term = '', lucky = FALSE) {
 	localMrg <- loadLocalMerge()
 	localStr <- loadLocalStruc()
 	
+	#Lucky 
 	if(!lucky){
+	  thisRel <- localRel[Rel_ID == term][1]
+	  print(paste0("You have selected '",term,"'"))
+	  if(is.na(thisRel[1,1,with=FALSE])){
+	    print("However, there are no matches.")
+      print("If you have typed in a known Rel_ID, check that the ID matches the Relationship Table exactly.")
+      print("Otherwise, for free text search, specify lucky = TRUE")
+	  }
+	  
+	} else {
+	  luckyRel <- searchRel(term)
+	    
+	    #Check if luckyRel yielded any result (data.frame with more than 1 row)
+  	  if(nrow(luckyRel)>0){
+  	    #if so retrieve relationship of first in line
+  	    thisRel <- localRel[Rel_ID ==  luckyRel[1,2]][1]
+  	    print(paste0("Top match for '",term,"': ",  luckyRel[1,1],"% = ", luckyRel[1,3]))
+  	  } else {
+  	    #if not, print no relationship
+  	    thisRel <- data.table(NA,NA)
+  	  }
+  	 
+	}
 	
-		thisRel <- localRel[Rel_ID == term][1]
+	#Get and merge data if there are any matches
+  if(!is.na(thisRel[1,1,with=FALSE])){
+		
 		#eurids <- strsplit(gsub('ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE), '/')
 		eurid <- gsub('ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE)
 		#Flatten it, because there's no metadata here except the col headers
@@ -50,15 +70,11 @@ getRel <- function(term = '', lucky = FALSE) {
 	 	
 	 	#merge
 	 	mrg <- rbind(temp,temp2)
-	 	
+	 	print(paste0("A total of ",nrow(mrg), " records were retrieved."))
+	 	print(paste0("EU = ",nrow(temp2), ", US = ",nrow(temp)))
 	 	return(mrg)
 	 	
-	 	
-	 	
-	 	#usSplitLoc <- gregexpr(pattern = '&',  usrid)
-	} else {
-		message('[Insert lucky search + return method here]')
-		return('[Insert lucky search + return method here]')
-	}
+  }
+	
 
 }
