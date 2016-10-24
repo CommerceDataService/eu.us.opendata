@@ -1,0 +1,3 @@
+Dataset ID,method,ResultFormat,datasetname,table.name,GeoFips
+BEA#GDP_SP,GetData,json,regionaldata,GDP_SP,STATE
+BEA#COMP_SAN,GetData,json,regionalproduct,COMP_SAN,STATE

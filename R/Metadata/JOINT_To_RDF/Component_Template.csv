@@ -1,0 +1,7 @@
+Dataset ID,type,id,label,order,componentRequired,codelist
+JOINT#GDP_A_2,dimension,GEO,GEO,,,
+JOINT#GDP_A_2,attribute,GEO_NAME,GEO_NAME,,,
+JOINT#GDP_A_2,attribute,UNIT,UNIT,,,
+JOINT#GDP_A_2,attribute,UNIT_MULT,UNIT_MULT,,,
+JOINT#GDP_A_2,dimension,TIME,TIME,,,
+JOINT#GDP_A_2,measure,OBS_VALUE,OBS_VALUE,,,
