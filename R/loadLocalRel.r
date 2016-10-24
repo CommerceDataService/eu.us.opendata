@@ -12,13 +12,14 @@ loadLocalRel <- function(){
 	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata')
 
 	tryCatch({
-		localRel <- data.table::fread(paste0(localPath, '/Relationship_Table.csv'))
-		return(localRel)
+		localRel <- data.table::fread(paste0(localPath, '/Relationship_Table.csv'));
+		return(localRel);
 	}, error = function(e){
-		message('[Insert handler for local data csv not being found]')
-		localRel <- NULL
-		return(localRel)
-		}, finally = {''})
+		updateLocalRel();
+	}, finally = {
+		localRel <- data.table::fread(paste0(localPath, '/Relationship_Table.csv'));
+		return(localRel);
+})
 
 		
 }

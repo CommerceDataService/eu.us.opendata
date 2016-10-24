@@ -6,8 +6,10 @@
 #' @import 
 #' @export 
 
-updateCache <- function(uid, pwd, beaKey){
-	beaMetaCheck(beaKey)
+updateCache <- function(beaKey){
 
+	endpt <- 'http://dydra.com/luca-gramaglia/eu-us-partnership-metadata-store/sparql'
+		
+	
 
 }

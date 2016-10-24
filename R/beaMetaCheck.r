@@ -39,7 +39,7 @@
  'XMLUpdateDate'   <- NULL
 
 	requireNamespace('data.table', quietly = TRUE)
-	beaMetadataStore <- paste0(.libPaths()[1], '/euroStates/data')
+	beaMetadataStore <- paste0(.libPaths()[1], '/euroStates/rawdata')
 	
 	beaMetaFiles <- list.files(path = beaMetadataStore, full.names = TRUE);
 	beaMetaFilesTimes <- file.info(beaMetaFiles, extra_cols = TRUE)
@@ -82,7 +82,7 @@
 		dir.create(beaMetadataStore, showWarnings = FALSE, recursive = TRUE)
 		boolOut <- TRUE
 		#call function to update metadata - remember to specify beaR namespace
-		euroStates::beaUpdateMetadata(beaKnownMetaSets,	beaKey)
+		beaUpdateMetadata(beaKnownMetaSets,	beaKey)
 		
 	} else {
 	 if (!is.null(beaKey)){
@@ -95,7 +95,7 @@
 			'ResultFormat' = 'json'
 		)
 		#Get metadata response with timestamps we need to check for updates as list
-		beaMetaParams <- euroStates::beaGet(beaMetaTimeSpec, asList = TRUE, isMeta = TRUE)	
+		beaMetaParams <- beaGet(beaMetaTimeSpec, asList = TRUE, isMeta = TRUE)	
 		
 		beaMetaInfo <- data.table::as.data.table(beaMetaParams$ParamValue)
 		
@@ -126,7 +126,7 @@
 		},
 		error = function(e){
 			beaMetaFirstToCache <- TRUE
-			euroStates::beaUpdateMetadata(beaKnownMetaSets,	beaKey)
+			beaUpdateMetadata(beaKnownMetaSets,	beaKey)
 		}, 
 		finally = {''})
 
@@ -137,11 +137,11 @@
 		}
 
 		if(beaMetaFirstToCache){
-			euroStates::beaUpdateMetadata(beaKnownMetaSets,	beaKey)
+			beaUpdateMetadata(beaKnownMetaSets,	beaKey)
 			boolOut <- TRUE
 		} else {
 			if(length(outdatedLocalMeta) > 0){
-				euroStates::beaUpdateMetadata(as.list(tolower(outdatedLocalMeta)),	beaKey)
+				beaUpdateMetadata(as.list(tolower(outdatedLocalMeta)),	beaKey)
 				boolOut <- TRUE
 			}
 		}

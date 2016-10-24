@@ -2,16 +2,14 @@
 #' 
 #' @param term 	 ID of the statistic requested or, if lucky = TRUE, string to search for and return
 #' @param lucky 	Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)
+#' @param beaKey 	Character string representation of user's 36-digit BEA API key 
 #' @return By default, an object of class 'data.table'
 #' @import beaR RJSDMX data.table
 #' @export 
 
-getRel <- function(term = '', lucky = FALSE) { 
-#Think we should set validate = TRUE for all requests
-# 	if(class(beaSpec) != 'character'){
-# 		warning('Please specify the ID or of the data you are looking for.')
-# 		return(paste0('Invalid object class passed to beaGet([list of API parameters]): ', class(beaSpec), '. Should be of class "list"'))
-# 	}
+getRel <- function(term = '', lucky = FALSE, beaKey = '') { 
+# TODO: Need to replace temporary method for getting list of industries once metadata repository has more info
+
 	requireNamespace('beaR', quietly = TRUE)
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
@@ -49,17 +47,28 @@ getRel <- function(term = '', lucky = FALSE) {
   if(!is.na(thisRel[1,1,with=FALSE])){
 		
 		#eurids <- strsplit(gsub('ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE), '/')
-		eurid <- gsub('ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE)
+		eurid <- gsub('http://ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE)
 		#Flatten it, because there's no metadata here except the col headers
 		euData <- as.data.table(RJSDMX::getTimeSeriesTable('EUROSTAT', eurid))
 	 	#euSplitLoc <- gregexpr(pattern = '/',  eurid)
-	 	usrids <- strsplit(gsub('http://www.bea.gov/api/data/?', '', thisRel[,BEA_ID], fixed = TRUE), '&')[[1]]
+	 	usLines <- strsplit(gsub('http://www.bea.gov/api/data/?', '', thisRel[,BEA_ID], fixed = TRUE), '&')[[1]]
+	 	usrids <- gsub('userid=xxx', paste0('userid=', beaKey), tolower(usLines), fixed = TRUE)
+	 	if (any(grepl('datasetname=regionalproduct', tolower(usrids), fixed = T))){
+	 	#Use "shortlist" duct tape until inds added to metadata store; then we must build new method
+	 		inds <- shortlist();
+	 		component <- gsub('component=', tolower(usrids[grepl('component=', tolower(usrids), fixed = T)]));
+
+	 		usData <- beaProdByInd(beaKey, component, geoFips = thisRel[, BEA_Geo], indVec = inds[, IndustryID]);
 	 	
-	 	beaEval <- gsub("=", "'='", paste0("'", paste(usrids,	collapse = "','"), "'"), fixed = TRUE)
-	 	eval(parse(text = paste0("usData <- beaR::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+	 	} else {
+		 	beaEval <- gsub("=", "'='", paste0("'", paste(usrids,	collapse = "','"), "'"), fixed = TRUE)
+		 	#eval(parse(text = paste0("usData <- beaR::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	#GeoFips included in bea_id; passing double params (as above) gives error
+		 	eval(parse(text = paste0("usData <- beaR::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+	 	}
 	 	
-	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID]]
-	 	mrgUS <- localMrg[Merge_ID == thisRel[,BEA_Merge_ID]]
+	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]
+	 	mrgUS <- localMrg[Merge_ID == thisRel[,BEA_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(usData))]
 	 	
 	 	#Rename fields
 	 	temp <- usData[,c(mrgUS$Source_Component),with=FALSE]

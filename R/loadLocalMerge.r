@@ -12,14 +12,14 @@ loadLocalMerge <- function(){
 	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata')
 
 	tryCatch({
-		localMerge <- data.table::fread(paste0(localPath, '/Merge_Table.csv'))
-		return(localMerge)
+		localMerge <- data.table::fread(paste0(localPath, '/Merge_Table.csv'));
+		return(localMerge);
 	}, error = function(e){
-		message('[Insert handler for local data csv not being found]')
-		localMerge <- NULL
-		return(localMerge)
-		}, finally = {''})
-
-		
+		updateLocalMerge();
+	}, finally = {
+		localMerge <- data.table::fread(paste0(localPath, '/Merge_Table.csv'));
+		return(localMerge);
+	})
+	
 }
 

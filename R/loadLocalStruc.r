@@ -12,14 +12,14 @@ loadLocalStruc <- function(){
 	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata')
 
 	tryCatch({
-		localStruc <- data.table::fread(paste0(localPath, '/Structure_Table.csv'))
-		return(localStruc)
+		localStruc <- data.table::fread(paste0(localPath, '/Structure_Table.csv'));
+		return(localStruc);
 	}, error = function(e){
-		message('[Insert handler for local data csv not being found]')
-		localStruc <- NULL
-		return(localStruc)
-		}, finally = {''})
-
+		updateLocalStruc();
+	}, finally = {
+		localStruc <- data.table::fread(paste0(localPath, '/Structure_Table.csv'));
+		return(localStruc);
+	})
 		
 }
 
