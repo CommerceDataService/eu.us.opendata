@@ -62,9 +62,9 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	
 	 	} else {
 		 	beaEval <- gsub("=", "'='", paste0("'", paste(usrids,	collapse = "','"), "'"), fixed = TRUE)
-		 	#eval(parse(text = paste0("usData <- beaR::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	#eval(parse(text = paste0("usData <- euroStates::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 		 	#GeoFips included in bea_id; passing double params (as above) gives error
-		 	eval(parse(text = paste0("usData <- beaR::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	eval(parse(text = paste0("usData <- euroStates::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 	 	}
 	 	
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]

@@ -17,7 +17,7 @@
 #' BL <- bea2List(resp)
 
 
-bea2List <- function(beaPayload, isMeta=TRUE) {
+bea2List <- function(beaPayload, isMeta=FALSE) {
 	requireNamespace('httr', quietly = TRUE)
 	requireNamespace('jsonlite', quietly = TRUE)
 	if(class(beaPayload) != 'response'){

@@ -6,6 +6,7 @@
 #' @export 
 
 searchRel <- function(term, html = FALSE){
+	requireNamespace(DT)
     flag <- c()
     
     #Check if there is any term that is passed into the function

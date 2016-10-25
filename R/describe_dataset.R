@@ -5,7 +5,9 @@
 #' @export 
 
 describeRel <- function(term) { 
-  
+	requireNamespace(data.table)
+	requireNamespace(formattable)
+	
   localRel <- as.data.frame(loadLocalRel())
   loc = localRel[localRel$Rel_ID==term,]
   

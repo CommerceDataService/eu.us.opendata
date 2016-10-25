@@ -11,7 +11,7 @@ beaProdByInd <- function(beaKey, component, geofips = 'State', indVec = c()) {
 	requireNamespace('data.table')
 
 	dtList <- lapply(getList[, IndustryID], function(thisInd){
-		thisResp <- beaGet(
+		thisResp <- euroStates::beaGet(
 			list(
 				'userid' = beaKey, 
 				'datasetname' = 'regionalproduct',
