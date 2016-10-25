@@ -4,19 +4,30 @@
 #' @param lucky 	Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)
 #' @param beaKey 	Character string representation of user's 36-digit BEA API key 
 #' @return By default, an object of class 'data.table'
-#' @import beaR RJSDMX data.table
+#' @import RJSDMX data.table
 #' @export 
 
 getRel <- function(term = '', lucky = FALSE, beaKey = '') { 
 # TODO: Need to replace temporary method for getting list of industries once metadata repository has more info
 
-	requireNamespace('beaR', quietly = TRUE)
+	Freq							<-	NULL
+	EU_ID							<-	NULL
+	Rel_ID						<-	NULL
+	BEA_ID						<-	NULL
+	BEA_Geo						<-	NULL
+	Merge_ID					<-	NULL
+	IndustryID				<-	NULL
+	EU_Merge_ID				<-	NULL
+	BEA_Merge_ID			<-	NULL
+	Source_Component	<-	NULL
+	
+	
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
-	
-	localRel <- loadLocalRel()
-	localMrg <- loadLocalMerge()
-	localStr <- loadLocalStruc()
+	eu.us.openR::updateCache();
+	localRel <- eu.us.openR::loadLocalRel()
+	localMrg <- eu.us.openR::loadLocalMerge()
+	localStr <- eu.us.openR::loadLocalStruc()
 	
 	#Lucky 
 	if(!lucky){
@@ -58,13 +69,13 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 		inds <- shortlist();
 	 		component <- gsub('component=', tolower(usrids[grepl('component=', tolower(usrids), fixed = T)]));
 
-	 		usData <- beaProdByInd(beaKey, component, geoFips = thisRel[, BEA_Geo], indVec = inds[, IndustryID]);
+	 		usData <- beaProdByInd(beaKey, component, geofips = thisRel[, BEA_Geo], indVec = inds[, IndustryID]);
 	 	
 	 	} else {
 		 	beaEval <- gsub("=", "'='", paste0("'", paste(usrids,	collapse = "','"), "'"), fixed = TRUE)
-		 	#eval(parse(text = paste0("usData <- euroStates::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	#eval(parse(text = paste0("usData <- eu.us.openR::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 		 	#GeoFips included in bea_id; passing double params (as above) gives error
-		 	eval(parse(text = paste0("usData <- euroStates::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	eval(parse(text = paste0("usData <- eu.us.openR::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 	 	}
 	 	
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]

@@ -1,5 +1,6 @@
 #' Load local merge metadata cache
 #' 
+#' @keywords internal
 #' @return Local cache of merge metadata, as data.table
 #' @import data.table
 #' @export 
@@ -9,7 +10,7 @@ loadLocalMerge <- function(){
 
 	requireNamespace('data.table', quietly = TRUE)
 
-	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata')
+	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
 
 	tryCatch({
 		localMerge <- data.table::fread(paste0(localPath, '/Merge_Table.csv'));

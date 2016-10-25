@@ -1,4 +1,4 @@
-#' Pass list of user specifications (including API key) to return data from BEA API.
+#' Pass list of user specifications (including API key) to return data from BEA API. . Method taken from https://github.com/us-bea/beaR/blob/master/R/beaGet.r
 #' 
 #' @param beaSpec 	A list of user specifications (required). In this example, 'GetData' specifies that we want data values (rather than metadata), 'NIPA' specifies the dataset, 'A' specifies that we want annual data, 'TableID' = '68' gets a specific table, and 'X' gets all years. See BEA API documentation or use metadata methods for complete lists of parameters.
 #' @param asString Return result body as a string (default: FALSE) 
@@ -7,7 +7,8 @@
 #' @param asWide 	 Return data.table in wide format (default: TRUE)
 #' @param iTableStyle If "asWide = TRUE", setting "iTableStyle = TRUE" will return data.table in same format as shown on BEA website, with dates and attributes as column headers and series as rows; otherwise, results have series codes as column headers (default: TRUE)
 #' @param isMeta 	 Special parameter meant to interact with metadata functions (default: FALSE)
-#' @return By default, an object of class 'list' of several dimensions. View list structure using 'str(yourList)'.
+#' @keywords internal
+#' @return By default, an object of class 'data.table'
 #' @import httr
 #' @export 
 #' @examples 
@@ -26,8 +27,6 @@ beaGet <- function(beaSpec, asString=FALSE, asList=FALSE, asTable=TRUE, asWide=T
 			beaGet(list("UserID" = "YourKey", "Method" = "GetData", [your remaining parameters]))')
 		return(paste0('Invalid object class passed to beaGet([list of API parameters]): ', class(beaSpec), '. Should be of class "list"'))
 	}
-	
-	
 	
 	requireNamespace('httr', quietly = TRUE)
 	attributes(beaSpec)$names <- tolower(attributes(beaSpec)$names)
@@ -57,7 +56,7 @@ beaGet <- function(beaSpec, asString=FALSE, asList=FALSE, asTable=TRUE, asWide=T
 					sep = '='
 				), 
 				collapse = '&'
-			), '&beaR=v1',
+			), '&beaR=project-eu-us',
 		collapse  = NULL)
 	)
 	
@@ -75,22 +74,16 @@ beaGet <- function(beaSpec, asString=FALSE, asList=FALSE, asTable=TRUE, asWide=T
 	#Use httr GET to make the API call 
 	beaPayload <- httr::GET(beaUrl)
 
-#Give user format they want 
-	#if (asTS) {
-	#	beaResults <- bea2TS(beaPayload)
-	#	return(beaResults)		
-	#	}
-	# else {
 		if (asTable) {
 			userWide <- asWide
 			userTabStyle <- iTableStyle
-			beaResults <- euroStates::bea2Tab(beaPayload, asWide = userWide, iTableStyle = userTabStyle)
+			beaResults <- eu.us.openR::bea2Tab(beaPayload, asWide = userWide, iTableStyle = userTabStyle)
 			return(beaResults)
 		}
 		else {
 			if(asList) {
 				metaMethod <- isMeta
-				beaResponse <- euroStates::bea2List(beaPayload, isMeta = metaMethod)
+				beaResponse <- eu.us.openR::bea2List(beaPayload, isMeta = metaMethod)
 				return(beaResponse)
 				}
 			else {

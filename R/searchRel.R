@@ -1,11 +1,15 @@
 #' Search Metadata Store Relationship Table using text search
 #' 
-#' @param html  option to render results in an interactive DT
-#' @param term  term
+#' @param html  Option to render results in an interactive DT
+#' @param term  Search term
 #' @import DT
 #' @export 
 
 searchRel <- function(term, html = FALSE){
+	requireNamespace('DT', quietly = TRUE)
+	
+		eu.us.openR::updateCache();
+
     flag <- c()
     
     #Check if there is any term that is passed into the function
@@ -20,7 +24,7 @@ searchRel <- function(term, html = FALSE){
           for(i in 0:5){
             for(k in split){
               flag <- c(flag,
-                        data[agrep(k, data[,2], max = i, ignore.case = TRUE),2])
+                        data[agrep(k, data[,2], max.distance = i, ignore.case = TRUE),2])
             }
           }
     }

@@ -1,13 +1,14 @@
 #' Update local merge metadata cache
 #' 
+#' @keywords internal
 #' @return Local cache of merge metadata, as data.table
 #' @import SPARQL RCurl
 #' @export 
 
 updateLocalMerge <- function(){
 
-	requireNamespace('SPARQL')
-	requireNamespace('RCurl')
+	requireNamespace('SPARQL', quietly = TRUE)
+	requireNamespace('RCurl', quietly = TRUE)
 
 endpt <- 'http://dydra.com/luca-gramaglia/eu-us-partnership-metadata-store/sparql'
 
@@ -33,9 +34,9 @@ SELECT ?Merge_ID ?Source_Component ?Target_Component ?Map_Type ?Source_Value ?Ta
 
 qd <- SPARQL(endpt,quer)
 
-localPath <- paste0(.libPaths()[1], '/euroStates/rawdata/Merge_Table.csv')
+localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata/Merge_Table.csv')
 
-write.csv2(qd$results, localPath, quote = FALSE, row.names = FALSE)
+utils::write.csv2(qd$results, localPath, quote = FALSE, row.names = FALSE)
 
 		
 }

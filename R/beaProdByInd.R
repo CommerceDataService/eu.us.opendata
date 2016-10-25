@@ -1,17 +1,22 @@
-
-#' @example
-#' beaKey <- 'your bea api key'
-#' inds <- shortlist();
-#' gdp_san <- beaProdByInd(beaKey, 'gdp_san', indVec = inds);
+#' Pass list of user specifications (including API key) to return data from BEA API.
+#' 
+#' @param beaKey 	Character string representation of user's 36-digit BEA API key 
+#' @param component 	Character string representation of component parameter (see API documentation) 
+#' @param geofips 	Geographic FIPS code (see API documentation) 
+#' @param indVec 	Character vector containing industryIDs (typically obtained from "shortlist()" function
+#' @keywords internal
+#' @return By default, an object of class 'data.table' containing BEA product data by industry and region
+#' @import data.table
+#' @export 
 
 
 beaProdByInd <- function(beaKey, component, geofips = 'State', indVec = c()) {
-
+	IndustryID <- NULL
 	getList <- indVec;
-	requireNamespace('data.table')
+	requireNamespace('data.table', quietly = TRUE)
 
 	dtList <- lapply(getList[, IndustryID], function(thisInd){
-		thisResp <- euroStates::beaGet(
+		thisResp <- eu.us.openR::beaGet(
 			list(
 				'userid' = beaKey, 
 				'datasetname' = 'regionalproduct',

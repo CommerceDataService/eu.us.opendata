@@ -1,13 +1,25 @@
-
-#' @example
-#' getList <- shortlist();
-#' outfile <- paste0(getwd(), '/ind_shortlist.csv')
-#' write.table(getList, outfile, row.names = F);
-#' outfile
+#' Pass list of user specifications (including API key) to return data from BEA API.
+#' 
+#' @keywords internal
+#' @return By default, an object of class 'data.table' containing a mapping of BEA regional IndustryIDs to NAICS codes
+#'	@export
 
 shortlist <- function(){
 	requireNamespace('data.table');
-	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata/bea_indmap.csv')
+	`.` 										<- NULL
+	ind1						 				<- NULL
+	ind2						 				<- NULL
+	ind3						 				<- NULL
+	ind4						 				<- NULL
+	NAICS								 		<- NULL
+	include							 		<- NULL
+	IndustryId						 	<- NULL
+	IndustryID						 	<- NULL
+	Description 						<- NULL
+	IndustryClassification 	<- NULL
+
+	
+	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata/bea_indmap.csv')
 
 	tryCatch(
 	
@@ -19,13 +31,13 @@ shortlist <- function(){
 	error = function(e){
 		tf <- tempfile(pattern = "file", tmpdir = tempdir(), fileext = ".zip")
 		
-		download.file('http://www.bea.gov/regional/zip/gsp/gsp_naics_all_C.zip', tf, quiet = TRUE)
+		utils::download.file('http://www.bea.gov/regional/zip/gsp/gsp_naics_all_C.zip', tf, quiet = TRUE)
 		
 		tuz <- gsub('.zip', '', tf, fixed = T)
 		
-		unzip(tf, exdir=tuz)
+		utils::unzip(tf, exdir=tuz)
 		
-		indies <- data.table::data.table(read.delim(
+		indies <- data.table::data.table(utils::read.delim(
 		 	paste0(tuz, '/gsp_naics_all_C.csv'), 
 		 	sep=',', 
 		 	quote = '\"' ,
@@ -61,7 +73,7 @@ shortlist <- function(){
 				(nchar(ind1) < 3 | is.na(ind1)), 
 				.(Description, IndustryID, ind1, ind2, ind3, ind4)])
 	
-		write.csv2(toGet, localPath, quote = FALSE, row.names = FALSE)
+		utils::write.csv2(toGet, localPath, quote = FALSE, row.names = FALSE)
 	
 		return(toGet)
 		},

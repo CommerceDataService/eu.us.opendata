@@ -1,5 +1,6 @@
 #' Load local relationship metadata cache
 #' 
+#' @keywords internal
 #' @return Local cache of relationship metadata, as data.table
 #' @import data.table
 #' @export 
@@ -9,7 +10,7 @@ loadLocalRel <- function(){
 
 	requireNamespace('data.table', quietly = TRUE)
 
-	localPath <- paste0(.libPaths()[1], '/euroStates/rawdata')
+	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
 
 	tryCatch({
 		localRel <- data.table::fread(paste0(localPath, '/Relationship_Table.csv'));

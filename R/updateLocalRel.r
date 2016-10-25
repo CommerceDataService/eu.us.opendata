@@ -1,13 +1,14 @@
 #' Update local relationship metadata cache
 #' 
+#' @keywords internal
 #' @return Local cache of relationship metadata, as data.table
-#' @import data.table
+#' @import SPARQL RCurl
 #' @export 
 
 updateLocalRel <- function(){
 
-	requireNamespace('SPARQL')
-	requireNamespace('RCurl')
+	requireNamespace('SPARQL', quietly = TRUE)
+	requireNamespace('RCurl', quietly = TRUE)
 
 endpt <- 'http://dydra.com/luca-gramaglia/eu-us-partnership-metadata-store/sparql'
 
@@ -56,9 +57,9 @@ WHERE{
 
 qd <- SPARQL(endpt,quer)
 
-localPath <- paste0(.libPaths()[1], '/euroStates/rawdata/Relationship_Table.csv')
+localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata/Relationship_Table.csv')
 
-write.csv2(qd$results, localPath, quote = FALSE, row.names = FALSE)
+utils::write.csv2(qd$results, localPath, quote = FALSE, row.names = FALSE)
 
 		
 }

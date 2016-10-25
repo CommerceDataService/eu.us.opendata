@@ -1,8 +1,9 @@
 #' Reshape datasets into wide form
 #' Auto detect if just GEO x TIME or GEO x IND x TIME
 #' 
-#' @param term 	 ID of the statistic requested 
-#' @import data.table 
+#' @keywords internal
+#' @param df 	 data.frame to be reshaped to wide format 
+#' @importFrom stats reshape 
 #' @export 
 
 wide <- function(df){

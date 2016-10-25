@@ -1,10 +1,11 @@
-#' Convert BEA API httr response or list payload to data.table  
+#' Convert BEA API httr response or list payload to data.table. . Method taken from https://github.com/us-bea/beaR/blob/master/R/bea2Tab.r  
 #' 
 #' @param beaPayload An object of class 'list' or httr 'response' returned from beaGet() call to BEA API
 #' @param asWide 	 		Return data.table in wide format (default: TRUE)
 #' @param iTableStyle If "asWide = TRUE", setting "iTableStyle = TRUE" will return data.table in same format as shown on BEA website, with dates and attributes as column headers and series as rows; otherwise, results have series codes as column headers (default: TRUE)
 #' @description Convert BEA API httr response or list payload to data.table. Also, converts LONG data frame (default API format - see bea2List results) to WIDE data (with years as columns) by default 
 #' @return An object of class 'data.table' containing data from beaGet(...) with custom attributes(BDT)$params.
+#' @keywords internal
 #' @import data.table
 #' @export
 #' @examples 
@@ -20,7 +21,7 @@
 bea2Tab <- function(beaPayload, asWide = TRUE, iTableStyle = TRUE) {
 	requireNamespace('data.table', quietly = TRUE)
 	if('response' %in% class(beaPayload)){
-		beaResponse <- euroStates::bea2List(beaPayload)
+		beaResponse <- eu.us.openR::bea2List(beaPayload)
 	} else {
 		beaResponse <- beaPayload
 	}

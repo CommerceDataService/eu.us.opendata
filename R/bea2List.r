@@ -1,10 +1,11 @@
-#' Convert BEA API httr response payload to list
+#' Convert BEA API httr response payload to list. . Method taken from https://github.com/us-bea/beaR/blob/master/R/bea2List.r
 #' 
 #' @param beaPayload An object with httr class 'response' from call to BEA API
 #' @param isMeta 	 Special parameter meant to interact with metadata functions (default: FALSE)
 #' @return An object of class 'list' of several dimensions. View list structure using 'str(yourList)'.
 #' @import httr
 #' @importFrom jsonlite fromJSON
+#' @keywords internal
 #' @export
 #' @examples 
 #' userSpecList <- list('UserID' = 'yourKey' ,
