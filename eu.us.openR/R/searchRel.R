@@ -3,11 +3,12 @@
 #' @param html  Option to render results in an interactive DT
 #' @param term  Search term
 #' @param beaKey 	BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)
-#' @import DT
+#' @import DT RCurl
 #' @export 
 
 searchRel <- function(term, html = FALSE, beaKey = ''){
 	requireNamespace('DT', quietly = TRUE)
+	requireNamespace('RCurl', quietly = TRUE)
 	
 		eu.us.openR::updateCache(beaKey);
 

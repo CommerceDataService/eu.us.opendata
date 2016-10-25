@@ -21,11 +21,9 @@ Maintainer: Luca Gramaglia,
 		Jeff Chen,
 		Andrea Julca <Developers@bea.gov>
 Depends:
-    R (>= 3.2.1)
+    R (>= 3.2.1), RCurl, SPARQL
 Imports: rsdmx,
-				SPARQL,
 				DT,
-				RCurl,
 				RJSDMX,
 				formattable,
 				httr,
