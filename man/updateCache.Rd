@@ -4,10 +4,12 @@
 \alias{updateCache}
 \title{Update local metadata cache}
 \usage{
-updateCache(beaKey)
+updateCache(beaKey, force = FALSE)
 }
 \arguments{
 \item{beaKey}{BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)}
+
+\item{force}{Force local cache to update, even if there have been no changes since your last metadata update}
 }
 \value{
 Nothing, but updates local CSVs

@@ -6,8 +6,8 @@
 #' @export 
 
 describeRel <- function(term, beaKey = '') { 
-	requireNamespace(data.table)
-	requireNamespace(formattable)
+	requireNamespace('data.table', quietly = TRUE)
+	requireNamespace('formattable', quietly = TRUE)
 
 	eu.us.openR::updateCache(beaKey);
 	
@@ -15,11 +15,12 @@ describeRel <- function(term, beaKey = '') {
   loc = localRel[localRel$Rel_ID==term,]
   
   if(nrow(loc)>0){
-  temp = data.frame(field = c("EU US Rel_ID","Description","freq", "period","unit","geo", "url"),
-                 EU_data = c(loc$Rel_ID,loc$Rel_name,loc$Freq,loc$EU_Period,loc$EU_Unit,loc$EU_Geo,loc$EU_ID),
-                 US_data = c("","",loc$Freq,loc$BEA_Period,loc$BEA_Unit,loc$BEA_Geo,loc$BEA_ID))
-  colnames(a) <- c("Field", "EU Data","US Data")
-  formattable(a, align="l")
+	  a <- data.frame(field = c("EU US Rel_ID","Description","freq", "period","unit","geo", "url"),
+	                 EU_data = c(loc$Rel_ID,loc$Rel_name,loc$Freq,loc$EU_Period,loc$EU_Unit,loc$EU_Geo,loc$EU_ID),
+	                 US_data = c("","",loc$Freq,loc$BEA_Period,loc$BEA_Unit,loc$BEA_Geo,loc$BEA_ID))
+	  colnames(a) <- c("Field", "EU Data","US Data")
+	  formattable::formattable(a, align="l")
+	  return(a);
   } else{
     print("No result")
   }
