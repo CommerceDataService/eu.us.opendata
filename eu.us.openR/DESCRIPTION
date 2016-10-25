@@ -1,0 +1,40 @@
+Package: eu.us.openR
+Title: A library for bringing together EU and US statistical data
+Version: 0.0.1
+Authors@R: c(person("Luca", "Gramaglia", role = "aut", "cre"),
+		person("Denis", "Grofils", role = "aut", "cre"),
+		person("Jeff", "Chen", role = "aut", "cre"),
+		person("Andrea", "Julca", role = c("aut", "cre"),
+		     email = c("Andrea.Julca@bea.gov")),
+		person("Laurent", "Mathurin", role = "ctb"),
+		person("Loredana", "Di Consiglio", role = "ctb"),
+		person("Ledia", "Guci", role = "ctb"))
+Author: Luca Gramaglia [aut, cre],
+		Denis Grofils [aut, cre],
+		Jeff Chen [aut, cre], 
+		Andrea Julca [aut, cre],
+		Laurent Mathurin [ctb],
+		Loredana Di Consiglio [ctb],
+		Ledia Guci [ctb]
+Maintainer: Luca Gramaglia, 
+		Denis Grofils, 
+		Jeff Chen,
+		Andrea Julca <Developers@bea.gov>
+Depends:
+    R (>= 3.2.1)
+Imports: rsdmx,
+				SPARQL,
+				DT,
+				RCurl,
+				RJSDMX,
+				formattable,
+				httr,
+				jsonlite, 
+    		data.table				
+Description: 
+		Important Note - You must have a BEA API Key to use this library.  
+		Register for a key at http://www.bea.gov/API/signup/index.cfm .
+URL: https://github.com/CommerceDataService/project-eu-us
+License: file LICENSE
+LazyData: no
+RoxygenNote: 5.0.1
