@@ -4,7 +4,7 @@
 \alias{describeRel}
 \title{Given a relationship ID, return description of mapped relationship allowing users to see common overlap and/or differences between datasets}
 \usage{
-describeRel(term, beaKey = "")
+describeRel(term, html = TRUE, beaKey = "")
 }
 \arguments{
 \item{term}{ID of the statistic requested}
