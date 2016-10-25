@@ -5,7 +5,7 @@
 #' @import data.table formattable
 #' @export 
 
-describeRel <- function(term, beaKey = '') { 
+describeRel <- function(term, html = TRUE, beaKey = '') { 
 	requireNamespace('data.table', quietly = TRUE)
 	requireNamespace('formattable', quietly = TRUE)
 
@@ -19,8 +19,11 @@ describeRel <- function(term, beaKey = '') {
 	                 EU_data = c(loc$Rel_ID,loc$Rel_name,loc$Freq,loc$EU_Period,loc$EU_Unit,loc$EU_Geo,loc$EU_ID),
 	                 US_data = c("","",loc$Freq,loc$BEA_Period,loc$BEA_Unit,loc$BEA_Geo,loc$BEA_ID))
 	  colnames(a) <- c("Field", "EU Data","US Data")
-	  formattable::formattable(a, align="l")
-	  return(a);
+	  if(html == TRUE){
+		  formattable::formattable(a, align="l")
+		} else {
+		  return(a);
+		}
   } else{
     print("No result")
   }
