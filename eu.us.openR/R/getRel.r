@@ -2,7 +2,7 @@
 #' 
 #' @param term 	 ID of the statistic requested or, if lucky = TRUE, string to search for and return
 #' @param lucky 	Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)
-#' @param beaKey 	Character string representation of user's 36-digit BEA API key 
+#' @param beaKey 	Character string representation of user's 36-digit BEA API key. Won't be necessary if IndustryID to NAICS mapping is in metadata store.
 #' @return By default, an object of class 'data.table'
 #' @import RJSDMX data.table
 #' @export 
@@ -24,7 +24,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
-	eu.us.openR::updateCache();
+	eu.us.openR::updateCache(beaKey);
 	localRel <- eu.us.openR::loadLocalRel()
 	localMrg <- eu.us.openR::loadLocalMerge()
 	localStr <- eu.us.openR::loadLocalStruc()

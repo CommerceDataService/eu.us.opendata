@@ -4,12 +4,14 @@
 \alias{searchRel}
 \title{Search Metadata Store Relationship Table using text search}
 \usage{
-searchRel(term, html = FALSE)
+searchRel(term, html = FALSE, beaKey = "")
 }
 \arguments{
 \item{term}{Search term}
 
 \item{html}{Option to render results in an interactive DT}
+
+\item{beaKey}{BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)}
 }
 \description{
 Search Metadata Store Relationship Table using text search
