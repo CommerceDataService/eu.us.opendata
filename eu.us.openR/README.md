@@ -10,8 +10,37 @@ Because this is currently a private repository, installation has an extra step o
 #Install packages if needed
 install.packages(c('devtools', 'httr'));
 
-library(httr);
 library(devtools);
+library(httr);
+
 httr::set_config( config( ssl_verifypeer = 0L ));
-devtools::install_github('CommerceDataService/project-eu-us/eu.us.openR', auth_user='[your github user ID]', auth_token='[the token you just got]');
+
+devtools::install_github(
+	'CommerceDataService/project-eu-us/eu.us.openR', 
+	auth_user = '[your github username]', 
+	auth_token = '[the token you just made]'
+) 
+
+library(eu.us.openR)
+
 ```
+
+## getRel
+Using my BEA API key, assigned to the variable beaKey (which should not be necessary in final version), I am able to get the data as a relationship table:
+```r
+getRel('gdp', lucky = T, beaKey = beaKey)
+```
+
+## searchRel
+Using my BEA API key, which again should not be necessary in final version (albeit for a different, easier-to-change reason), I am able to return search results as a table:
+```{r searchRel}
+searchRel('gdp', asHtml = F, beaKey = beaKey)
+
+```
+
+## describeRel
+Using a relationship ID, return a description of that relationship as a table (again, beaKey parameter required only for now):
+```{r describeRel}
+describeRel('<JOINT#GDP_A_2>', asHtml = TRUE, beaKey = beaKey)
+```
+ 
