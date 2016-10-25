@@ -11,7 +11,7 @@ getRel(term = "", lucky = FALSE, beaKey = "")
 
 \item{lucky}{Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)}
 
-\item{beaKey}{Character string representation of user's 36-digit BEA API key}
+\item{beaKey}{Character string representation of user's 36-digit BEA API key. Won't be necessary if IndustryID to NAICS mapping is in metadata store.}
 }
 \value{
 By default, an object of class 'data.table'

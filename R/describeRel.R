@@ -1,14 +1,15 @@
 #' Given a relationship ID, return description of mapped relationship allowing users to see common overlap and/or differences between datasets
 #' 
 #' @param term 	 ID of the statistic requested 
+#' @param beaKey 	BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)
 #' @import data.table formattable
 #' @export 
 
-describeRel <- function(term) { 
+describeRel <- function(term, beaKey = '') { 
 	requireNamespace(data.table)
 	requireNamespace(formattable)
 
-	eu.us.openR::updateCache();
+	eu.us.openR::updateCache(beaKey);
 	
   localRel <- as.data.frame(loadLocalRel())
   loc = localRel[localRel$Rel_ID==term,]
