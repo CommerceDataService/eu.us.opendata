@@ -44,3 +44,9 @@ Using a relationship ID, return a description of that relationship as a table (a
 describeRel('<JOINT#GDP_A_2>', asHtml = TRUE, beaKey = beaKey)
 ```
  
+## listRel
+ This is kind of an odd one, closer to the methods used to update local metadata.
+ I thought it might be interesting to see how a direct SPARQL query of the (online) metadata store performs when the query is very small, as it is in this case. Of course, this can be changed later, but seems to do fine for now. 
+```{r listRel}
+listRel(asHtml = FALSE)
+```
