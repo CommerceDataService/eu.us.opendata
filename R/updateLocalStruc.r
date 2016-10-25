@@ -30,9 +30,10 @@ SELECT ?Structure_ID ?Component WHERE {
 
 	qd <- SPARQL(endpt,quer)
 
-	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata/Structure_Table.csv')
+	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+	dir.create(localPath, showWarnings = FALSE, recursive = TRUE)
 
-	utils::write.csv2(qd$results, localPath, quote = FALSE, row.names = FALSE)
+	utils::write.csv2(qd$results, paste0(localPath, '/Structure_Table.csv'), quote = FALSE, row.names = FALSE)
 
 
 }

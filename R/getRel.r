@@ -4,11 +4,12 @@
 #' @param lucky 	Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)
 #' @param beaKey 	Character string representation of user's 36-digit BEA API key. Won't be necessary if IndustryID to NAICS mapping is in metadata store.
 #' @return By default, an object of class 'data.table'
-#' @import RJSDMX data.table
+#' @import RJSDMX data.table RCurl SPARQL
 #' @export 
 
 getRel <- function(term = '', lucky = FALSE, beaKey = '') { 
 # TODO: Need to replace temporary method for getting list of industries once metadata repository has more info
+# Note: Multiple lines using beaKey here (one for updateCache, one for searchRel)
 
 	Freq							<-	NULL
 	EU_ID							<-	NULL
@@ -22,7 +23,9 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	Source_Component	<-	NULL
 	
 	
+	requireNamespace('SPARQL', quietly = TRUE)
 	requireNamespace('RJSDMX', quietly = TRUE)
+	requireNamespace('RCurl', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
 	eu.us.openR::updateCache(beaKey);
 	localRel <- eu.us.openR::loadLocalRel()
@@ -40,7 +43,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	  }
 	  
 	} else {
-	  luckyRel <- searchRel(term)
+	  luckyRel <- searchRel(term, beaKey = beaKey)
 	    
 	    #Check if luckyRel yielded any result (data.frame with more than 1 row)
   	  if(nrow(luckyRel)>0){

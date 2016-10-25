@@ -44,6 +44,7 @@ updateCache <- function(beaKey){
 
 
 		localMetadataStore <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+		dir.create(localMetadataStore, showWarnings = FALSE, recursive = TRUE)
 		
 		localMetaFiles <- list.files(path = localMetadataStore, full.names = TRUE);
 		localMetaFilesTimes <- file.info(localMetaFiles, extra_cols = TRUE)

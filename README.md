@@ -15,4 +15,3 @@ library(devtools);
 httr::set_config( config( ssl_verifypeer = 0L ));
 devtools::install_github('CommerceDataService/project-eu-us/eu.us.openR', auth_user='[your github user ID]', auth_token='[the token you just got]');
 ```
-
