@@ -3,6 +3,7 @@ library(RCurl)
 library(rjson)
 library(reshape2)
 source("Dataset_To_RDF.R", chdir=T)
+source("shortlist.R", chdir=T)
 
 #
 #SET SPARQL ENDPOINT
@@ -65,9 +66,13 @@ BEAAPISpecs.list<-lapply(BEAAPISpecs.list, function(x) {
     parameter.url<-paste0(bea.api.url, "?", paste(names(parameter.input), parameter.input, sep="=", collapse = "&"))
     parameter<-fromJSON(getURL(parameter.url))$BEAAPI$Results$ParamValue
     
+    NAICS.map<-as.character(shortlist()[["IndustryID"]])
+    
     for (i in 1:length(parameter)) {
-      x$IndustryId<-parameter[[i]]$Key
-      l[[i]]<-x
+      if(parameter[[i]]$Key %in% NAICS.map) {
+        x$IndustryId<-parameter[[i]]$Key
+        l[[length(l)+1]]<-x
+      }
     }  
   }
   
