@@ -93,6 +93,12 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	
 	 	#merge
 	 	mrg <- rbind(temp,temp2)
+	 	
+	 	#replace "United States" in GEO_NAME
+	 	
+	 	mrg[, GEO_NAME := gsub('United States', 'US', GEO_NAME, fixed = TRUE)]
+	 	
+	 	
 	 	print(paste0("A total of ",nrow(mrg), " records were retrieved."))
 	 	print(paste0("EU = ",nrow(temp2), ", US = ",nrow(temp)))
 	 	return(mrg)

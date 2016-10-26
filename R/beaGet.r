@@ -77,13 +77,13 @@ beaGet <- function(beaSpec, asString=FALSE, asList=FALSE, asTable=TRUE, asWide=T
 		if (asTable) {
 			userWide <- asWide
 			userTabStyle <- iTableStyle
-			beaResults <- eu.us.openR::bea2Tab(beaPayload, asWide = userWide, iTableStyle = userTabStyle)
+			beaResults <- eu.us.opendata::bea2Tab(beaPayload, asWide = userWide, iTableStyle = userTabStyle)
 			return(beaResults)
 		}
 		else {
 			if(asList) {
 				metaMethod <- isMeta
-				beaResponse <- eu.us.openR::bea2List(beaPayload, isMeta = metaMethod)
+				beaResponse <- eu.us.opendata::bea2List(beaPayload, isMeta = metaMethod)
 				return(beaResponse)
 				}
 			else {

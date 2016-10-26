@@ -27,7 +27,7 @@ updateCache <- function(beaKey, force = FALSE){
 	#	endpt <- 'http://dydra.com/luca-gramaglia/eu-us-partnership-metadata-store/sparql'
 
 ## For now, we'll just update if the earliest updated date in the list of regional datasets has been updated.
-		dateDF <- eu.us.openR::beaGet(
+		dateDF <- eu.us.opendata::beaGet(
 			list(
 				'userid' = beaKey,
 				'method' = 'getparametervalues', 
@@ -49,7 +49,7 @@ updateCache <- function(beaKey, force = FALSE){
 	
 	
 	
-			localMetadataStore <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+			localMetadataStore <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
 			dir.create(localMetadataStore, showWarnings = FALSE, recursive = TRUE)
 			
 			localMetaFiles <- list.files(path = localMetadataStore, full.names = TRUE);

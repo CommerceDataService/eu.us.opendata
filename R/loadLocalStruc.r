@@ -10,7 +10,7 @@ loadLocalStruc <- function(){
 
 	requireNamespace('data.table', quietly = TRUE)
 
-	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+	localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
 
 	tryCatch({
 		localStruc <- data.table::fread(paste0(localPath, '/Structure_Table.csv'));

@@ -10,7 +10,7 @@ loadLocalRel <- function(){
 
 	requireNamespace('data.table', quietly = TRUE)
 
-	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+	localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
 
 	tryCatch({
 		localRel <- data.table::fread(paste0(localPath, '/Relationship_Table.csv'));

@@ -21,7 +21,7 @@
 bea2Tab <- function(beaPayload, asWide = TRUE, iTableStyle = TRUE) {
 	requireNamespace('data.table', quietly = TRUE)
 	if('response' %in% class(beaPayload)){
-		beaResponse <- eu.us.openR::bea2List(beaPayload)
+		beaResponse <- eu.us.opendata::bea2List(beaPayload)
 	} else {
 		beaResponse <- beaPayload
 	}
