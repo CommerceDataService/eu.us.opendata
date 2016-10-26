@@ -11,19 +11,26 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 # TODO: Need to replace temporary method for getting list of industries once metadata repository has more info
 # Note: Multiple lines using beaKey here (one for updateCache, one for searchRel)
 
+	`.`							<-	NULL
 	Freq							<-	NULL
-	Source						<-	NULL
+	SOURCE						<-	NULL
 	EU_ID							<-	NULL
 	Rel_ID						<-	NULL
 	BEA_ID						<-	NULL
 	BEA_Geo						<-	NULL
+	EU_Geo						<-	NULL
 	GEO_NAME					<-	NULL
 	Merge_ID					<-	NULL
 	IndustryID				<-	NULL
 	EU_Merge_ID				<-	NULL
 	BEA_Merge_ID			<-	NULL
 	Source_Component	<-	NULL
-	
+	DESC <- NULL
+	Rel_name <- NULL 
+	BEA_Period <- NULL
+	EU_Period <- NULL 
+	BEA_Unit <- NULL
+	EU_Unit <- NULL
 	
 	requireNamespace('SPARQL', quietly = TRUE)
 	requireNamespace('RJSDMX', quietly = TRUE)
@@ -92,21 +99,27 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	# Using the colnames() <- c("") approach risks integrity of the DT
 	 	temp <- usData[,c(mrgUS$Source_Component),with=FALSE]
 	 	#data.table::setnames(temp, c(mrgUS$Source_Component), c(mrgUS$Target_Component))
-	 	temp[,Source := 'bea']
-	 	colnames(temp) <- c(mrgUS$Target_Component, "Source")
+	 	temp[,SOURCE := 'bea']
+	 	colnames(temp) <- c(mrgUS$Target_Component, "SOURCE")
 	 	
 	 	temp2 <- euData[,c(mrgEU$Source_Component),with=FALSE]
 	 	#data.table::setnames(temp2, c(mrgEU$Source_Component), c(mrgEU$Target_Component))
-	 	temp2[,Source := 'eurostat']
-	 	colnames(temp2) <- c(mrgEU$Target_Component, "Source")
+	 	temp2[,SOURCE := 'eurostat']
+	 	colnames(temp2) <- c(mrgEU$Target_Component, "SOURCE")
 	 	
 	 	#merge
 	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = FALSE)
 	 	
+	 	mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
+	 	
+	 	mrg[, c(colnames(mrgDescribe)) := mrgDescribe]
+
+	 	
 	 	#replace "United States" in GEO_NAME
 	 	
-	 	mrg[, GEO_NAME := gsub('United States', 'US', GEO_NAME, fixed = TRUE)]
-	 	
+
+#On second thought, not sure I like this approach
+#	 	mrg[, GEO_NAME := gsub('United States', 'US', GEO_NAME, fixed = TRUE)]
 	 	
 	 	print(paste0("A total of ",nrow(mrg), " records were retrieved."))
 	 	print(paste0("EU = ",nrow(temp2), ", US = ",nrow(temp)))
