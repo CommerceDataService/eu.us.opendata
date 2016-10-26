@@ -66,4 +66,6 @@ Map_Insert<-function(MapSpecs.list, SPARQL.endpoint) {
   
   large.query.handler(SPARQL.endpoint, Map.query.list, insert.query.builder)
   
+  insert.catalog.last.update(as.POSIXlt(Sys.time(), "GMT"), SPARQL.endpoint)
+  
 }

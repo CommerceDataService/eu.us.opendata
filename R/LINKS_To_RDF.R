@@ -12,7 +12,7 @@ SPARQL.endpoint<-"https://dydra.com/luca-gramaglia/eu-us-partnership-metadata-st
 #UPLOAD INPUT FILES
 #
 
-structure.info.file<-"/Metadata/LINKS_To_RDF/Structure_Map_Template.csv"
+structure.info.file<-"Metadata/LINKS_To_RDF/Structure_Map_Template.csv"
 
 structure.info<-read.csv(structure.info.file)
 

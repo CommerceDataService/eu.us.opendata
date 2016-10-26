@@ -9,6 +9,11 @@ Dataset_To_RDF<-function(DatasetSpecs){
     query.list<-c(query.list, paste(id, "rdf:type qb:DataStructureDefinition, dcat:Dataset ."))
   }
   
+  if(!is.null(DatasetSpecs$catalog)){
+    catalog.id<- DatasetSpecs$catalog
+    query.list<-c(query.list, paste(catalog.id, "dcat:dataset", id))
+  }
+  
   if(!is.null(DatasetSpecs$title)){
     title<-paste("\"", DatasetSpecs$title, "\"", sep="")
     query.list<-c(query.list, paste(id, "dct:title", title, "."))
@@ -161,4 +166,5 @@ Dataset_Insert<-function(DatasetSpecs.list, SPARQL.endpoint) {
   
   large.query.handler(SPARQL.endpoint, Dataset.query.list, insert.query.builder)
   
+  insert.catalog.last.update(as.POSIXlt(Sys.time(), "GMT"), SPARQL.endpoint)
 }
