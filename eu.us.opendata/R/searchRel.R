@@ -10,7 +10,7 @@ searchRel <- function(term, asHtml = FALSE, beaKey = ''){
 	requireNamespace('DT', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	
-		eu.us.openR::updateCache(beaKey);
+		eu.us.opendata::updateCache(beaKey);
 
     flag <- c()
     

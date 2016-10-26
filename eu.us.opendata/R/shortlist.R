@@ -19,7 +19,7 @@ shortlist <- function(){
 	IndustryClassification 	<- NULL
 
 	
-	localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata/bea_indmap.csv')
+	localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata/bea_indmap.csv')
 
 	tryCatch(
 	

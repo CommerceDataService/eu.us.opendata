@@ -10,7 +10,7 @@ describeRel <- function(term, asHtml = TRUE, beaKey = '') {
 	requireNamespace('data.table', quietly = TRUE)
 	requireNamespace('formattable', quietly = TRUE)
 
-	eu.us.openR::updateCache(beaKey);
+	eu.us.opendata::updateCache(beaKey);
 	
   localRel <- as.data.frame(loadLocalRel())
   loc = localRel[localRel$Rel_ID==term,]

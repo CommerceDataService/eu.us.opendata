@@ -34,7 +34,7 @@ SELECT ?Merge_ID ?Source_Component ?Target_Component ?Map_Type ?Source_Value ?Ta
 
 qd <- SPARQL(endpt,quer)
 
-localPath <- paste0(.libPaths()[1], '/eu.us.openR/rawdata')
+localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
 dir.create(localPath, showWarnings = FALSE, recursive = TRUE)
 
 utils::write.csv2(qd$results, paste0(localPath, '/Merge_Table.csv'), quote = FALSE, row.names = FALSE)

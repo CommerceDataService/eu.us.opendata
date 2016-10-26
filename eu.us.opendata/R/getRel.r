@@ -27,10 +27,10 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
-	eu.us.openR::updateCache(beaKey);
-	localRel <- eu.us.openR::loadLocalRel()
-	localMrg <- eu.us.openR::loadLocalMerge()
-	localStr <- eu.us.openR::loadLocalStruc()
+	eu.us.opendata::updateCache(beaKey);
+	localRel <- eu.us.opendata::loadLocalRel()
+	localMrg <- eu.us.opendata::loadLocalMerge()
+	localStr <- eu.us.opendata::loadLocalStruc()
 	
 	#Lucky 
 	if(!lucky){
@@ -76,9 +76,9 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	
 	 	} else {
 		 	beaEval <- gsub("=", "'='", paste0("'", paste(usrids,	collapse = "','"), "'"), fixed = TRUE)
-		 	#eval(parse(text = paste0("usData <- eu.us.openR::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	#eval(parse(text = paste0("usData <- eu.us.opendata::beaGet(list(", beaEval, ", 'year' = 'all', 'geofips' = '", thisRel[, BEA_Geo], "', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 		 	#GeoFips included in bea_id; passing double params (as above) gives error
-		 	eval(parse(text = paste0("usData <- eu.us.openR::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
+		 	eval(parse(text = paste0("usData <- eu.us.opendata::beaGet(list(", beaEval, ", 'year' = 'all', 'frequency' = '", substr(thisRel[,Freq], 1, 1), "'), asWide = FALSE)")))
 	 	}
 	 	
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]
