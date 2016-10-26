@@ -1,4 +1,4 @@
-Package: eu.us.openR
+Package: eu.us.opendata
 Title: A library for bringing together EU and US statistical data
 Version: 0.0.1
 Authors@R: c(person("Luca", "Gramaglia", role = "aut", "cre"),
