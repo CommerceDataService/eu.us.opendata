@@ -12,10 +12,12 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 # Note: Multiple lines using beaKey here (one for updateCache, one for searchRel)
 
 	Freq							<-	NULL
+	Source						<-	NULL
 	EU_ID							<-	NULL
 	Rel_ID						<-	NULL
 	BEA_ID						<-	NULL
 	BEA_Geo						<-	NULL
+	GEO_NAME					<-	NULL
 	Merge_ID					<-	NULL
 	IndustryID				<-	NULL
 	EU_Merge_ID				<-	NULL
@@ -43,7 +45,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	  }
 	  
 	} else {
-	  luckyRel <- searchRel(term, beaKey = beaKey)
+	  luckyRel <- eu.us.opendata::searchRel(term, beaKey = beaKey)
 	    
 	    #Check if luckyRel yielded any result (data.frame with more than 1 row)
   	  if(nrow(luckyRel)>0){
@@ -52,7 +54,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
   	    print(paste0("Top match for '",term,"': ",  luckyRel[1,1],"% = ", luckyRel[1,3]))
   	  } else {
   	    #if not, print no relationship
-  	    thisRel <- data.table(NA,NA)
+  	    thisRel <- data.table::data.table(NA,NA)
   	  }
   	 
 	}
@@ -63,13 +65,13 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 		#eurids <- strsplit(gsub('ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE), '/')
 		eurid <- gsub('http://ec.europa.eu/eurostat/SDMX/diss-web/rest/data/', '', thisRel[,EU_ID], fixed = TRUE)
 		#Flatten it, because there's no metadata here except the col headers
-		euData <- as.data.table(RJSDMX::getTimeSeriesTable('EUROSTAT', eurid))
+		euData <- data.table::as.data.table(RJSDMX::getTimeSeriesTable('EUROSTAT', eurid))
 	 	#euSplitLoc <- gregexpr(pattern = '/',  eurid)
 	 	usLines <- strsplit(gsub('http://www.bea.gov/api/data/?', '', thisRel[,BEA_ID], fixed = TRUE), '&')[[1]]
 	 	usrids <- gsub('userid=xxx', paste0('userid=', beaKey), tolower(usLines), fixed = TRUE)
 	 	if (any(grepl('datasetname=regionalproduct', tolower(usrids), fixed = T))){
 	 	#Use "shortlist" duct tape until inds added to metadata store; then we must build new method
-	 		inds <- shortlist();
+	 		inds <- eu.us.opendata::shortlist();
 	 		component <- gsub('component=', tolower(usrids[grepl('component=', tolower(usrids), fixed = T)]));
 
 	 		usData <- beaProdByInd(beaKey, component, geofips = thisRel[, BEA_Geo], indVec = inds[, IndustryID]);
@@ -84,15 +86,22 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]
 	 	mrgUS <- localMrg[Merge_ID == thisRel[,BEA_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(usData))]
 	 	
-	 	#Rename fields
+	 	#Rename fields - right now this is an ugly fix because 
+	 	# we don't want to have a table with duplicate column names,
+	 	# but some EU source columns mapped to two target columns
+	 	# Using the colnames() <- c("") approach risks integrity of the DT
 	 	temp <- usData[,c(mrgUS$Source_Component),with=FALSE]
-	 	colnames(temp)<-c(mrgUS$Target_Component)
+	 	#data.table::setnames(temp, c(mrgUS$Source_Component), c(mrgUS$Target_Component))
+	 	temp[,Source := 'bea']
+	 	colnames(temp) <- c(mrgUS$Target_Component, "Source")
 	 	
 	 	temp2 <- euData[,c(mrgEU$Source_Component),with=FALSE]
-	 	colnames(temp2) <- c(mrgEU$Target_Component)
+	 	#data.table::setnames(temp2, c(mrgEU$Source_Component), c(mrgEU$Target_Component))
+	 	temp2[,Source := 'eurostat']
+	 	colnames(temp2) <- c(mrgEU$Target_Component, "Source")
 	 	
 	 	#merge
-	 	mrg <- rbind(temp,temp2)
+	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = FALSE)
 	 	
 	 	#replace "United States" in GEO_NAME
 	 	
