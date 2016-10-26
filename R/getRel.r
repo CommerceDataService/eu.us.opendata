@@ -110,9 +110,9 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	#merge
 	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = FALSE)
 	 	
-	 	mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
-	 	
-	 	mrg[, c(colnames(mrgDescribe)) := mrgDescribe]
+	 	#mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
+	 	#mrg[, c(colnames(mrgDescribe)) := mrgDescribe]
+	 	attributes(mrg)$Description <- thisRel
 
 	 	
 	 	#replace "United States" in GEO_NAME
