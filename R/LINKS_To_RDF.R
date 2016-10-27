@@ -66,7 +66,7 @@ if(length(component.select)!=nrow(combined.list)) stop("Some source/target compo
 
 #Split by structure and component
 
-MapSpecs.list<-split(structure.info, list(structure.info$sourceStructure, structure.info$targetStructure))
+MapSpecs.list<-split(structure.info, list(structure.info$sourceStructure, structure.info$targetStructure), drop=TRUE)
 names(MapSpecs.list)<-NULL
 
 MapSpecs.list<-lapply(MapSpecs.list, function(x) {

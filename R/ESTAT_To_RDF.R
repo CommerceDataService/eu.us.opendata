@@ -62,8 +62,8 @@ SPARQL.endpoint<-"https://dydra.com/luca-gramaglia/eu-us-partnership-metadata-st
 #UPLOAD INPUT FILES
 #
 
-dataset.info.file<-"/home/luca/Desktop/R-SPARQL/EU-US Partnership/Metadata/ESTAT_To_RDF/Dataset_Template.csv"
-API.info.file<-"/home/luca/Desktop/R-SPARQL/EU-US Partnership/Metadata/ESTAT_To_RDF/API_Template.csv"
+dataset.info.file<-"Metadata/ESTAT_To_RDF/Dataset_Template.csv"
+API.info.file<-"Metadata/ESTAT_To_RDF/API_Template.csv"
 
 dataset.info<-read.csv(dataset.info.file)
 API.info<-read.csv(API.info.file)
