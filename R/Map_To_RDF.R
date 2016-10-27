@@ -49,7 +49,7 @@ Map_To_RDF<-function(MapSpecs){
           } 
           
           if(!is.null(MapSpecs$hasComponentMap[[i]]$hasRepresentationMapping[[j]]$target)){
-            source<-MapSpecs$hasComponentMap[[i]]$hasRepresentationMapping[[j]]$target
+            target<-MapSpecs$hasComponentMap[[i]]$hasRepresentationMapping[[j]]$target
             query.list<-c(query.list, paste(representation.id, "struc:target", target, "."))
           }   
         }

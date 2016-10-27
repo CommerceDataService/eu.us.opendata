@@ -148,5 +148,5 @@ MapSpecs.list<-lapply(MapSpecs.list, function(x){
   return(x)
 })
 
-#Map.query<-lapply(MapSpecs.list, Map_To_RDF)
+#Map.query.list<-unlist(lapply(MapSpecs.list, Map_To_RDF))
 Map_Insert(MapSpecs.list, SPARQL.endpoint)
