@@ -1,3 +1,4 @@
 Dataset ID,title,description,publisher,accrualPeriodicity,spatial,temporal,statMeasure
 BEA#GDP_SP,,,BEA,Annual,State,,
 BEA#COMP_SAN,,,BEA,Annual,State,,
+BEA#GDP_MP,,,BEA,Annual,MSA,,

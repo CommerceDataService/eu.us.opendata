@@ -1,2 +1,4 @@
 Dataset ID,title,description,publisher,accrualPeriodicity,spatial,temporal,statMeasure
 JOINT#GDP_A_2,Annual GDP by State/NUTS 2,,JOINT,Annual,,,
+JOINT#GDP_A_4,Annual GDP by MSA/Metropolitan regions,,JOINT,Annual,,,
+JOINT#COMP_EMP_A_2,Annual compensation of employees by State/NUTS 2,,JOINT,Annual,,,

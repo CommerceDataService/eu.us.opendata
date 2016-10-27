@@ -1,2 +1,4 @@
 Dataset ID,title,description,publisher,accrualPeriodicity,spatial,temporal,statMeasure
 ESTAT#NAMA_10R_2GDP,,,ESTAT,Annual,NUTS2,,Millions of euros
+ESTAT#MET_10R_3GDP,,,ESTAT,Annual,Metropolitan regions,,Millions of euros
+ESTAT#NAMA_10R_2COE,,,ESTAT,Annual,NUTS2,,Millions of euros
