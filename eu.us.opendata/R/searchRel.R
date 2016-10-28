@@ -19,18 +19,26 @@ searchRel <- function(term, asHtml = FALSE){
         
         #Step one -- canonical, RelTable table will go here -- will loadLocalRel.r run at some point before?
           localRel <- loadLocalRel()
-          data <- as.data.frame(localRel[, 1:2, with = FALSE])
+          data <- as.data.frame(localRel[,, with = FALSE])
+          data <- data[!duplicated(data[,2]),]
           
-        #Step two: Scrapped pure regex in this round
+        #Step two: 
           for(i in 0:5){
             for(k in split){
-              flag <- c(flag,
-                        data[agrep(k, data[,2], max.distance = i, ignore.case = TRUE),2])
+              for(j in 2:13){
+                flag <- c(flag,
+                          as.vector(
+                            data[agrep(k, data[,j], max.distance = i, ignore.case = TRUE),2]
+                            )
+                          )
+                  }
+              
             }
           }
     }
       
     #Check if there are any results
+		
     if(length(flag) == 0){
         print("Search: No matches")
         return(data.frame())
@@ -39,12 +47,18 @@ searchRel <- function(term, asHtml = FALSE){
       #recommended relative rankings
         results <- data.frame((table(flag)))
         results$series <- (as.character(results$flag))
-        results$Rel_score <- 100*results$Freq/max(results$Freq)
+        results$Rel_score <- round(100*results$Freq/max(results$Freq),2)
         
         results <- merge(data,results,by.x="Rel_name",by.y="series")
         results <- results[,c("Rel_score","Rel_ID","Rel_name")]
+       # results <- results[!duplicated(results),]
         results <- results[order(-results$Rel_score),]
         
-      return(results)
       }
+		
+		if(asHtml==TRUE){
+		  DT::datatable(data.frame(results))
+		} 
+		return(results)
+	
 }
