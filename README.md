@@ -26,27 +26,26 @@ library(eu.us.opendata)
 ```
 
 ## getRel
-Using my BEA API key, assigned to the variable beaKey (which should not be necessary in final version), I am able to get the data as a relationship table:
+Using my BEA API key, assigned to the variable beaKey (which may not be necessary in final version), get the data as a relationship table:
 ```r
 getRel('gdp', lucky = T, beaKey = beaKey)
 ```
 
 ## searchRel
-Using my BEA API key, which again should not be necessary in final version (albeit for a different, easier-to-change reason), I am able to return search results as a table:
+Return search results as a table:
 ```{r searchRel}
-searchRel('gdp', asHtml = F, beaKey = beaKey)
+searchRel('gdp', asHtml = F)
 
 ```
 
 ## describeRel
-Using a relationship ID, return a description of that relationship as a table (again, beaKey parameter required only for now):
+Using a relationship ID, return a description of that relationship as a table:
 ```{r describeRel}
-describeRel('<JOINT#GDP_A_2>', asHtml = TRUE, beaKey = beaKey)
+describeRel('<JOINT#GDP_A_2>', asHtml = TRUE)
 ```
  
 ## listRel
- This is kind of an odd one, closer to the methods used to update local metadata.
- I thought it might be interesting to see how a direct SPARQL query of the (online) metadata store performs when the query is very small, as it is in this case. Of course, this can be changed later, but seems to do fine for now. 
+ List the relationships available using a direct SPARQL query of the (online) metadata store (should work so long as the query is very small, as it is in this case). 
 ```{r listRel}
 listRel(asHtml = FALSE)
 ```

@@ -2,15 +2,14 @@
 #' 
 #' @param asHtml  Option to render results in an interactive DT
 #' @param term  Search term
-#' @param beaKey 	BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)
 #' @import DT RCurl
 #' @export 
 
-searchRel <- function(term, asHtml = FALSE, beaKey = ''){
+searchRel <- function(term, asHtml = FALSE){
 	requireNamespace('DT', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	
-		eu.us.opendata::updateCache(beaKey);
+		eu.us.opendata::updateCache();
 
     flag <- c()
     

@@ -2,7 +2,7 @@
 #' 
 #' @param term 	 ID of the statistic requested or, if lucky = TRUE, string to search for and return
 #' @param lucky 	Boolean operator - if FALSE, must pass relationship ID (see listRel and searchRel)
-#' @param beaKey 	Character string representation of user's 36-digit BEA API key. Won't be necessary if IndustryID to NAICS mapping is in metadata store.
+#' @param beaKey 	Character string representation of user's 36-digit BEA API key. 
 #' @return By default, an object of class 'data.table'
 #' @import RJSDMX data.table RCurl SPARQL
 #' @export 
@@ -21,10 +21,12 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	EU_Geo						<-	NULL
 	GEO_NAME					<-	NULL
 	Merge_ID					<-	NULL
+	Map_Type					<-	NULL
 	IndustryID				<-	NULL
 	EU_Merge_ID				<-	NULL
 	BEA_Merge_ID			<-	NULL
 	Source_Component	<-	NULL
+	Target_Component	<-	NULL
 	DESC <- NULL
 	Rel_name <- NULL 
 	BEA_Period <- NULL
@@ -36,7 +38,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	requireNamespace('RJSDMX', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	requireNamespace('data.table', quietly = TRUE)
-	eu.us.opendata::updateCache(beaKey);
+	eu.us.opendata::updateCache();
 	localRel <- eu.us.opendata::loadLocalRel()
 	localMrg <- eu.us.opendata::loadLocalMerge()
 	localStr <- eu.us.opendata::loadLocalStruc()
@@ -93,6 +95,23 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	mrgEU <- localMrg[Merge_ID == thisRel[,EU_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(euData))]
 	 	mrgUS <- localMrg[Merge_ID == thisRel[,BEA_Merge_ID] & tolower(Source_Component) %in% tolower(colnames(usData))]
 	 	
+	 	data.table::setkey(mrgEU, key = Target_Component)
+	 	data.table::setkey(mrgUS, key = Target_Component)
+	 	
+	 	mrgEU <- unique(
+	 		localMrg[
+	 			Merge_ID == thisRel[,EU_Merge_ID] & 
+	 			Map_Type == '<http://example.org/struc/FunctionalMap>' & 
+	 			Source_Component %in% colnames(euData)]
+	 	)
+	 	
+	 	mrgUS <- unique(
+	 		localMrg[
+	 			Merge_ID == thisRel[,BEA_Merge_ID] & 
+	 			Map_Type == '<http://example.org/struc/FunctionalMap>' & 
+	 			Source_Component %in% colnames(usData)]
+	 	)
+	 	
 	 	#Rename fields - right now this is an ugly fix because 
 	 	# we don't want to have a table with duplicate column names,
 	 	# but some EU source columns mapped to two target columns
@@ -107,8 +126,8 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	temp2[,SOURCE := 'eurostat']
 	 	colnames(temp2) <- c(mrgEU$Target_Component, "SOURCE")
 	 	
-	 	#merge
-	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = FALSE)
+	 	#merge; fill = TRUE for debugging
+	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = TRUE)
 	 	
 	 	#mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
 	 	#mrg[, c(colnames(mrgDescribe)) := mrgDescribe]

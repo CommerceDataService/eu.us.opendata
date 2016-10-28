@@ -4,14 +4,12 @@
 \alias{describeRel}
 \title{Given a relationship ID, return description of mapped relationship allowing users to see common overlap and/or differences between datasets}
 \usage{
-describeRel(term, asHtml = TRUE, beaKey = "")
+describeRel(term, asHtml = TRUE)
 }
 \arguments{
 \item{term}{ID of the statistic requested}
 
 \item{asHtml}{Option to render results in an interactive DT}
-
-\item{beaKey}{BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)}
 }
 \description{
 Given a relationship ID, return description of mapped relationship allowing users to see common overlap and/or differences between datasets

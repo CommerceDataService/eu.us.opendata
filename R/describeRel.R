@@ -2,15 +2,14 @@
 #' 
 #' @param term 	 ID of the statistic requested 
 #' @param asHtml  Option to render results in an interactive DT
-#' @param beaKey 	BEA API key (won't be necessary once SPARQL repository has been updated with timestamp)
 #' @import data.table formattable
 #' @export 
 
-describeRel <- function(term, asHtml = TRUE, beaKey = '') { 
+describeRel <- function(term, asHtml = TRUE) { 
 	requireNamespace('data.table', quietly = TRUE)
 	requireNamespace('formattable', quietly = TRUE)
 
-	eu.us.opendata::updateCache(beaKey);
+	eu.us.opendata::updateCache();
 	
   localRel <- as.data.frame(loadLocalRel())
   loc = localRel[localRel$Rel_ID==term,]
