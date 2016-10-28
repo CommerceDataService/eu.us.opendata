@@ -20,7 +20,7 @@ PREFIX struc: <http://example.org/struc/>
 SELECT ?Merge_ID ?Source_Component ?Target_Component ?Map_Type ?Source_Value ?Target_Value WHERE { 
   ?Merge_ID a struc:StructureMap .
   
-  ?s struc:hasComponentMap ?CompID .
+  ?Merge_ID struc:hasComponentMap ?CompID .
   ?CompID struc:source ?x .
   ?x rdfs:label ?Source_Component .
   ?CompID struc:target ?y .
@@ -29,7 +29,7 @@ SELECT ?Merge_ID ?Source_Component ?Target_Component ?Map_Type ?Source_Value ?Ta
   ?CompID struc:hasRepresentationMapping ?MapID .
   ?MapID rdf:type ?Map_Type .
   ?MapID struc:source ?Source_Value .
-  ?MapID struc:source ?Target_Value .
+  ?MapID struc:target ?Target_Value .
 }';
 
 qd <- SPARQL(endpt,quer)
