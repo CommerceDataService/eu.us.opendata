@@ -54,7 +54,7 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	  }
 	  
 	} else {
-	  luckyRel <- eu.us.opendata::searchRel(term, beaKey = beaKey)
+	  luckyRel <- eu.us.opendata::searchRel(term)
 	    
 	    #Check if luckyRel yielded any result (data.frame with more than 1 row)
   	  if(nrow(luckyRel)>0){
