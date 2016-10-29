@@ -1,9 +1,9 @@
 Package: eu.us.opendata
 Title: A library for bringing together EU and US statistical data
 Version: 0.0.1
-Authors@R: c(person("Luca", "Gramaglia", role = c("aut", "cre"),
-		person("Denis", "Grofils", role = c("aut", "cre"),
-		person("Jeff", "Chen", role = c("aut", "cre"),
+Authors@R: c(person("Luca", "Gramaglia", role = c("aut", "cre")),
+		person("Denis", "Grofils", role = c("aut", "cre")),
+		person("Jeff", "Chen", role = c("aut", "cre")),
 		person("Andrea", "Julca", role = c("aut", "cre"),
 		     email = c("Andrea.Julca@bea.gov")),
 		person("Laurent", "Mathurin", role = "ctb"),
