@@ -24,18 +24,21 @@ devtools::install_github(
 library(eu.us.opendata)
 
 ```
+## searchRel
+Return search results as a table:
+```{r searchRel}
+searchRel('Gross Domestic Product')
+```
+or as a searchable data table:
+```{r searchRel}
+searchRel('gdp', asHtml = T)
+
+```
 
 ## getRel
 Using my BEA API key, assigned to the variable beaKey (which may not be necessary in final version), get the data as a relationship table:
 ```r
 getRel('gdp', lucky = T, beaKey = beaKey)
-```
-
-## searchRel
-Return search results as a table:
-```{r searchRel}
-searchRel('gdp', asHtml = F)
-
 ```
 
 ## describeRel
