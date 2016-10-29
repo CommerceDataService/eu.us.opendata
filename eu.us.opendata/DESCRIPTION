@@ -1,9 +1,9 @@
 Package: eu.us.opendata
 Title: A library for bringing together EU and US statistical data
 Version: 0.0.1
-Authors@R: c(person("Luca", "Gramaglia", role = "aut", "cre"),
-		person("Denis", "Grofils", role = "aut", "cre"),
-		person("Jeff", "Chen", role = "aut", "cre"),
+Authors@R: c(person("Luca", "Gramaglia", role = c("aut", "cre"),
+		person("Denis", "Grofils", role = c("aut", "cre"),
+		person("Jeff", "Chen", role = c("aut", "cre"),
 		person("Andrea", "Julca", role = c("aut", "cre"),
 		     email = c("Andrea.Julca@bea.gov")),
 		person("Laurent", "Mathurin", role = "ctb"),
@@ -11,13 +11,13 @@ Authors@R: c(person("Luca", "Gramaglia", role = "aut", "cre"),
 		person("Ledia", "Guci", role = "ctb"))
 Author: Luca Gramaglia [aut, cre],
 		Denis Grofils [aut, cre],
-		Jeff Chen [aut, cre], 
+		Jeff Chen [aut, cre],
 		Andrea Julca [aut, cre],
 		Laurent Mathurin [ctb],
 		Loredana Di Consiglio [ctb],
 		Ledia Guci [ctb]
-Maintainer: Luca Gramaglia, 
-		Denis Grofils, 
+Maintainer: Luca Gramaglia,
+		Denis Grofils,
 		Jeff Chen,
 		Andrea Julca <Developers@bea.gov>
 Depends:
@@ -27,10 +27,11 @@ Imports: rsdmx,
 				RJSDMX,
 				formattable,
 				httr,
-				jsonlite, 
-    		data.table				
-Description: 
-		Important Note - You must have a BEA API Key to use this library.  
+				jsonlite,
+    		data.table,
+				hunspell
+Description:
+		Important Note - You must have a BEA API Key to use this library.
 		Register for a key at http://www.bea.gov/API/signup/index.cfm .
 URL: https://github.com/CommerceDataService/project-eu-us
 License: file LICENSE

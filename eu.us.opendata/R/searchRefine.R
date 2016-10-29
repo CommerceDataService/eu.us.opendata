@@ -8,7 +8,7 @@
 searchRefine <- function(rec){
   
   ##Load master acronyms
-  master <- loadLocalAcronym()
+  master <- loadLocalAcronyms()
   
   ##Parse query
   combos <- searchParse(rec)
