@@ -1,15 +1,15 @@
 #' Search Metadata Store Relationship Table using text search
 #' 
-#' @param asHtml  Option to render results in an interactive DT
+#' @param asHTML  Option to render results in an interactive DT
 #' @param term  Search term
 #' @import DT RCurl
 #' @export 
 
-searchRel <- function(term, asHtml = FALSE){
+searchRel <- function(term, asHTML = FALSE){
 	requireNamespace('DT', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	
-		eu.us.opendata::updateCache();
+	#	eu.us.opendata::updateCache();
 
     flag <- c()
     
@@ -21,8 +21,10 @@ searchRel <- function(term, asHtml = FALSE){
           localRel <- loadLocalRel()
           data <- as.data.frame(localRel[,, with = FALSE])
           data <- data[!duplicated(data[,2]),]
+        
+        #Step two: synonym engine
           
-        #Step two: 
+        #Step three: Searching
           for(i in 0:5){
             for(k in split){
               for(j in 2:13){
@@ -37,13 +39,14 @@ searchRel <- function(term, asHtml = FALSE){
           }
     }
       
+    print("ok")
     #Check if there are any results
 		
     if(length(flag) == 0){
         print("Search: No matches")
         return(data.frame())
-      } else {
       
+      } else if(length(flag)>0 & asHTML==FALSE){
       #recommended relative rankings
         results <- data.frame((table(flag)))
         results$series <- (as.character(results$flag))
@@ -51,14 +54,23 @@ searchRel <- function(term, asHtml = FALSE){
         
         results <- merge(data,results,by.x="Rel_name",by.y="series")
         results <- results[,c("Rel_score","Rel_ID","Rel_name")]
-       # results <- results[!duplicated(results),]
+        results <- results[!duplicated(results),]
         results <- results[order(-results$Rel_score),]
+        return(results)
         
-      }
-		
-		if(asHtml==TRUE){
-		  DT::datatable(data.frame(results))
+      } else if(length(flag)>0 && asHTML==TRUE){
+        
+        #recommended relative rankings
+        results <- data.frame((table(flag)))
+        results$series <- (as.character(results$flag))
+        results$Rel_score <- round(100*results$Freq/max(results$Freq),2)
+        
+        results <- merge(data,results,by.x="Rel_name",by.y="series")
+        results <- results[,c("Rel_score","Rel_ID","Rel_name")]
+        results <- results[!duplicated(results),]
+        results <- results[order(-results$Rel_score),]
+		    datatable(data.frame(results))
 		} 
-		return(results)
+		
 	
 }

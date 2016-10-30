@@ -5,7 +5,7 @@
 #' @import data.table
 #' @export 
 
-loadLocalAcronym <- function(){
+loadLocalAcronyms <- function(){
   
   localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
   
