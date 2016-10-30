@@ -31,15 +31,25 @@ geoMap <- function(dataset, year, asSHP = FALSE){
     
   #Merge Records
     test <- merge(shp,one_year,by="GEO")
+    
+  #Set up scaled values
     test$LOG_VALUE <- log(test$OBS_VALUE)
     test$LOG_VALUE[is.na(test$LOG_VALUE)] <- 0
     test <- test[!is.na(test$OBS_VALUE),]
+    
+    meta = as.data.frame(attr(dataset,"Description"))
+    test$UNIT <- meta$BEA_Unit
+    test$UNIT[test$SOURCE=="eurostat"]<- meta$EU_Unit
   
   ##IF
     if(!asSHP){
       #Popup
       content_all <- paste("<h2>",test$GEO_NAME,"<br>",
-                           "</h2>Observed Value: ",test$OBS_VALUE)
+                           "</h2>Observed Value in ",test$UNIT,":",test$OBS_VALUE
+                           )
+      
+      #Color ramp
+      qpal <- colorQuantile("Blues", test$LOG_VALUE, n = 30)
       
       #Map
       leaflet(test) %>% 
@@ -48,7 +58,7 @@ geoMap <- function(dataset, year, asSHP = FALSE){
                  attribution = "BEA + Eurostat") %>%
         addPolygons(
           stroke = FALSE, fillOpacity = 0.8, smoothFactor = 0.5,
-          color = ~colorQuantile("YlOrRd", test$LOG_VALUE)(LOG_VALUE), popup = content_all
+          color = ~qpal(test$LOG_VALUE), popup = content_all
         )
     } else {
       return(test)
