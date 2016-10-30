@@ -1,7 +1,8 @@
 ###Build Acronym List
 
 ##US BEA Terms
-  setwd("/Users/sigmamonstr/Github/project-eu-us/rawdata")
+  setwd("")
+  
   a = readLines("bea_terms")
   master = data.frame(acronym=NA, term=NA)
   for(k in 1:length(a)){
