@@ -9,6 +9,7 @@ searchRel <- function(term, asHTML = FALSE){
 	requireNamespace('DT', quietly = TRUE)
 	requireNamespace('RCurl', quietly = TRUE)
 	
+	start = proc.time()[3]
 	#	eu.us.opendata::updateCache();
 
     flag <- c()
@@ -23,7 +24,7 @@ searchRel <- function(term, asHTML = FALSE){
           data <- data[!duplicated(data[,2]),]
         
         #Step two: synonym engine
-          split <- searchRefine(term)
+          split <- searchRefine(trimws(term))
           
         #Step three: Searching
           for(i in 0:5){
@@ -39,12 +40,11 @@ searchRel <- function(term, asHTML = FALSE){
             }
           }
     }
-      
-    print("ok")
+
     #Check if there are any results
 		
     if(length(flag) == 0){
-        print("Search: No matches")
+        warning("Search: No matches")
         return(data.frame())
       
       } else if(length(flag)>0 & asHTML==FALSE){
@@ -57,6 +57,7 @@ searchRel <- function(term, asHTML = FALSE){
         results <- results[,c("Rel_score","Rel_ID","Rel_name")]
         results <- results[!duplicated(results),]
         results <- results[order(-results$Rel_score),]
+        print(paste("Search duration: ",round(proc.time()[3]-start,4),"s",sep=""))
         return(results)
         
       } else if(length(flag)>0 && asHTML==TRUE){

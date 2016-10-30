@@ -11,7 +11,8 @@
 #' 
 
 #EXAMPLE -- shp <- geoDetect(statenuts2)
-geoMap <- function(dataset, year, asSHP = FALSE){
+geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                   fillOpacity = 0.8, colorPal="Blues", colorSteps=30){
   
   requireNamespace('leaflet', quietly = TRUE)
   
@@ -27,7 +28,7 @@ geoMap <- function(dataset, year, asSHP = FALSE){
     }
     
     #Get shapefile
-      warning("Identifying geographic levels")
+      print("Identifying geographic levels")
       shp<-geoDetect(dataset)
       
     #Prep data for merge
@@ -57,15 +58,15 @@ geoMap <- function(dataset, year, asSHP = FALSE){
                              "<u>Observed Value (",test$UNIT,"</u>):",test$OBS_VALUE,"</h3>")
         
         #Color ramp
-        qpal <- colorQuantile("Blues", test$LOG_VALUE, n = 30)
+        qpal <- colorQuantile(colorPal, test$LOG_VALUE, n = colorSteps)
         
         #Map
         leaflet(test) %>% 
           setView(lat = 34.452218, lng = -38.232422,2) %>%
-          addTiles('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+          addTiles(tile_provider,
                    attribution = "BEA + Eurostat") %>%
           addPolygons(
-            stroke = FALSE, fillOpacity = 0.8, smoothFactor = 0.5,
+            stroke = FALSE, fillOpacity = fillOpacity, smoothFactor = 0.5,
             color = ~qpal(test$LOG_VALUE), popup = content_all
           )
       } else {
