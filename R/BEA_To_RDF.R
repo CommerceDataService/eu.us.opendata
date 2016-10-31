@@ -76,6 +76,24 @@ BEAAPISpecs.list<-lapply(BEAAPISpecs.list, function(x) {
     }  
   }
   
+  else if (x$datasetname == "regionalincome"){
+    
+    names(x)[which(names(x)=="table.name")]<-"TableName"
+    
+    parameter.input<-list(UserID=x$UserID, datasetname="regionalincome", method="GetParameterValuesFiltered", ResultFormat=x$ResultFormat, TargetParameter="LineCode", TableName=x$TableName)
+    parameter.url<-paste0(bea.api.url, "?", paste(names(parameter.input), parameter.input, sep="=", collapse = "&"))
+    parameter<-fromJSON(getURL(parameter.url))$BEAAPI$Results$ParamValue
+    
+    NAICS.map<-as.character(shortlist()[["IndustryID"]])
+    
+    for (i in 1:length(parameter)) {
+      if(parameter[[i]]$Key %in% NAICS.map) {
+        x$LineCode<-parameter[[i]]$Key
+        l[[length(l)+1]]<-x
+      }
+    }  
+  }
+  
   else stop("Unknown Dataset name")
 
   return(l)
@@ -132,6 +150,12 @@ for(i in 1:length(BEAAPISpecs.list)) {
     title.list<-lapply(metadata.info$BEAAPI$Datasets[[1]]$Parameters[[1]]$Component$ParamValue, function(x) x$Desc)
     names(title.list)<-lapply(metadata.info$BEAAPI$Datasets[[1]]$Parameters[[1]]$Component$ParamValue, function(x) x$Key)
     DatasetSpecs.list[[i]]$title<-title.list[[DataSpecs$component]]
+  }
+  
+  else if(DataSpecs$datasetname=="regionalincome") {
+    title.list<-lapply(metadata.info$BEAAPI$Datasets[[1]]$Parameters[[1]]$TableName$ParamValue, function(x) x$Desc)
+    names(title.list)<-lapply(metadata.info$BEAAPI$Datasets[[1]]$Parameters[[1]]$TableName$ParamValue, function(x) x$Key)
+    DatasetSpecs.list[[i]]$title<-title.list[[DataSpecs$TableName]]
   }
   
   DatasetSpecs.list[[i]]$statMeasure<-data.info$BEAAPI$Results$UnitOfMeasure
