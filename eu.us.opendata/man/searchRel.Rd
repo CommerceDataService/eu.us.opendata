@@ -4,12 +4,12 @@
 \alias{searchRel}
 \title{Search Metadata Store Relationship Table using text search}
 \usage{
-searchRel(term, asHtml = FALSE)
+searchRel(term, asHTML = FALSE)
 }
 \arguments{
 \item{term}{Search term}
 
-\item{asHtml}{Option to render results in an interactive DT}
+\item{asHTML}{Option to render results in an interactive DT}
 }
 \description{
 Search Metadata Store Relationship Table using text search

@@ -1,6 +1,6 @@
 #' Parses, spell checks, and prepares a search query for standardization
 #' by creating n-grams
-#' @param   Option to render results in an interactive DT
+#' @param rec  Character string for which to recommend terms
 #' @param spellCheck  Is true to force spellcheck
 #' @import hunspell
 #' @export 

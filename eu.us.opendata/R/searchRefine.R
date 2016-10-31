@@ -1,6 +1,5 @@
 #' Refines search query by spellchecking and standardizing acronyms in query string
-#' @param Option to render results in an interactive DT
-#' @param spellCheck  Is true to force spellcheck
+#' @param rec  Character string for which to recommend terms
 #' @import hunspell
 #' @export 
 

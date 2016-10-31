@@ -1,5 +1,5 @@
 #' Refines search query by spellchecking and standardizing acronyms in query string
-#' @param rec is a character string with the terms to be searched
+#' @param rec  Character string for which to recommend terms
 #' @import hunspell
 #' @export 
 
