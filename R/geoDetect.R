@@ -35,7 +35,7 @@ geoDetect<- function(data){
                         NUTS1 = readOGR(dsn =localPath, layer = "NUTS1.shp"),
                         NUTS2 = readOGR(dsn =localPath, layer = "NUTS2.shp"),
                         NUTS3 = readOGR(dsn =localPath, layer = "NUTS3.shp"),
-                        Metro = )
+                        Metro = readOGR(dsn =localPath, layer = "NUTMetro.shp") )
     }
     
   }
