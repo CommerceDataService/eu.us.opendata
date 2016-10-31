@@ -5,3 +5,5 @@ BEA#GDP_MP,GetData,json,regionaldata,GDP_MP,MSA
 BEA#DPI_SI,GetData,json,regionaldata,DPI_SI,STATE
 BEA#EMP100_SI,GetData,json,regionaldata,EMP100_SI,STATE
 BEA#EMP100_CI,GetData,json,regionaldata,EMP100_CI,COUNTY
+BEA#POP_SI,GetData,json,regionaldata,POP_SI,STATE
+BEA#POP_CI,GetData,json,regionaldata,POP_CI,COUNTY
