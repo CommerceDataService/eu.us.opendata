@@ -30,7 +30,11 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
     #Get shapefile
       print("Identifying geographic levels")
       shp<-geoDetect(dataset)
-      
+
+#TESTING: Temporarily ignore MSA/Metro-level for mapping
+   if(class(shp) == 'character') {
+   	return(shp)
+   } else {
     #Prep data for merge
       shp@data$GEO <- as.character(shp@data$GEO)
       shp@data$GEO_NAME <- NULL
@@ -76,6 +80,7 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
       } else {
         return(test)
       }
+   }
   } else {
     warning("Period selected is not available")
   }

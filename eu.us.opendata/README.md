@@ -55,7 +55,10 @@ listRel(asHtml = FALSE)
 ## geoMap
  Using the retrieved dataset from getRel(), returns either (1) a harmonized shapefile of EU and US geographies with the dataset joined for a selected year, (2) an interactive web-enabled leaflet map.
 ```{r geoMap}
-dataset = getRel('gdp', lucky = T, beaKey = beaKey)
+#Temporarily looking at NUTS2/State data rather than MSA/Metro due to shp debugging
+#dataset = getRel('gdp', lucky = T, beaKey = beaKey)
+
+dataset <- getRel('<JOINT#GDP_A_2>', lucky = F, beaKey = beaKey)
 
 geoMap(dataset, 2014) ## As leaflet map
 
