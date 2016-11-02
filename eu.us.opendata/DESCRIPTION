@@ -29,7 +29,11 @@ Imports: rsdmx,
 				httr,
 				jsonlite,
     		data.table,
-				hunspell
+				hunspell, 
+				leaflet,
+				rgdal, 
+				maptools, 
+				sp
 Description:
 		Important Note - You must have a BEA API Key to use this library.
 		Register for a key at http://www.bea.gov/API/signup/index.cfm .
