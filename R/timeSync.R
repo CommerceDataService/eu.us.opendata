@@ -1,7 +1,12 @@
+#' Provides user easier access to extracts the latest overlapping year of data or all overlapping years.
+#' 
+#' @param dataset 	data.frame or data.table 
+#' @param sync 	Numeric value representing period, with options: 1 = latest period, 2 = overlapping period
+#' @export 
 
-attr(dataset,"Description")
 
 timeSync <- function(dataset, sync){
+#attr(dataset,"Description")
   meta = as.data.frame(attr(dataset,"Description"))
   meta = meta[,grep("*_Period",colnames(meta))]
   temp = data.frame()

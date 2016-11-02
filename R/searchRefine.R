@@ -1,5 +1,5 @@
 #' Refines search query by spellchecking and standardizing acronyms in query string
-#' @param rec  Character string for which to recommend terms
+#' @param rec is a character string with the terms to be searched
 #' @import hunspell
 #' @export 
 
@@ -7,7 +7,7 @@
 searchRefine <- function(rec){
   
   ##Load master acronyms
-  master <- loadLocalAcronyms()
+  master <- eu.us.opendata::loadLocalAcronyms()
   
   ##Parse query
   combos <- searchParse(rec)

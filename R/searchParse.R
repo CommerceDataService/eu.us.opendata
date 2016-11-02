@@ -9,7 +9,7 @@
 searchParse <- function(rec, spellCheck = TRUE){
   requireNamespace('hunspell', quietly = TRUE)
   
-    splits <-  unlist(strsplit(rec," "))
+  splits <- unlist(strsplit(gsub("[[:punct:]]","",rec),"[[:space:]]"))
     
     ##Spell check using hunspell
     if(spellCheck == TRUE){

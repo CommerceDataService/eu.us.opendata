@@ -129,12 +129,6 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	#merge; fill = TRUE for debugging
 	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = TRUE)
 	 	
-	 	#set data field formats
-	 	mrg$TIME <- as.numeric(as.character(mrg$TIME))
-	 	mrg$GEO <- as.character(mrg$GEO)
-	 	mrg$GEO_NAME <- as.character(mrg$GEO_NAME)
-	 	
-	 	
 	 	#mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
 	 	#mrg[, c(colnames(mrgDescribe)) := mrgDescribe]
 	 	attributes(mrg)$Description <- thisRel
