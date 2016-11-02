@@ -5,9 +5,9 @@
 #' @import data.table
 #' @export 
 
-loadLocalAcronym <- function(){
+loadLocalAcronyms <- function(){
   
-  localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
+  localPath <- paste0(.libPaths()[1], '/eu.us.opendata/extdata')
   
   tryCatch({
     localAcronyms <- utils::read.csv(paste0(localPath, '/Acronym_Table.csv'));

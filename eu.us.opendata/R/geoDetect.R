@@ -3,7 +3,7 @@
 #' @param data  data.table object from getRel()
 #' @keywords internal
 #' @return Shapefile of relevant geographic units
-#' @import rgdal maptools
+#' @import rgdal maptools sp
 #' @export 
 #' 
 #' 
@@ -14,9 +14,10 @@ geoDetect<- function(data){
 
   requireNamespace('rgdal', quietly = TRUE)
   requireNamespace('maptools', quietly = TRUE)
+  requireNamespace('sp', quietly = TRUE)
   
   #localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
-  localPath <- "/Users/sigmamonstr/Github/project-eu-us/rawdata/shp"
+  localPath <- "/Users/sigmamonstr/Github/project-eu-us/extdata/shp"
 
   #Pull geo levels from unified dataset
     meta = as.data.frame(attr(data,"Description"))
@@ -40,8 +41,8 @@ geoDetect<- function(data){
     
   }
   #Merge and return
-    us_shp <- spChFIDs(us_shp, paste("us_shp", row.names(us_shp), sep="."))
-    temp <- spRbind(us_shp,eu_shp)
+    us_shp <- sp::spChFIDs(us_shp, paste("us_shp", row.names(us_shp), sep="."))
+    temp <- maptools::spRbind(us_shp,eu_shp)
     return(temp)
   
 }

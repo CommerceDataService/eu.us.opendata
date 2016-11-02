@@ -5,10 +5,12 @@
 \title{Reshape datasets into wide form
 Auto detect if just GEO x TIME or GEO x IND x TIME}
 \usage{
-wide(df)
+wide(df, timeWide = FALSE)
 }
 \arguments{
 \item{df}{data.frame to be reshaped to wide format}
+
+\item{timeWide}{data.frame to be reshaped to wide format}
 }
 \description{
 Reshape datasets into wide form

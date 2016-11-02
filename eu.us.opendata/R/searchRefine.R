@@ -7,7 +7,7 @@
 searchRefine <- function(rec){
   
   ##Load master acronyms
-  master <- loadLocalAcronyms()
+  master <- eu.us.opendata::loadLocalAcronyms()
   
   ##Parse query
   combos <- searchParse(rec)
