@@ -24,21 +24,19 @@ devtools::install_github(
 library(eu.us.opendata)
 
 ```
-## searchRel
-Return search results as a table:
-```{r searchRel}
-searchRel('Gross Domestic Product')
-```
-or as a searchable data table:
-```{r searchRel}
-searchRel('gdp', asHtml = T)
-
-```
 
 ## getRel
 Using my BEA API key, assigned to the variable beaKey (which may not be necessary in final version), get the data as a relationship table:
 ```r
+getRel('gross domestic product', lucky = T, beaKey = beaKey)
 getRel('gdp', lucky = T, beaKey = beaKey)
+```
+
+## searchRel
+Return search results as a table:
+```{r searchRel}
+searchRel('gdp', asHtml = F)
+
 ```
 
 ## describeRel
@@ -51,4 +49,25 @@ describeRel('<JOINT#GDP_A_2>', asHtml = TRUE)
  List the relationships available using a direct SPARQL query of the (online) metadata store (should work so long as the query is very small, as it is in this case). 
 ```{r listRel}
 listRel(asHtml = FALSE)
+```
+
+ 
+## geoMap
+ Using the retrieved dataset from getRel(), returns either (1) a harmonized shapefile of EU and US geographies with the dataset joined for a selected year, (2) an interactive web-enabled leaflet map.
+```{r geoMap}
+dataset = getRel('gdp', lucky = T, beaKey = beaKey)
+
+geoMap(dataset, 2014) ## As leaflet map
+
+geoMap(dataset, 2014, asSHP = TRUE) ## As shapefile
+
+geoMap(dataset, "all") ##As a shapefile with all years in the data
+
+```
+
+##timeSync
+Provides user easier access to extracts the latest overlapping year of data or all overlapping years.
+```{r timeSync}
+timeSync(dataset, 1) #latest
+timeSync(dataset, 2) #all overlapping years
 ```
