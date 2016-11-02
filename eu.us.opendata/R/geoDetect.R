@@ -16,9 +16,8 @@ geoDetect<- function(data){
   requireNamespace('maptools', quietly = TRUE)
   requireNamespace('sp', quietly = TRUE)
   
-  #localPath <- paste0(.libPaths()[1], '/eu.us.opendata/rawdata')
-  localPath <- "/Users/sigmamonstr/Github/project-eu-us/extdata/shp"
-
+  localPath <- paste0(.libPaths()[1], '/eu.us.opendata/extdata')
+  
   #Pull geo levels from unified dataset
     meta = as.data.frame(attr(data,"Description"))
     meta = meta[,grep("*_Geo",colnames(meta))]
