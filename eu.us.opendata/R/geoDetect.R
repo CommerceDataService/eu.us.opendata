@@ -28,17 +28,17 @@ geoDetect<- function(data){
   for(k in 1:ncol(meta)){
     if(colnames(meta)[k]=="BEA_Geo"){
           us_shp <- switch( meta[1,k],
-                            County = rgdal::readOGR(dsn =localPath, layer = "USCounty.shp"),
-                            State =  rgdal::readOGR(dsn =localPath, layer = "USState.shp"),
-                            MSA = rgdal::readOGR(dsn =localPath, layer = "USMSA.shp")
+                            County = rgdal::readOGR(dsn =localPath, layer = "USCounty"),
+                            State =  rgdal::readOGR(dsn =localPath, layer = "USState"),
+                            MSA = rgdal::readOGR(dsn =localPath, layer = "USMSA")
                        		)
           
     } else if(colnames(meta)[k]=="EU_Geo"){
           eu_shp <- switch(substr(meta[1,k],1,5),
-                        NUTS1 = rgdal::readOGR(dsn =localPath, layer = "NUTS1.shp"),
-                        NUTS2 = rgdal::readOGR(dsn =localPath, layer = "NUTS2.shp"),
-                        NUTS3 = rgdal::readOGR(dsn =localPath, layer = "NUTS3.shp"),
-                         Metro = rgdal::readOGR(dsn =localPath, layer = "NUTMetro.shp") 
+                        NUTS1 = rgdal::readOGR(dsn =localPath, layer = "NUTS1"),
+                        NUTS2 = rgdal::readOGR(dsn =localPath, layer = "NUTS2"),
+                        NUTS3 = rgdal::readOGR(dsn =localPath, layer = "NUTS3"),
+                         Metro = rgdal::readOGR(dsn =localPath, layer = "NUTMetro") 
                        )
     }
     
