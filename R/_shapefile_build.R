@@ -1,4 +1,6 @@
-require(rgdal)
+library(rgdal)
+library(rgeos)
+library(maptools)
 
 ##EU GEO
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/NUTS_2013_10M_SH/data")
@@ -21,11 +23,36 @@ require(rgdal)
     NUTS2 <- spTransform(NUTS2, CRS("+init=epsg:4326"))
     NUTS3 <- spTransform(NUTS3, CRS("+init=epsg:4326"))
     
+    #Metro formation
+    metro_code <- read.csv("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/Metropolitan-region-typology-NUTS-2013-1.csv")
+    metro <- merge(NUTS3,metro_code,by.x = "GEO", by.y="NUTS3")
+    metro <- subset(metro,!is.na(metro@data$Metro))
+    
+   df_new <-  data.frame()
+   poly_new <- subset(metro,is.na(metro@data$Metro))
+   metro@data$Metro <- as.character(metro@data$Metro)
+    for(k in unique(metro@data$Metro)){
+      temp <- subset(metro,metro@data$Metro==k)
+      df_new <- data.frame(GEO = k,
+                                 GEO_NAME = temp@data$Metro_name[1],
+                                 LEVEL = NA,
+                                 SHAPE_AREA = sum(temp@data$SHAPE_AREA),
+                                 ID = k)
+      temp_shp <- unionSpatialPolygons(temp, temp@data$Metro==k)
+      row.names(temp_shp)<-k
+      rownames(df_new) <- k
+      temp = SpatialPolygonsDataFrame(Sr=temp_shp, data=df_new,FALSE)
+      poly_new <- spRbind(poly_new,temp)
+      print(k)
+    }
+    
+    metro <- poly_new
+    
     setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
-    writeOGR(NUTS1, ".", "NUTS1.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
-    writeOGR(NUTS2, ".", "NUTS2.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
-    writeOGR(NUTS3, ".", "NUTS3.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
-  
+    writeOGR(NUTS1, ".", "NUTS1", driver="ESRI Shapefile",overwrite_layer = TRUE)
+    writeOGR(NUTS2, ".", "NUTS2", driver="ESRI Shapefile",overwrite_layer = TRUE)
+    writeOGR(NUTS3, ".", "NUTS3", driver="ESRI Shapefile",overwrite_layer = TRUE)
+    writeOGR(metro, ".", "NUTMetro", driver="ESRI Shapefile",overwrite_layer = TRUE)
   #
 
 ##US GEO
@@ -42,7 +69,7 @@ require(rgdal)
   colnames(county@data) <- c("GEO","GEO_NAME","LEVEL","SHAPE_AREA")
   USCounty <- county
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
-  writeOGR(USCounty, ".", "USCounty.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
+  writeOGR(USCounty, ".", "USCounty", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/cb_2015_us_state_20m")
   state <- readOGR(dsn = ".", layer = "cb_2015_us_state_20m")
@@ -55,7 +82,7 @@ require(rgdal)
   state@data$ID <- paste0("us_",1:nrow(state@data))
   USState <- state
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
-  writeOGR(USState, ".", "USState.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
+  writeOGR(USState, ".", "USState", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
   
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/cb_2015_us_cbsa_20m")
@@ -69,7 +96,7 @@ require(rgdal)
   msa@data$ID <- paste0("us_",1:nrow(msa@data))
   USMSA <- msa
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
-  writeOGR(USMSA, ".", "USMSA.shp", driver="ESRI Shapefile",overwrite_layer = TRUE)
+  writeOGR(USMSA, ".", "USMSA", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
   
 ##MERGE
