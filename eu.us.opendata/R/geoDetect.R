@@ -20,6 +20,7 @@ geoDetect<- function(data){
   
   #Pull geo levels from unified dataset
     meta = as.data.frame(attr(data,"Description"))
+    print(paste("Dataset: ", meta$Rel_name[1]))
     meta = meta[,grep("*_Geo",colnames(meta))]
 
 #TESTING: Temporarily ignore MSA/Metro-level for mapping
@@ -32,6 +33,7 @@ geoDetect<- function(data){
                             State =  rgdal::readOGR(dsn =localPath, layer = "USState"),
                             MSA = rgdal::readOGR(dsn =localPath, layer = "USMSA")
                        		)
+          print(paste("US Geography: ",meta[1,k]))
           
     } else if(colnames(meta)[k]=="EU_Geo"){
           eu_shp <- switch(substr(meta[1,k],1,5),
@@ -40,6 +42,7 @@ geoDetect<- function(data){
                         NUTS3 = rgdal::readOGR(dsn =localPath, layer = "NUTS3"),
                          Metro = rgdal::readOGR(dsn =localPath, layer = "NUTMetro") 
                        )
+          print(paste("EU Geography: ",meta[1,k]))
     }
     
   }
