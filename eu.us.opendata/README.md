@@ -6,7 +6,7 @@ Because this is currently a private repository, installation has an extra step o
 
 1. [Generate a GitHub token](https://github.com/settings/tokens)
 2. Run the code:
-```r 
+```{r install} 
 #Install packages if needed
 install.packages(c('devtools', 'httr'));
 
@@ -16,7 +16,7 @@ library(httr);
 httr::set_config( config( ssl_verifypeer = 0L ));
 
 devtools::install_github(
-	'CommerceDataService/project-eu-us/eu.us.opendata', 
+	'CommerceDataService/eu.us.opendata/eu.us.opendata', 
 	auth_user = '[your github username]', 
 	auth_token = '[the token you just made]'
 ) 
@@ -27,7 +27,7 @@ library(eu.us.opendata)
 
 ## getRel
 Using my BEA API key, assigned to the variable beaKey (which may not be necessary in final version), get the data as a relationship table:
-```r
+```{r getRel}
 getRel('gross domestic product', lucky = T, beaKey = beaKey)
 getRel('gdp', lucky = T, beaKey = beaKey)
 ```
@@ -35,7 +35,7 @@ getRel('gdp', lucky = T, beaKey = beaKey)
 ## searchRel
 Return search results as a table:
 ```{r searchRel}
-searchRel('gdp', asHtml = F)
+searchRel('gdp')
 
 ```
 
