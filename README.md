@@ -35,7 +35,7 @@ getRel('gdp', lucky = T, beaKey = beaKey)
 ## searchRel
 Return search results as a table:
 ```{r searchRel}
-searchRel('gdp', asHtml = F)
+searchRel('gdp')
 
 ```
 
