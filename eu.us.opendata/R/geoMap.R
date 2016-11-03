@@ -29,6 +29,7 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
     
     #Get shapefile
       print("Identifying geographic levels")
+#	Shapefiles read with rgdal from shp are now in .sysdata
       shp<-geoDetect(dataset)
 
 #TESTING: Temporarily ignore MSA/Metro-level for mapping
