@@ -2,10 +2,8 @@
 Joint EU-US R Library focused on extracting data from Eurostat API and BEA API
 
 ## Installation
-Because this is currently a private repository, installation has an extra step or two:
+Because this is currently a Github repository, installation requires a couple additional lines of code:
 
-1. [Generate a GitHub token](https://github.com/settings/tokens)
-2. Run the code:
 ```{r install} 
 #Install packages if needed
 install.packages(c('devtools', 'httr'));
@@ -15,11 +13,7 @@ library(httr);
 
 httr::set_config( config( ssl_verifypeer = 0L ));
 
-devtools::install_github(
-	'CommerceDataService/eu.us.opendata/eu.us.opendata', 
-	auth_user = '[your github username]', 
-	auth_token = '[the token you just made]'
-) 
+devtools::install_github('CommerceDataService/eu.us.opendata') 
 
 library(eu.us.opendata)
 
