@@ -1,5 +1,7 @@
-# eu.us.opendata R library
+# EU.US.OPENDATA 
+## A R Library developed through an EU-US Transatlantic Open Data Partnership
 The United States' Department of Commerce and Bureau of Economic Analysis in partnership with the European Commission's DG CONNECT and Eurostat have established a Transatlantic Open Data Partnership focused on economic data. The eu.us.opendata R library is the direct result of this collaborative effort, enabling easy access to comparable datasets from the Eurostat API and BEA API. 
+
 
 ## Installation
 As the library is currently available only via Github repository, installation requires a couple additional lines of code:
