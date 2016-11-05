@@ -151,8 +151,12 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 
 		#Right now, we know it's only for EU GEO data, 
 		#which makes this easier now and a big problem later
-	 	temp3 <- unique(mrg[,c(mrgEU$Target_Component),with=FALSE][,unique(propMap[, Source_Component]), with = FALSE])
-		
+	 	temp3 <- unique(
+				mrg[,c(mrgEU$Target_Component
+			),with=FALSE][,
+				.(GEO)])
+				#unique(propMap[, Source_Component]), with = FALSE])
+
 		reMrg <- reVal[temp3]
 		
 		data.table::setkey(reMrg, key = Source_Value)
