@@ -25,7 +25,7 @@ beaKey <- 'Your 36-digit BEA API key here'
 ```
 
 ## getRel
-Using your BEA API key, assigned to the variable "beaKey" (which may not be necessary in final version), get the data as a relationship table:
+Using (your BEA API key)[http://www.bea.gov/API/signup/index.cfm], assigned to the variable "beaKey" (which may not be necessary in final version), get the data as a relationship table:
 ```{r getRel}
 getRel('gross domestic product', lucky = T, beaKey = beaKey)
 getRel('gdp', lucky = T, beaKey = beaKey)
