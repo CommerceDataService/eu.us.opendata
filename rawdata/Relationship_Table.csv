@@ -1,2 +1,0 @@
-Rel_ID,Rel_name,BEA_ID,EU_ID,BEA_Merge_ID,EU_Merge_ID,Structure_ID,BEA_Geo,EU_Geo,BEA_Period,EU_Period,Freq,BEA_Unit,EU_Unit
-JOINT#GDP_A_2,Annual GDP by State/NUTS2,http://www.bea.gov/api/data/?UserID=CD09B666-8E09-4B62-B5FA-D1E830084579&datasetname=regionaldata&method=GetData&ResultFormat=json&keycode=GDP_SP,ec.europa.eu/eurostat/SDMX/diss-web/rest/data/nama_10r_2gdp/all/all,2,1,JOINT#DSD_NOIND,State,NUTS2,,,Annual,Millions of current dollars,Millions of current euros

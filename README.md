@@ -4,7 +4,7 @@ The United States' Department of Commerce and Bureau of Economic Analysis in par
 
 
 ## Installation
-Because this is currently a Github repository, installation requires a couple additional lines of code:
+As the library is currently available only via Github repository, installation requires a couple additional lines of code:
 
 ```{r install} 
 #Install packages if needed
@@ -19,10 +19,13 @@ devtools::install_github('CommerceDataService/eu.us.opendata')
 
 library(eu.us.opendata)
 
+#Assign your API Key 
+beaKey <- 'Your 36-digit BEA API key here'
+
 ```
 
 ## getRel
-Using my BEA API key, assigned to the variable beaKey (which may not be necessary in final version), get the data as a relationship table:
+Using [your BEA API key](http://www.bea.gov/API/signup/index.cfm), assigned to the variable "beaKey" (which may not be necessary in final version), get the data as a relationship table:
 ```{r getRel}
 getRel('gross domestic product', lucky = T, beaKey = beaKey)
 getRel('gdp', lucky = T, beaKey = beaKey)
@@ -42,7 +45,7 @@ describeRel('<JOINT#GDP_A_2>', asHtml = TRUE)
 ```
  
 ## listRel
- List the relationships available using a direct SPARQL query of the (online) metadata store (should work so long as the query is very small, as it is in this case). 
+ List the relationships available using a direct SPARQL query of the (online) metadata store. 
 ```{r listRel}
 listRel(asHtml = FALSE)
 ```

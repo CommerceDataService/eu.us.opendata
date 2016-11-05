@@ -55,7 +55,7 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
       if(!asSHP && year !="all"){
         
         #Scale values
-          test@data$LOG_VALUE <- log(test@data$OBS_VALUE)
+          test@data$LOG_VALUE <- log2(test@data$OBS_VALUE)
           test@data$LOG_VALUE[is.na(test@data$LOG_VALUE)] <- 0
           test <- test[!is.na(test@data$OBS_VALUE),]
           meta = as.data.frame(attr(dataset,"Description"))
@@ -63,12 +63,43 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
           test@data$UNIT[test@data$SOURCE=="eurostat"]<- meta$EU_Unit
         
         #Popup
-        content_all <- paste("<h2>",test$GEO_NAME,"</h2><p><strong>",meta$Rel_name[1],"</strong><br>",
+        content_all <- paste("<h4>",test$GEO_NAME,"</h4><p><strong>",meta$Rel_name[1],"</strong><br>",
                              "<u>Observed Value (",test$UNIT,"</u>):",test$OBS_VALUE,"</p>")
         
         #Color ramp
-        qpal <- colorQuantile(colorPal, test$LOG_VALUE, n = colorSteps)
-        
+#        palRamp <- colorRampPalette(c(
+#					"white", 
+#					ifelse(
+#						substr(
+#							tolower(colorPal),
+#							nchar(colorPal), 
+#							nchar(colorPal)
+#						)=='s', 
+#						substr(
+#							colorPal,
+#							1,
+#							nchar(colorPal)-1
+#						), 
+#						colorPal)
+#					))
+#				colorScale <- palRamp(100)
+
+
+				maxScaleUS <- max(test@data$LOG_VALUE[test@data$SOURCE == 'bea'])
+				maxScaleEU <- max(test@data$LOG_VALUE[test@data$SOURCE == 'eurostat'])
+#				qpal <- colorQuantile(colorPal, test$LOG_VALUE, n = colorSteps)
+				qpalEU <- colorQuantile(colorPal, test$LOG_VALUE[test@data$SOURCE == 'eurostat'], n = colorSteps)
+				qpalUS <- colorQuantile(colorPal, test$LOG_VALUE[test@data$SOURCE == 'bea'], n = colorSteps)
+				options(warn=-1)
+				test@data$qpal <- ifelse(
+					test@data$SOURCE == 'bea', 
+					qpalUS(test$LOG_VALUE), 
+					qpalEU(test$LOG_VALUE)) 
+#					colorScale[round(100*(test$LOG_VALUE/maxScaleUS))], 
+#					colorScale[round(100*(test$LOG_VALUE/maxScaleEU))])
+				options(warn=0)
+					
+				
         #Map
         leaflet(test) %>% 
           setView(lat = 34.452218, lng = -38.232422,2) %>%
@@ -76,7 +107,9 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
                    attribution = "BEA + Eurostat") %>%
           addPolygons(
             stroke = FALSE, fillOpacity = fillOpacity, smoothFactor = 0.5,
-            color = ~qpal(test$LOG_VALUE), popup = content_all
+            color = test$qpal, 
+						#color = ~qpal(test$LOG_VALUE), 
+						popup = content_all
           )
       } else {
         return(test)
