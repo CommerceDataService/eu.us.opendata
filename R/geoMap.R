@@ -63,7 +63,7 @@ geoMap <- function(dataset, year, asSHP = FALSE, tile_provider = "http://{s}.til
           test@data$UNIT[test@data$SOURCE=="eurostat"]<- meta$EU_Unit
         
         #Popup
-        content_all <- paste("<h2>",test$GEO_NAME,"</h2><p><strong>",meta$Rel_name[1],"</strong><br>",
+        content_all <- paste("<h4>",test$GEO_NAME,"</h4><p><strong>",meta$Rel_name[1],"</strong><br>",
                              "<u>Observed Value (",test$UNIT,"</u>):",test$OBS_VALUE,"</p>")
         
         #Color ramp

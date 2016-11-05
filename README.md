@@ -4,7 +4,7 @@ The United States' Department of Commerce and Bureau of Economic Analysis in par
 
 
 ## Installation
-Because this is currently a Github repository, installation requires a couple additional lines of code:
+As the library is currently available only via Github repository, installation requires a couple additional lines of code:
 
 ```{r install} 
 #Install packages if needed
