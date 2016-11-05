@@ -33,6 +33,9 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	EU_Period <- NULL 
 	BEA_Unit <- NULL
 	EU_Unit <- NULL
+	Source_Value <- NULL
+	GEO <- NULL
+	i.GEO_NAME <- NULL
 	
 	requireNamespace('SPARQL', quietly = TRUE)
 	requireNamespace('RJSDMX', quietly = TRUE)
@@ -111,7 +114,8 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 			Map_Type == '<http://example.org/struc/FunctionalMap>' & 
 	 			Source_Component %in% colnames(usData)]
 	 	)
-	 	
+		
+
 	 	#Rename fields - right now this is an ugly fix because 
 	 	# we don't want to have a table with duplicate column names,
 	 	# but some EU source columns mapped to two target columns
@@ -125,24 +129,48 @@ getRel <- function(term = '', lucky = FALSE, beaKey = '') {
 	 	#data.table::setnames(temp2, c(mrgEU$Source_Component), c(mrgEU$Target_Component))
 	 	temp2[,SOURCE := 'eurostat']
 	 	colnames(temp2) <- c(mrgEU$Target_Component, "SOURCE")
-	 	
+
 	 	#merge; fill = TRUE for debugging
 	 	mrg <- data.table::rbindlist(list(temp,temp2), use.names = TRUE, fill = TRUE)
+
+#REPLACE SOME NAMES
 	 	
-	 	#mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
+		
+		filterIDs <- c(thisRel[,Rel_ID], thisRel[,EU_Merge_ID], thisRel[,BEA_Merge_ID])
+
+		propMap <- propertySub(localMrg = localMrg, filterIDs = filterIDs)
+
+	 	data.table::setkey(propMap, key = Source_Component, Source_Value)
+
+		reVal <- data.table::dcast(
+			propMap, 
+			Source_Value + Target_Value + Source_Component ~ Target_Component
+		)
+		
+	 	data.table::setkey(reVal, key = Source_Value)
+
+		#Right now, we know it's only for EU GEO data, 
+		#which makes this easier now and a big problem later
+	 	temp3 <- unique(mrg[,c(mrgEU$Target_Component),with=FALSE][,unique(propMap[, Source_Component]), with = FALSE])
+		
+		reMrg <- reVal[temp3]
+		
+		data.table::setkey(reMrg, key = Source_Value)
+		data.table::setkey(mrg, key = GEO)
+	
+		outDT <- mrg[reMrg, ][,GEO_NAME := ifelse(SOURCE == 'bea', GEO_NAME, i.GEO_NAME)][, unique(c(mrgEU$Target_Component, mrgUS$Target_Component, "SOURCE")), with = FALSE][GEO != '00000']
+
+ 	#mrgDescribe <- thisRel[, .(DESC = Rel_name, BEA_Geo, EU_Geo, BEA_Period, EU_Period, Freq, BEA_Unit, EU_Unit)]
 	 	#mrg[, c(colnames(mrgDescribe)) := mrgDescribe]
-	 	attributes(mrg)$Description <- thisRel
-
+	 	attributes(outDT)$Description <- thisRel
 	 	
-	 	#replace "United States" in GEO_NAME
-	 	
-
-#On second thought, not sure I like this approach
-#	 	mrg[, GEO_NAME := gsub('United States', 'US', GEO_NAME, fixed = TRUE)]
+		#Replace the values using source/target
+		
+		
 	 	
 	 	print(paste0("A total of ",nrow(mrg), " records were retrieved."))
 	 	print(paste0("EU = ",nrow(temp2), ", US = ",nrow(temp)))
-	 	return(mrg)
+	 	return(outDT)
 	 	
   }
 	
