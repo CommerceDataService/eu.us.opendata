@@ -1,8 +1,0 @@
-Dataset ID,title,description,publisher,accrualPeriodicity,spatial,temporal,statMeasure
-ESTAT#NAMA_10R_2GDP,,,ESTAT,Annual,NUTS2,,Millions of euros
-ESTAT#MET_10R_3GDP,,,ESTAT,Annual,Metropolitan regions,,Millions of euros
-ESTAT#NAMA_10R_2COE,,,ESTAT,Annual,NUTS2,,Millions of euros
-ESTAT#NAMA_10R_2HHINC,,,ESTAT,Annual,NUTS2,,Millions of euros
-ESTAT#NAMA_10R_3EMPERS#SAL,,,ESTAT,Annual,NUTS2/NUTS3,,Thousands of persons
-ESTAT#NAMA_10R_3POPGDP,,,ESTAT,Annual,NUTS2/NUTS3,,Thousands of persons
-ESTAT#NAMA_10R_3EMPERS#EMP,,,ESTAT,Annual,NUTS2/NUTS3,,Thousands of persons
