@@ -3,7 +3,7 @@ library(rgeos)
 library(maptools)
 
 ##EU GEO
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/NUTS_2013_10M_SH/data")
+  setwd("/NUTS_2013_10M_SH/data")
   
   #Reading
     shape <- readOGR(dsn = ".", layer = "NUTS_RG_10M_2013")
@@ -24,7 +24,7 @@ library(maptools)
     NUTS3 <- spTransform(NUTS3, CRS("+init=epsg:4326"))
     
     #Metro formation
-    metro_code <- read.csv("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/Metropolitan-region-typology-NUTS-2013-1.csv")
+    metro_code <- read.csv("/geo/Metropolitan-region-typology-NUTS-2013-1.csv")
     metro <- merge(NUTS3,metro_code,by.x = "GEO", by.y="NUTS3")
     metro <- subset(metro,!is.na(metro@data$Metro))
     
@@ -48,7 +48,7 @@ library(maptools)
     
     metro <- poly_new
     
-    setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
+    setwd("/geo/shapes")
     writeOGR(NUTS1, ".", "NUTS1", driver="ESRI Shapefile",overwrite_layer = TRUE)
     writeOGR(NUTS2, ".", "NUTS2", driver="ESRI Shapefile",overwrite_layer = TRUE)
     writeOGR(NUTS3, ".", "NUTS3", driver="ESRI Shapefile",overwrite_layer = TRUE)
@@ -57,7 +57,7 @@ library(maptools)
 
 ##US GEO
   
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/cb_2015_us_county_20m")
+  setwd("/geo/cb_2015_us_county_20m")
   county <- readOGR(dsn = ".", layer = "cb_2015_us_county_20m")
   county <- spTransform(county, CRS("+init=epsg:4326"))
   county@data$LEVEL <- "county"
@@ -67,11 +67,12 @@ library(maptools)
   county@data$ID <- paste0("us_",1:nrow(county@data))
   county@data <- county@data[,c("GEOID","NAME","LEVEL","SHAPE_AREA")]
   colnames(county@data) <- c("GEO","GEO_NAME","LEVEL","SHAPE_AREA")
+  county@data$ID <- paste0("us_",1:nrow(county@data))
   USCounty <- county
   setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
   writeOGR(USCounty, ".", "USCounty", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/cb_2015_us_state_20m")
+  setwd("/geo/cb_2015_us_state_20m")
   state <- readOGR(dsn = ".", layer = "cb_2015_us_state_20m")
   state <- spTransform(state, CRS("+init=epsg:4326"))
   state@data$LEVEL <- "state"
@@ -81,11 +82,11 @@ library(maptools)
   state@data <- state@data[,c("GEO","GEO_NAME","LEVEL","SHAPE_AREA")]
   state@data$ID <- paste0("us_",1:nrow(state@data))
   USState <- state
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
+  setwd("/geo/shapes")
   writeOGR(USState, ".", "USState", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
   
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/cb_2015_us_cbsa_20m")
+  setwd("/geo/cb_2015_us_cbsa_20m")
   msa <- readOGR(dsn = ".", layer = "cb_2015_us_cbsa_20m")
   msa <- spTransform(msa, CRS("+init=epsg:4326"))
   msa@data$LEVEL <- "msa"
@@ -95,7 +96,7 @@ library(maptools)
   msa@data <- msa@data[,c("GEO","GEO_NAME","LEVEL","SHAPE_AREA")]
   msa@data$ID <- paste0("us_",1:nrow(msa@data))
   USMSA <- msa
-  setwd("/Users/sigmamonstr/Google Drive/DOC/055-Project-EU-US/geo/shapes")
+  setwd("/geo/shapes")
   writeOGR(USMSA, ".", "USMSA", driver="ESRI Shapefile",overwrite_layer = TRUE)
   
   
