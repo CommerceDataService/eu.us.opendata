@@ -32,9 +32,10 @@ getRel('gdp', lucky = T, beaKey = beaKey)
 ```
 
 ## searchRel
-Return search results as a table:
+The library supports a free text search for data series. Note that regular expressions are not supported in this version. For a list of all comparable datasets, enter a wild card search ("*")
+
 ```{r searchRel}
-searchRel('gdp')
+searchRel('gross domestic product')
 
 ```
 
