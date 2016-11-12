@@ -2,7 +2,6 @@
 ## A R Library developed through an EU-US Transatlantic Open Data Partnership
 The United States' Department of Commerce and Bureau of Economic Analysis in partnership with the European Commission's DG CONNECT and Eurostat have established a Transatlantic Open Data Partnership focused on economic data. The eu.us.opendata R library is the direct result of this collaborative effort, enabling easy access to comparable datasets from the Eurostat API and BEA API. 
 
-
 ## Installation
 As the library is currently available only via Github repository, installation requires a couple additional lines of code:
 
@@ -20,15 +19,15 @@ devtools::install_github('CommerceDataService/eu.us.opendata')
 library(eu.us.opendata)
 
 #Assign your API Key 
-beaKey <- 'Your 36-digit BEA API key here'
+myKey <- 'Your 36-digit BEA API key here'
 
 ```
 
 ## getRel
-Using [your BEA API key](http://www.bea.gov/API/signup/index.cfm), assigned to the variable "beaKey", get the data as a relationship table:
+Using [your BEA API key](http://www.bea.gov/API/signup/index.cfm), set as "myKey", get the data as a relationship table:
 ```{r getRel}
-getRel('gross domestic product', lucky = T, beaKey = beaKey)
-getRel('gdp', lucky = T, beaKey = beaKey)
+getRel('gross domestic product', lucky = T, beaKey = myKey)
+getRel('gdp', lucky = T, beaKey = myKey)
 ```
 
 ## searchRel
@@ -56,14 +55,14 @@ listRel(asHtml = FALSE)
  Using the retrieved dataset from getRel(), returns either (1) a harmonized shapefile of EU and US geographies with the dataset joined for a selected year, (2) an interactive web-enabled leaflet map.
 ```{r geoMap}
 ## Look at state/NUTS2 level data:
-dataset <- getRel('<JOINT#GDP_A_2>', lucky = F, beaKey = beaKey)
+dataset <- getRel('<JOINT#GDP_A_2>', lucky = F, beaKey = myKey)
 
 geoMap(dataset, 2014) ## As leaflet map
 
 geoMap(dataset, 2014, asSHP = TRUE) ## As shapefile
 
 ## Look at metro level data:
-dataset = getRel('gdp', lucky = T, beaKey = beaKey)
+dataset = getRel('gdp', lucky = T, beaKey = myKey)
 
 geoMap(dataset, 2012) ## As leaflet map
 
