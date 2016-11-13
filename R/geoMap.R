@@ -1,7 +1,7 @@
 #' create interactive map of dataset for a given year
 #' 
 #' @param data  data.table object from getRel()
-#' @param year selected year for map, "all" returns a shapefile with all years of data in wide form
+#' @param year selected year for leaflet map, "all" returns a shapefile with all years of data in wide form
 #' @param asSHP controls output as a leaflet map or a merged SHP
 #' @keywords internal
 #' @return Shapefile of relevant geographic units
