@@ -7,8 +7,9 @@
 
 timeSync <- function(dataset, sync){
 #attr(dataset,"Description")
-  meta = as.data.frame(attr(dataset,"Description"))
-  meta = meta[,grep("*_Period",colnames(meta))]
+  meta0 = attr(dataset,"Description")
+  meta1 = as.data.frame(meta0)
+  meta = meta1[,grep("*_Period",colnames(meta1))]
   temp = data.frame()
   for(k in 1:length(colnames(meta))){
     t = as.numeric(trimws(unlist(strsplit(meta[1,k],"-"))))
@@ -19,11 +20,13 @@ timeSync <- function(dataset, sync){
     #latest
     dataset$TIME <- as.numeric(as.character(dataset$TIME))
     dataset <- dataset[dataset$TIME==min(temp$end),,]
+    attr(dataset,"Description") <- meta0
     return(dataset)
   }else if(sync==2){
     #overlap
     dataset$TIME <- as.numeric(as.character(dataset$TIME))
     dataset <- dataset[which(dataset$TIME<=min(temp$end) & dataset$TIME>=max(temp$start)),,]
+    attr(dataset,"Description") <- meta0
     return(dataset)
     
   } else if(sync != 1 && sync != 2){

@@ -26,15 +26,21 @@ searchRel <- function(term, asHTML = FALSE){
         #Step two: synonym engine
           split <- searchRefine(trimws(term))
           
+          counter = 0 
         #Step three: Searching
-          for(i in 0:5){
+          for(i in seq(0,5,0.5)){
             for(k in split){
               for(j in 2:13){
+                if(nchar(k)>=3 || k == "*"){
+                  
+                
                 flag <- c(flag,
                           as.vector(
                             data[agrep(k, data[,j], max.distance = i, ignore.case = TRUE),2]
                             )
                           )
+                }
+                  counter = counter + 1
                   }
               
             }
@@ -49,7 +55,10 @@ searchRel <- function(term, asHTML = FALSE){
       
       } else if(length(flag)>0 & asHTML==FALSE){
       #recommended relative rankings
+        
         results <- data.frame((table(flag)))
+        print(results)
+        print(counter)
         results$series <- (as.character(results$flag))
         results$Rel_score <- round(100*results$Freq/max(results$Freq),2)
         
