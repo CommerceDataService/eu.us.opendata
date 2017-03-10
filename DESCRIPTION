@@ -28,12 +28,13 @@ Imports: rsdmx,
 				formattable,
 				httr,
 				jsonlite,
-    		data.table,
+    				data.table,
 				hunspell, 
 				leaflet,
 				rgdal, 
 				maptools, 
-				sp
+				sp,
+				crosstalk
 Description:	Search, extract, and map Eurostat and U.S. BEA data.
 		Important Note - You must have a BEA API Key to use this library.
 		Register for a key at <http://www.bea.gov/API/signup/index.cfm>.
