@@ -91,4 +91,4 @@ timeSync(dataset, 2) #all overlapping years
   - This library uses an RDF store hosted on [Dydra](https://dydra.com).
 
 4. Data
-  - This product extracts data from the [Eurostat](http://ec.europa.eu/eurostat/web/sdmx-web-services/rest-sdmx-2.1) and [BEA](http://ec.europa.eu/eurostat/web/sdmx-web-services/rest-sdmx-2.1) APIs.
+  - This product extracts data from the [Eurostat](http://ec.europa.eu/eurostat/web/sdmx-web-services/rest-sdmx-2.1) and [BEA](https://www.bea.gov/API/bea_web_service_api_user_guide.htm) APIs.
