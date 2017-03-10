@@ -34,9 +34,13 @@ Imports: rsdmx,
 				rgdal, 
 				maptools, 
 				sp
-Description:
+Description:	Search, extract, and map Eurostat and U.S. BEA data.
 		Important Note - You must have a BEA API Key to use this library.
-		Register for a key at http://www.bea.gov/API/signup/index.cfm .
+		Register for a key at <http://www.bea.gov/API/signup/index.cfm>.
+		This package uses GISCO - Eurostat (European Commission) administrative 
+		boundaries (© EuroGeographics © UN-FAO © Turkstat).
+		This package also uses Census Bureau shapefiles but is not endorsed 
+		or certified by the Census Bureau.
 URL: https://github.com/CommerceDataService/project-eu-us
 License: file LICENSE
 LazyData: no
