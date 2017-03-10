@@ -84,7 +84,7 @@ timeSync(dataset, 2) #all overlapping years
 
 2. United States Geographic Boundaries
   - Data source: U.S. Department of Commerce, U.S. Census Bureau - Geography Division, Geographic Products Branch
-  - Disclaimer: This product uses Census Bureau Shapefiles but is not endorsed or certified by the Census Bureau.
+  - Disclaimer: This product uses Census Bureau shapefiles but is not endorsed or certified by the Census Bureau.
  <!---see https://meta.geo.census.gov/data/existing/decennial/GEO/CPMB/boundary/2016gz/county_20/cb_2015_us_county_20m.shp.ea.iso.xml and https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html and https://catalog.data.gov/dataset/2015-cartographic-boundary-file-metropolitan-statistical-area-micropolitan-statistical-area-for and https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2015/TGRSHP2015_TechDoc.pdf--->
 
 3. Metadata Repository
