@@ -77,7 +77,7 @@ timeSync(dataset, 1) #latest
 timeSync(dataset, 2) #all overlapping years
 ```
 
-## Attributions
+## Attribution
 1. European Union Geographic Boundaries
   - Data source: GISCO - Eurostat (European Commission)
   - Administrative boundaries: © EuroGeographics © UN-FAO © Turkstat
